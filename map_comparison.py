@@ -105,7 +105,7 @@ def getSimilar(file1, file2):
     return similarities
 ##############################
 
-def comparison(task, file1, file2, duplicates = True):
+def comparison(task, file1, file2, duplicates=True):
     list = []
     new_list = []
 
@@ -123,14 +123,13 @@ def comparison(task, file1, file2, duplicates = True):
         return list
 ##############################
 
-def writeSheet(worksheet, data, header=None, col=0, A1Title='Label', B1Title='Term', C1Title='ID', duplicates=True):
+def writeSheet(worksheet, data, header=None, row=0, col=0, A1Title='Label', B1Title='Term', C1Title='ID', duplicates=False):
 
     ws = wb.add_worksheet(worksheet)
 
     if header != None:
         ws.write(0, 0, header)
-        if col == 0:
-            col += 1
+        col += 1
 
     ws.write(0, col, A1Title)
     ws.write(0, col + 1, B1Title)
@@ -162,13 +161,16 @@ def writeSheet(worksheet, data, header=None, col=0, A1Title='Label', B1Title='Te
     return
 ##############################
 
-def addToSheet(worksheet, data, header=None, col=5, A1Title='Label', B1Title='Term', C1Title='ID', duplicates=True):
+def addToSheet(worksheet, data, row, col, header=None, A1Title='Label', B1Title='Term', C1Title='ID', duplicates=False):
 
     ws = wb.get_worksheet_by_name(worksheet)
 
     if header != None:
         ws.write(0, col, header)
         col += 1
+
+    if row == 0:
+        row += 1
 
     ws.write(0, col, A1Title)
     ws.write(0, col + 1, B1Title)
@@ -178,7 +180,6 @@ def addToSheet(worksheet, data, header=None, col=5, A1Title='Label', B1Title='Te
         ws.write(0, col + 3, 'Duplicates')
 
     i = 0
-    row = 1
 
     while i < len(data):
         x = data[i]
@@ -236,20 +237,24 @@ fc = loadJSON()
 
 diff1 = comparison('differences', human, fc)
 diff2 = comparison('differences', fc, human)
-diff3 = comparison('differences', rat, fc)
-diff4 = comparison('differences', fc, rat)
-diff5 = comparison('differences', human, rat)
-diff6 = comparison('differences', rat, human)
+#diff3 = comparison('differences', rat, fc)
+#diff4 = comparison('differences', fc, rat)
+#diff5 = comparison('differences', human, rat)
+#diff6 = comparison('differences', rat, human)
 
 sim1 = comparison('similarities', human, fc)
-sim2 = comparison('similarities', rat, fc)
-sim3 = comparison('similarities', sim1, sim2)
+#sim2 = comparison('similarities', rat, fc)
+#sim3 = comparison('similarities', sim1, sim2)
 
+#needFC = removeDuplicate(diff1+diff3)
+#needHM = removeDuplicate(diff2+diff6)
+#needR = removeDuplicate(diff5+diff4)
 ###############################
 
 filename = fd.asksaveasfilename(
         filetypes = (
             ('xlsx files', '*.xlsx'),
+            ('csv files', '*.csv'),
             ('All files', '*.*')
         ),
         defaultextension = '.xlsx'
@@ -257,24 +262,19 @@ filename = fd.asksaveasfilename(
 
 wb = xw.Workbook(filename)
 
-writeSheet('Present in all maps', sim3, duplicates=False)
+writeSheet('Present in all maps', sim1)
 
-writeSheet('Present in AC Human Male', diff1, header='Not in FC', duplicates=False)
-addToSheet('Present in AC Human Male', diff5, header='Not in Rat', col=4, duplicates=False)
+writeSheet('Present in AC Human Male', diff1, header='Not in FC')
+#addToSheet('Present in AC Human Male', diff5, header='Not in Rat', col=4, row=1)
 
-writeSheet('Present in FC', diff2, header='Not in AC Human Male', duplicates=False)
-addToSheet('Present in FC', diff4, header='Not in AC Rat', col=4)
+writeSheet('Present in FC', diff2, header='Not in AC Human Male')
+#addToSheet('Present in FC', diff4, header='Not in AC Rat', col=4, row=1)
 
-writeSheet('Present in AC Rat', diff3, header='Not in FC', duplicates=False)
-addToSheet('Present in AC Rat', diff6, header='Not in AC Human Male', duplicates=False, col=4)
+#writeSheet('Present in AC Rat', diff3, header='Not in FC')
+#addToSheet('Present in AC Rat', diff6, header='Not in AC Human Male', col=4, row=1)
 
-writeSheet('Need to add', diff1, header='Need to add to FC', duplicates=False)
-addToSheet('Need to add', diff3, row=len(diff1), duplicates=False, col=4)
-
-addToSheet('Need to add', diff2, header='Need to add to AC Human Male', col=4, duplicates=False)
-addToSheet('Need to add', diff6, row=len(diff2), col=4, duplicates=False)
-
-addToSheet('Need to add', diff5, header='Need to add to rat', duplicates=False, col=8)
-addToSheet('Need to add', diff4, row=len(diff5), duplicates=False, col=8)
+writeSheet('Need to add', diff1, header='Need to add to FC')
+addToSheet('Need to add', diff2, row=0, col=4, header='Need to add to AC Human Male')
+#addToSheet('Need to add', needR, row=0, col=8, header='Need to add to AC Rat')
 
 wb.close()
