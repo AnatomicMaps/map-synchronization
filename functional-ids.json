@@ -1,0 +1,5532 @@
+[
+    {
+        "id": "organ-blocks/slide-01/55",
+        "term": "ILX:0485722",
+        "label": "Nodose Ganglion"
+    },
+    {
+        "id": "organ-blocks/slide-01/58",
+        "term": "ILX:0485722",
+        "label": "Nodose Ganglion"
+    },
+    {
+        "id": "organ-blocks/slide-01/56",
+        "term": "ILX:0747885",
+        "label": "superior ganglion (TA98)"
+    },
+    {
+        "id": "organ-blocks/slide-01/59",
+        "term": "ILX:0747885",
+        "label": "superior ganglion (TA98)"
+    },
+    {
+        "id": "organ-blocks/slide-01/319",
+        "term": "UBERON:0006469",
+        "label": "C1 segment of cervical spinal cord"
+    },
+    {
+        "id": "organ-blocks/slide-01/320",
+        "term": "UBERON:0006489",
+        "label": "C2 segment of cervical spinal cord"
+    },
+    {
+        "id": "organ-blocks/slide-01/321",
+        "term": "UBERON:0006488",
+        "label": "C3 segment of cervical spinal cord"
+    },
+    {
+        "id": "organ-blocks/slide-01/322",
+        "term": "UBERON:0006490",
+        "label": "C4 segment of cervical spinal cord"
+    },
+    {
+        "id": "organ-blocks/slide-01/323",
+        "term": "UBERON:0006491",
+        "label": "C5 segment of cervical spinal cord"
+    },
+    {
+        "id": "organ-blocks/slide-01/324",
+        "term": "UBERON:0006492",
+        "label": "C6 segment of cervical spinal cord"
+    },
+    {
+        "id": "organ-blocks/slide-01/325",
+        "term": "UBERON:0006493",
+        "label": "C7 segment of cervical spinal cord"
+    },
+    {
+        "id": "organ-blocks/slide-01/326",
+        "term": "UBERON:0006470",
+        "label": "C8 segment of cervical spinal cord"
+    },
+    {
+        "id": "organ-blocks/slide-01/327",
+        "term": "UBERON:0006457",
+        "label": "first thoracic spinal cord segment"
+    },
+    {
+        "id": "organ-blocks/slide-01/328",
+        "term": "UBERON:0006458",
+        "label": "second thoracic spinal cord segment"
+    },
+    {
+        "id": "organ-blocks/slide-01/329",
+        "term": "UBERON:0006459",
+        "label": "third thoracic spinal cord segment"
+    },
+    {
+        "id": "organ-blocks/slide-01/330",
+        "term": "UBERON:0006452",
+        "label": "fourth thoracic spinal cord segment"
+    },
+    {
+        "id": "organ-blocks/slide-01/331",
+        "term": "UBERON:0006453",
+        "label": "fifth thoracic spinal cord segment"
+    },
+    {
+        "id": "organ-blocks/slide-01/332",
+        "term": "UBERON:0006454",
+        "label": "sixth thoracic spinal cord segment"
+    },
+    {
+        "id": "organ-blocks/slide-01/333",
+        "term": "UBERON:0006455",
+        "label": "seventh thoracic spinal cord segment"
+    },
+    {
+        "id": "organ-blocks/slide-01/334",
+        "term": "UBERON:0006456",
+        "label": "eighth thoracic spinal cord segment"
+    },
+    {
+        "id": "organ-blocks/slide-01/335",
+        "term": "UBERON:0006465",
+        "label": "ninth thoracic spinal cord segment"
+    },
+    {
+        "id": "organ-blocks/slide-01/316",
+        "term": "UBERON:0006466",
+        "label": "tenth thoracic spinal cord segment"
+    },
+    {
+        "id": "organ-blocks/slide-01/317",
+        "term": "UBERON:0006467",
+        "label": "eleventh thoracic spinal cord segment"
+    },
+    {
+        "id": "organ-blocks/slide-01/318",
+        "term": "UBERON:0006468",
+        "label": "twelfth thoracic spinal cord segment"
+    },
+    {
+        "id": "organ-blocks/slide-01/336",
+        "term": "UBERON:0006448",
+        "label": "first lumbar spinal cord segment"
+    },
+    {
+        "id": "organ-blocks/slide-01/337",
+        "term": "UBERON:0006450",
+        "label": "second lumbar spinal cord segment"
+    },
+    {
+        "id": "organ-blocks/slide-01/338",
+        "term": "UBERON:0006449",
+        "label": "third lumbar spinal cord segment"
+    },
+    {
+        "id": "organ-blocks/slide-01/339",
+        "term": "UBERON:0006451",
+        "label": "fourth lumbar spinal cord segment"
+    },
+    {
+        "id": "organ-blocks/slide-01/340",
+        "term": "UBERON:0006447",
+        "label": "fifth lumbar spinal cord segment"
+    },
+    {
+        "id": "organ-blocks/slide-01/341",
+        "term": "ILX:0738432",
+        "label": "Sixth lumbar spinal cord segment"
+    },
+    {
+        "id": "organ-blocks/slide-01/342",
+        "term": "UBERON:0006460",
+        "label": "first sacral spinal cord segment"
+    },
+    {
+        "id": "organ-blocks/slide-01/343",
+        "term": "UBERON:0006461",
+        "label": "second sacral spinal cord segment"
+    },
+    {
+        "id": "organ-blocks/slide-01/344",
+        "term": "UBERON:0006462",
+        "label": "third sacral spinal cord segment"
+    },
+    {
+        "id": "organ-blocks/slide-01/352",
+        "term": "UBERON:0006463",
+        "label": "fourth sacral spinal cord segment"
+    },
+    {
+        "id": "organ-blocks/slide-01/371",
+        "term": "UBERON:0002838",
+        "label": "first cervical dorsal root ganglion"
+    },
+    {
+        "id": "organ-blocks/slide-01/372",
+        "term": "UBERON:0002839",
+        "label": "second cervical dorsal root ganglion"
+    },
+    {
+        "id": "organ-blocks/slide-01/368",
+        "term": "UBERON:0002840",
+        "label": "third cervical dorsal root ganglion"
+    },
+    {
+        "id": "organ-blocks/slide-01/369",
+        "term": "UBERON:0002841",
+        "label": "fourth cervical dorsal root ganglion"
+    },
+    {
+        "id": "organ-blocks/slide-01/370",
+        "term": "UBERON:0002842",
+        "label": "fifth cervical dorsal root ganglion"
+    },
+    {
+        "id": "organ-blocks/slide-01/299",
+        "term": "UBERON:0007711",
+        "label": "sixth cervical dorsal root ganglion"
+    },
+    {
+        "id": "organ-blocks/slide-01/300",
+        "term": "UBERON:0002843",
+        "label": "seventh cervical dorsal root ganglion"
+    },
+    {
+        "id": "organ-blocks/slide-01/301",
+        "term": "UBERON:0002844",
+        "label": "eighth cervical dorsal root ganglion"
+    },
+    {
+        "id": "organ-blocks/slide-01/293",
+        "term": "UBERON:0002845",
+        "label": "first thoracic dorsal root ganglion"
+    },
+    {
+        "id": "organ-blocks/slide-01/294",
+        "term": "UBERON:0002846",
+        "label": "second thoracic dorsal root ganglion"
+    },
+    {
+        "id": "organ-blocks/slide-01/295",
+        "term": "UBERON:0002847",
+        "label": "third thoracic dorsal root ganglion"
+    },
+    {
+        "id": "organ-blocks/slide-01/296",
+        "term": "UBERON:0007712",
+        "label": "fourth thoracic spinal ganglion"
+    },
+    {
+        "id": "organ-blocks/slide-01/297",
+        "term": "UBERON:0002848",
+        "label": "fifth thoracic dorsal root ganglion"
+    },
+    {
+        "id": "organ-blocks/slide-01/298",
+        "term": "UBERON:0002849",
+        "label": "sixth thoracic dorsal root ganglion"
+    },
+    {
+        "id": "organ-blocks/slide-01/353",
+        "term": "UBERON:0002850",
+        "label": "seventh thoracic dorsal root ganglion"
+    },
+    {
+        "id": "organ-blocks/slide-01/354",
+        "term": "UBERON:0002851",
+        "label": "eighth thoracic dorsal root ganglion"
+    },
+    {
+        "id": "organ-blocks/slide-01/355",
+        "term": "UBERON:0002852",
+        "label": "ninth thoracic dorsal root ganglion"
+    },
+    {
+        "id": "organ-blocks/slide-01/356",
+        "term": "UBERON:0002853",
+        "label": "tenth thoracic dorsal root ganglion"
+    },
+    {
+        "id": "organ-blocks/slide-01/357",
+        "term": "UBERON:0002854",
+        "label": "eleventh thoracic dorsal root ganglion"
+    },
+    {
+        "id": "organ-blocks/slide-01/358",
+        "term": "UBERON:0006468",
+        "label": "twelfth thoracic spinal cord segment"
+    },
+    {
+        "id": "organ-blocks/slide-01/359",
+        "term": "UBERON:0002857",
+        "label": "first lumbar dorsal root ganglion"
+    },
+    {
+        "id": "organ-blocks/slide-01/360",
+        "term": "UBERON:0002856",
+        "label": "second lumbar dorsal root ganglion"
+    },
+    {
+        "id": "organ-blocks/slide-01/361",
+        "term": "UBERON:0002858",
+        "label": "third lumbar dorsal root ganglion"
+    },
+    {
+        "id": "organ-blocks/slide-01/362",
+        "term": "UBERON:0003943",
+        "label": "fourth lumbar dorsal root ganglion"
+    },
+    {
+        "id": "organ-blocks/slide-01/363",
+        "term": "UBERON:0002859",
+        "label": "fifth lumbar dorsal root ganglion"
+    },
+    {
+        "id": "organ-blocks/slide-01/364",
+        "term": "ILX:0793360",
+        "label": "Sixth lumbar dorsal root ganglion"
+    },
+    {
+        "id": "organ-blocks/slide-01/365",
+        "term": "UBERON:0002860",
+        "label": "first sacral dorsal root ganglion"
+    },
+    {
+        "id": "organ-blocks/slide-01/366",
+        "term": "UBERON:0002861",
+        "label": "second sacral dorsal root ganglion"
+    },
+    {
+        "id": "organ-blocks/slide-01/367",
+        "term": "UBERON:0002862",
+        "label": "third sacral dorsal root ganglion"
+    },
+    {
+        "id": "organ-blocks/slide-01/405",
+        "term": "UBERON:0006463",
+        "label": "fourth sacral spinal cord segment"
+    },
+    {
+        "id": "organ-blocks/slide-01/218",
+        "term": "UBERON:0001989",
+        "label": "superior cervical ganglion"
+    },
+    {
+        "id": "organ-blocks/slide-01/219",
+        "term": "UBERON:0001990",
+        "label": "middle cervical ganglion"
+    },
+    {
+        "id": "organ-blocks/slide-01/217",
+        "term": "UBERON:0002440",
+        "label": "inferior cervical ganglion"
+    },
+    {
+        "id": "organ-blocks/slide-01/248",
+        "term": "UBERON:0002441",
+        "label": "cervicothoracic ganglion"
+    },
+    {
+        "id": "organ-blocks/slide-01/220",
+        "term": "ILX:0738346",
+        "label": "T2 paravertebral ganglion"
+    },
+    {
+        "id": "organ-blocks/slide-01/221",
+        "term": "ILX:0738347",
+        "label": "T3 paravertebral ganglion"
+    },
+    {
+        "id": "organ-blocks/slide-01/222",
+        "term": "ILX:0738348",
+        "label": "T4 paravertebral ganglion"
+    },
+    {
+        "id": "organ-blocks/slide-01/223",
+        "term": "ILX:0738349",
+        "label": "T5 paravertebral ganglion"
+    },
+    {
+        "id": "organ-blocks/slide-01/224",
+        "term": "ILX:0738350",
+        "label": "T6 paravertebral ganglion"
+    },
+    {
+        "id": "organ-blocks/slide-01/225",
+        "term": "ILX:0738351",
+        "label": "T7 paravertebral ganglion"
+    },
+    {
+        "id": "organ-blocks/slide-01/226",
+        "term": "ILX:0738352",
+        "label": "T8 paravertebral ganglion"
+    },
+    {
+        "id": "organ-blocks/slide-01/227",
+        "term": "ILX:0738353",
+        "label": "T9 paravertebral ganglion"
+    },
+    {
+        "id": "organ-blocks/slide-01/228",
+        "term": "ILX:0738343",
+        "label": "T10 paravertebral ganglion"
+    },
+    {
+        "id": "organ-blocks/slide-01/229",
+        "term": "ILX:0738344",
+        "label": "T11 paravertebral ganglion"
+    },
+    {
+        "id": "organ-blocks/slide-01/230",
+        "term": "ILX:0738345",
+        "label": "T12 paravertebral ganglion"
+    },
+    {
+        "id": "organ-blocks/slide-01/231",
+        "term": "ILX:0785692",
+        "label": "Lumbar ganglion"
+    },
+    {
+        "id": "organ-blocks/slide-01/232",
+        "term": "ILX:0786933",
+        "label": "Second lumbar ganglion"
+    },
+    {
+        "id": "organ-blocks/slide-01/233",
+        "term": "ILX:0788315",
+        "label": "Third lumbar ganglion"
+    },
+    {
+        "id": "organ-blocks/slide-01/234",
+        "term": "ILX:0790472",
+        "label": "Fourth lumbar ganglion"
+    },
+    {
+        "id": "organ-blocks/slide-01/238",
+        "term": "ILX:0739296",
+        "label": "fifth lumbar sympathetic ganglion"
+    },
+    {
+        "id": "organ-blocks/slide-01/239",
+        "term": "ILX:0739297",
+        "label": "sixth lumbar sympathetic ganglion"
+    },
+    {
+        "id": "organ-blocks/slide-01/235",
+        "term": "ILX:0789109",
+        "label": "First sacral ganglion"
+    },
+    {
+        "id": "organ-blocks/slide-01/236",
+        "term": "ILX:0789655",
+        "label": "Second sacral ganglion"
+    },
+    {
+        "id": "organ-blocks/slide-01/237",
+        "term": "ILX:0790394",
+        "label": "Third sacral ganglion"
+    },
+    {
+        "id": "organ-blocks/slide-01/406",
+        "term": "ILX:0786049",
+        "label": "Fourth sacral ganglion"
+    },
+    {
+        "id": "organ-blocks/slide-01/418",
+        "term": "UBERON:0001989",
+        "label": "superior cervical ganglion"
+    },
+    {
+        "id": "organ-blocks/slide-01/419",
+        "term": "UBERON:0001990",
+        "label": "middle cervical ganglion"
+    },
+    {
+        "id": "organ-blocks/slide-01/420",
+        "term": "UBERON:0002440",
+        "label": "inferior cervical ganglion"
+    },
+    {
+        "id": "organ-blocks/slide-01/421",
+        "term": "UBERON:0002441",
+        "label": "cervicothoracic ganglion"
+    },
+    {
+        "id": "organ-blocks/slide-01/422",
+        "term": "ILX:0738346",
+        "label": "T2 paravertebral ganglion"
+    },
+    {
+        "id": "organ-blocks/slide-01/423",
+        "term": "ILX:0738347",
+        "label": "T3 paravertebral ganglion"
+    },
+    {
+        "id": "organ-blocks/slide-01/424",
+        "term": "ILX:0738348",
+        "label": "T4 paravertebral ganglion"
+    },
+    {
+        "id": "organ-blocks/slide-01/425",
+        "term": "ILX:0738349",
+        "label": "T5 paravertebral ganglion"
+    },
+    {
+        "id": "organ-blocks/slide-01/426",
+        "term": "ILX:0738350",
+        "label": "T6 paravertebral ganglion"
+    },
+    {
+        "id": "organ-blocks/slide-01/427",
+        "term": "ILX:0738351",
+        "label": "T7 paravertebral ganglion"
+    },
+    {
+        "id": "organ-blocks/slide-01/428",
+        "term": "ILX:0738352",
+        "label": "T8 paravertebral ganglion"
+    },
+    {
+        "id": "organ-blocks/slide-01/429",
+        "term": "ILX:0738353",
+        "label": "T9 paravertebral ganglion"
+    },
+    {
+        "id": "organ-blocks/slide-01/430",
+        "term": "ILX:0738343",
+        "label": "T10 paravertebral ganglion"
+    },
+    {
+        "id": "organ-blocks/slide-01/431",
+        "term": "ILX:0738344",
+        "label": "T11 paravertebral ganglion"
+    },
+    {
+        "id": "organ-blocks/slide-01/432",
+        "term": "ILX:0738345",
+        "label": "T12 paravertebral ganglion"
+    },
+    {
+        "id": "organ-blocks/slide-01/433",
+        "term": "ILX:0785692",
+        "label": "Lumbar ganglion"
+    },
+    {
+        "id": "organ-blocks/slide-01/434",
+        "term": "ILX:0786933",
+        "label": "Second lumbar ganglion"
+    },
+    {
+        "id": "organ-blocks/slide-01/435",
+        "term": "ILX:0788315",
+        "label": "Third lumbar ganglion"
+    },
+    {
+        "id": "organ-blocks/slide-01/436",
+        "term": "ILX:0790472",
+        "label": "Fourth lumbar ganglion"
+    },
+    {
+        "id": "organ-blocks/slide-01/437",
+        "term": "ILX:0739296",
+        "label": "fifth lumbar sympathetic ganglion"
+    },
+    {
+        "id": "organ-blocks/slide-01/438",
+        "term": "ILX:0739297",
+        "label": "sixth lumbar sympathetic ganglion"
+    },
+    {
+        "id": "organ-blocks/slide-01/439",
+        "term": "ILX:0789109",
+        "label": "First sacral ganglion"
+    },
+    {
+        "id": "organ-blocks/slide-01/440",
+        "term": "ILX:0789655",
+        "label": "Second sacral ganglion"
+    },
+    {
+        "id": "organ-blocks/slide-01/441",
+        "term": "ILX:0790394",
+        "label": "Third sacral ganglion"
+    },
+    {
+        "id": "organ-blocks/slide-01/442",
+        "term": "ILX:0786049",
+        "label": "Fourth sacral ganglion"
+    },
+    {
+        "id": "organ-blocks/slide-01/445",
+        "term": "UBERON:0002838",
+        "label": "first cervical dorsal root ganglion"
+    },
+    {
+        "id": "organ-blocks/slide-01/446",
+        "term": "UBERON:0002839",
+        "label": "second cervical dorsal root ganglion"
+    },
+    {
+        "id": "organ-blocks/slide-01/447",
+        "term": "UBERON:0002840",
+        "label": "third cervical dorsal root ganglion"
+    },
+    {
+        "id": "organ-blocks/slide-01/448",
+        "term": "UBERON:0002841",
+        "label": "fourth cervical dorsal root ganglion"
+    },
+    {
+        "id": "organ-blocks/slide-01/449",
+        "term": "UBERON:0002842",
+        "label": "fifth cervical dorsal root ganglion"
+    },
+    {
+        "id": "organ-blocks/slide-01/450",
+        "term": "UBERON:0007711",
+        "label": "sixth cervical dorsal root ganglion"
+    },
+    {
+        "id": "organ-blocks/slide-01/451",
+        "term": "UBERON:0002843",
+        "label": "seventh cervical dorsal root ganglion"
+    },
+    {
+        "id": "organ-blocks/slide-01/452",
+        "term": "UBERON:0002844",
+        "label": "eighth cervical dorsal root ganglion"
+    },
+    {
+        "id": "organ-blocks/slide-01/453",
+        "term": "UBERON:0002845",
+        "label": "first thoracic dorsal root ganglion"
+    },
+    {
+        "id": "organ-blocks/slide-01/454",
+        "term": "UBERON:0002846",
+        "label": "second thoracic dorsal root ganglion"
+    },
+    {
+        "id": "organ-blocks/slide-01/455",
+        "term": "UBERON:0002847",
+        "label": "third thoracic dorsal root ganglion"
+    },
+    {
+        "id": "organ-blocks/slide-01/456",
+        "term": "UBERON:0007712",
+        "label": "fourth thoracic spinal ganglion"
+    },
+    {
+        "id": "organ-blocks/slide-01/457",
+        "term": "UBERON:0002848",
+        "label": "fifth thoracic dorsal root ganglion"
+    },
+    {
+        "id": "organ-blocks/slide-01/458",
+        "term": "UBERON:0002849",
+        "label": "sixth thoracic dorsal root ganglion"
+    },
+    {
+        "id": "organ-blocks/slide-01/459",
+        "term": "UBERON:0002850",
+        "label": "seventh thoracic dorsal root ganglion"
+    },
+    {
+        "id": "organ-blocks/slide-01/460",
+        "term": "UBERON:0002851",
+        "label": "eighth thoracic dorsal root ganglion"
+    },
+    {
+        "id": "organ-blocks/slide-01/461",
+        "term": "UBERON:0002852",
+        "label": "ninth thoracic dorsal root ganglion"
+    },
+    {
+        "id": "organ-blocks/slide-01/462",
+        "term": "UBERON:0002853",
+        "label": "tenth thoracic dorsal root ganglion"
+    },
+    {
+        "id": "organ-blocks/slide-01/463",
+        "term": "UBERON:0002854",
+        "label": "eleventh thoracic dorsal root ganglion"
+    },
+    {
+        "id": "organ-blocks/slide-01/464",
+        "term": "UBERON:0006468",
+        "label": "twelfth thoracic spinal cord segment"
+    },
+    {
+        "id": "organ-blocks/slide-01/465",
+        "term": "UBERON:0002857",
+        "label": "first lumbar dorsal root ganglion"
+    },
+    {
+        "id": "organ-blocks/slide-01/466",
+        "term": "UBERON:0002856",
+        "label": "second lumbar dorsal root ganglion"
+    },
+    {
+        "id": "organ-blocks/slide-01/467",
+        "term": "UBERON:0002858",
+        "label": "third lumbar dorsal root ganglion"
+    },
+    {
+        "id": "organ-blocks/slide-01/468",
+        "term": "UBERON:0003943",
+        "label": "fourth lumbar dorsal root ganglion"
+    },
+    {
+        "id": "organ-blocks/slide-01/469",
+        "term": "UBERON:0002859",
+        "label": "fifth lumbar dorsal root ganglion"
+    },
+    {
+        "id": "organ-blocks/slide-01/470",
+        "term": "ILX:0793360",
+        "label": "Sixth lumbar dorsal root ganglion"
+    },
+    {
+        "id": "organ-blocks/slide-01/471",
+        "term": "UBERON:0002860",
+        "label": "first sacral dorsal root ganglion"
+    },
+    {
+        "id": "organ-blocks/slide-01/472",
+        "term": "UBERON:0002861",
+        "label": "second sacral dorsal root ganglion"
+    },
+    {
+        "id": "organ-blocks/slide-01/473",
+        "term": "UBERON:0002862",
+        "label": "third sacral dorsal root ganglion"
+    },
+    {
+        "id": "organ-blocks/slide-01/474",
+        "term": "UBERON:0006463",
+        "label": "fourth sacral spinal cord segment"
+    },
+    {
+        "id": "organ-blocks/slide-01/511",
+        "term": "UBERON:0002010",
+        "label": "celiac nerve plexus"
+    },
+    {
+        "id": "organ-blocks/slide-01/515",
+        "term": "UBERON:0002010",
+        "label": "celiac nerve plexus"
+    },
+    {
+        "id": "organ-blocks/slide-01/6105",
+        "term": "ILX:0793144",
+        "label": "Proximal two thirds of ureter"
+    },
+    {
+        "id": "organ-blocks/slide-01/613",
+        "term": "ILX:0793143",
+        "label": "Distal third of ureter"
+    },
+    {
+        "id": "organ-blocks/slide-01/601",
+        "term": "ILX:0793142",
+        "label": "Intravesical portion of ureter"
+    },
+    {
+        "id": "organ-blocks/slide-01/594",
+        "term": "UBERON:0000056",
+        "label": "ureter"
+    },
+    {
+        "id": "organ-blocks/slide-01/6238",
+        "term": "UBERON:0006082",
+        "label": "fundus of urinary bladder"
+    },
+    {
+        "id": "organ-blocks/slide-01/6195",
+        "term": "UBERON:0001258",
+        "label": "neck of urinary bladder"
+    },
+    {
+        "id": "organ-blocks/slide-01/6182",
+        "term": "UBERON:0001255",
+        "label": "urinary bladder"
+    },
+    {
+        "id": "organ-blocks/slide-01/6287",
+        "term": "UBERON:0004917",
+        "label": "urethral sphincter"
+    },
+    {
+        "id": "organ-blocks/slide-01/6281",
+        "term": "UBERON:0000057",
+        "label": "urethra"
+    },
+    {
+        "id": "organ-blocks/slide-01/660",
+        "term": "UBERON:0000019",
+        "label": "camera-type eye"
+    },
+    {
+        "id": "organ-blocks/slide-01/636",
+        "term": "UBERON:0000019",
+        "label": "camera-type eye"
+    },
+    {
+        "id": "organ-blocks/slide-01/1406",
+        "term": "UBERON:0003974",
+        "label": "upper part of vagina"
+    },
+    {
+        "id": "organ-blocks/slide-01/1394",
+        "term": "UBERON:0015243",
+        "label": "lower part of vagina"
+    },
+    {
+        "id": "organ-blocks/slide-01/1391",
+        "term": "UBERON:0000996",
+        "label": "vagina"
+    },
+    {
+        "id": "organ-blocks/slide-01/1470",
+        "term": "UBERON:0000310",
+        "label": "breast"
+    },
+    {
+        "id": "organ-blocks/slide-01/1461",
+        "term": "UBERON:0000310",
+        "label": "breast"
+    },
+    {
+        "id": "organ-blocks/slide-01/1458",
+        "term": "UBERON:0000310",
+        "label": "breast"
+    },
+    {
+        "id": "organ-blocks/slide-01/2075",
+        "term": "UBERON:0012271",
+        "label": "major duodenal papilla"
+    },
+    {
+        "id": "organ-blocks/slide-01/2087",
+        "term": "UBERON:0004913",
+        "label": "hepatopancreatic ampulla"
+    },
+    {
+        "id": "organ-blocks/slide-01/2412",
+        "term": "UBERON:0002110",
+        "label": "gall bladder"
+    },
+    {
+        "id": "organ-blocks/slide-01/2426",
+        "term": "UBERON:0013644",
+        "label": "duodenal ampulla"
+    },
+    {
+        "id": "organ-blocks/slide-01/2425",
+        "term": "UBERON:0013644",
+        "label": "duodenal ampulla"
+    },
+    {
+        "id": "organ-blocks/slide-01/2173",
+        "term": "UBERON:0001175",
+        "label": "common hepatic duct"
+    },
+    {
+        "id": "organ-blocks/slide-01/2185",
+        "term": "UBERON:0001174",
+        "label": "common bile duct"
+    },
+    {
+        "id": "organ-blocks/slide-01/2197",
+        "term": "UBERON:0005171",
+        "label": "hepatic duct"
+    },
+    {
+        "id": "organ-blocks/slide-01/2383",
+        "term": "UBERON:0007268",
+        "label": "upper esophageal sphincter"
+    },
+    {
+        "id": "organ-blocks/slide-01/2382",
+        "term": "UBERON:0013472",
+        "label": "upper esophagus"
+    },
+    {
+        "id": "organ-blocks/slide-01/2381",
+        "term": "UBERON:0013473",
+        "label": "lower esophagus"
+    },
+    {
+        "id": "organ-blocks/slide-01/2380",
+        "term": "ILX:0793729",
+        "label": "Lower esophageal sphincter"
+    },
+    {
+        "id": "organ-blocks/slide-01/3110",
+        "term": "UBERON:0002078",
+        "label": "right cardiac atrium"
+    },
+    {
+        "id": "organ-blocks/slide-01/3111",
+        "term": "UBERON:0002080",
+        "label": "heart right ventricle"
+    },
+    {
+        "id": "organ-blocks/slide-01/3112",
+        "term": "UBERON:0002079",
+        "label": "left cardiac atrium"
+    },
+    {
+        "id": "organ-blocks/slide-01/3113",
+        "term": "UBERON:0002084",
+        "label": "heart left ventricle"
+    },
+    {
+        "id": "organ-blocks/slide-01/3073",
+        "term": "UBERON:0000948",
+        "label": "heart"
+    },
+    {
+        "id": "organ-blocks/slide-01/2914",
+        "term": "UBERON:0000007",
+        "label": "pituitary gland"
+    },
+    {
+        "id": "organ-blocks/slide-01/2918",
+        "term": "UBERON:0000007",
+        "label": "pituitary gland"
+    },
+    {
+        "id": "organ-blocks/slide-01/2889",
+        "term": "UBERON:0001905",
+        "label": "pineal body"
+    },
+    {
+        "id": "organ-blocks/slide-01/2891",
+        "term": "UBERON:0001905",
+        "label": "pineal body"
+    },
+    {
+        "id": "organ-blocks/slide-01/184",
+        "term": "UBERON:0002046",
+        "label": "thyroid gland"
+    },
+    {
+        "id": "organ-blocks/slide-01/190",
+        "term": "UBERON:0002046",
+        "label": "thyroid gland"
+    },
+    {
+        "id": "organ-blocks/slide-01/141",
+        "term": "UBERON:0001132",
+        "label": "parathyroid gland"
+    },
+    {
+        "id": "organ-blocks/slide-01/148",
+        "term": "UBERON:0001132",
+        "label": "parathyroid gland"
+    },
+    {
+        "id": "organ-blocks/slide-01/72",
+        "term": "UBERON:0000016",
+        "label": "endocrine pancreas"
+    },
+    {
+        "id": "organ-blocks/slide-01/75",
+        "term": "UBERON:0000016",
+        "label": "endocrine pancreas"
+    },
+    {
+        "id": "organ-blocks/slide-01/35",
+        "term": "UBERON:0001236",
+        "label": "adrenal medulla"
+    },
+    {
+        "id": "organ-blocks/slide-01/40",
+        "term": "UBERON:0001236",
+        "label": "adrenal medulla"
+    },
+    {
+        "id": "organ-blocks/slide-01/345",
+        "term": "UBERON:0002370",
+        "label": "thymus"
+    },
+    {
+        "id": "organ-blocks/slide-01/396",
+        "term": "UBERON:0002370",
+        "label": "thymus"
+    },
+    {
+        "id": "organ-blocks/slide-01/403",
+        "term": "UBERON:0002106",
+        "label": "spleen"
+    },
+    {
+        "id": "organ-blocks/slide-01/407",
+        "term": "UBERON:0002106",
+        "label": "spleen"
+    },
+    {
+        "id": "organ-blocks/slide-01/3154",
+        "term": "UBERON:0002371",
+        "label": "bone marrow"
+    },
+    {
+        "id": "organ-blocks/slide-01/3155",
+        "term": "UBERON:0002371",
+        "label": "bone marrow"
+    },
+    {
+        "id": "organ-blocks/slide-01/414",
+        "term": "UBERON:0002391",
+        "label": "lymph"
+    },
+    {
+        "id": "organ-blocks/slide-01/3171",
+        "term": "UBERON:0002391",
+        "label": "lymph"
+    },
+    {
+        "id": "organ-blocks/slide-01/3186",
+        "term": "UBERON:0002391",
+        "label": "lymph"
+    },
+    {
+        "id": "organ-blocks/slide-01/481",
+        "term": "UBERON:0002391",
+        "label": "lymph"
+    },
+    {
+        "id": "organ-blocks/slide-01/3045",
+        "term": "UBERON:0002372",
+        "label": "tonsil"
+    },
+    {
+        "id": "organ-blocks/slide-01/536",
+        "term": "UBERON:0002373",
+        "label": "palatine tonsil"
+    },
+    {
+        "id": "organ-blocks/slide-01/551",
+        "term": "UBERON:0003949",
+        "label": "tubal tonsil"
+    },
+    {
+        "id": "organ-blocks/slide-01/6016",
+        "term": "UBERON:0002372",
+        "label": "tonsil"
+    },
+    {
+        "id": "organ-blocks/slide-01/6032",
+        "term": "UBERON:0001211",
+        "label": "Peyer's patch"
+    },
+    {
+        "id": "organ-blocks/slide-01/6033",
+        "term": "UBERON:0001211",
+        "label": "Peyer's patch"
+    },
+    {
+        "id": "organ-blocks/slide-01/519",
+        "term": "ILX:0793620",
+        "label": "dura mater in the posterior cranial fossa"
+    },
+    {
+        "id": "organ-blocks/slide-01/503",
+        "term": "ILX:0793620",
+        "label": "dura mater in the posterior cranial fossa"
+    },
+    {
+        "id": "organ-blocks/slide-01/6636",
+        "term": "UBERON:0001723",
+        "label": "tongue"
+    },
+    {
+        "id": "organ-blocks/slide-01/6641",
+        "term": "UBERON:0001571",
+        "label": "genioglossus muscle"
+    },
+    {
+        "id": "organ-blocks/slide-01/6642",
+        "term": "UBERON:0001572",
+        "label": "hyoglossus muscle"
+    },
+    {
+        "id": "organ-blocks/slide-01/6647",
+        "term": "UBERON:0011535",
+        "label": "chondroglossus muscle"
+    },
+    {
+        "id": "organ-blocks/slide-01/6648",
+        "term": "UBERON:0001573",
+        "label": "styloglossus"
+    },
+    {
+        "id": "organ-blocks/slide-01/6653",
+        "term": "UBERON:0001574",
+        "label": "palatoglossus muscle"
+    },
+    {
+        "id": "organ-blocks/slide-01/6654",
+        "term": "UBERON:0008582",
+        "label": "superior longitudinal muscle of tongue"
+    },
+    {
+        "id": "organ-blocks/slide-01/1153",
+        "term": "UBERON:0008583",
+        "label": "transverse muscle of tongue"
+    },
+    {
+        "id": "organ-blocks/slide-01/1154",
+        "term": "ILX:0746426",
+        "label": "inferior longitudinal muscle (TA98)"
+    },
+    {
+        "id": "organ-blocks/slide-01/1155",
+        "term": "UBERON:0008584",
+        "label": "vertical muscle of tongue"
+    },
+    {
+        "id": "organ-blocks/slide-01/6528",
+        "term": "UBERON:0000165",
+        "label": "mouth"
+    },
+    {
+        "id": "organ-blocks/slide-01/6546",
+        "term": "UBERON:0008595",
+        "label": "levator anguli oris"
+    },
+    {
+        "id": "organ-blocks/slide-01/6547",
+        "term": "UBERON:0008597",
+        "label": "depressor anguli oris muscle"
+    },
+    {
+        "id": "organ-blocks/slide-01/6559",
+        "term": "UBERON:0001580",
+        "label": "levator labii superioris"
+    },
+    {
+        "id": "organ-blocks/slide-01/6564",
+        "term": "UBERON:0001581",
+        "label": "depressor labii inferioris"
+    },
+    {
+        "id": "organ-blocks/slide-01/6565",
+        "term": "UBERON:0008596",
+        "label": "mentalis muscle"
+    },
+    {
+        "id": "organ-blocks/slide-01/6570",
+        "term": "UBERON:0001582",
+        "label": "buccinator muscle"
+    },
+    {
+        "id": "organ-blocks/slide-01/6576",
+        "term": "UBERON:0010933",
+        "label": "orbicularis oris muscle"
+    },
+    {
+        "id": "organ-blocks/slide-01/6594",
+        "term": "UBERON:0008598",
+        "label": "risorius muscle"
+    },
+    {
+        "id": "organ-blocks/slide-01/6595",
+        "term": "UBERON:0008593",
+        "label": "zygomaticus major muscle"
+    },
+    {
+        "id": "organ-blocks/slide-01/6606",
+        "term": "UBERON:0008594",
+        "label": "zygomaticus minor muscle"
+    },
+    {
+        "id": "organ-blocks/slide-01/6110",
+        "term": "UBERON:0001601",
+        "label": "extra-ocular muscle"
+    },
+    {
+        "id": "organ-blocks/slide-01/640",
+        "term": "UBERON:0001604",
+        "label": "levator palpebrae superioris"
+    },
+    {
+        "id": "organ-blocks/slide-01/655",
+        "term": "UBERON:0010379",
+        "label": "superior tarsal muscle"
+    },
+    {
+        "id": "organ-blocks/slide-01/6170",
+        "term": "UBERON:0006323",
+        "label": "superior rectus extraocular muscle"
+    },
+    {
+        "id": "organ-blocks/slide-01/6183",
+        "term": "UBERON:0006322",
+        "label": "inferior rectus extraocular muscle"
+    },
+    {
+        "id": "organ-blocks/slide-01/6280",
+        "term": "UBERON:0001602",
+        "label": "medial rectus extraocular muscle"
+    },
+    {
+        "id": "organ-blocks/slide-01/6286",
+        "term": "UBERON:0001603",
+        "label": "lateral rectus extra-ocular muscle"
+    },
+    {
+        "id": "organ-blocks/slide-01/6324",
+        "term": "UBERON:0006321",
+        "label": "superior oblique extraocular muscle"
+    },
+    {
+        "id": "organ-blocks/slide-01/6341",
+        "term": "UBERON:0006320",
+        "label": "inferior oblique extraocular muscle"
+    },
+    {
+        "id": "organ-blocks/slide-01/6066",
+        "term": "UBERON:0008200",
+        "label": "forehead"
+    },
+    {
+        "id": "organ-blocks/slide-01/6067",
+        "term": "UBERON:0010947",
+        "label": "occipitalis"
+    },
+    {
+        "id": "organ-blocks/slide-01/6068",
+        "term": "UBERON:0010952",
+        "label": "frontalis muscle belly"
+    },
+    {
+        "id": "organ-blocks/slide-01/6070",
+        "term": "UBERON:0001578",
+        "label": "orbicularis oculi muscle"
+    },
+    {
+        "id": "organ-blocks/slide-01/6071",
+        "term": "ILX:0743435",
+        "label": "corrugator supercilii (TA98)"
+    },
+    {
+        "id": "organ-blocks/slide-01/6077",
+        "term": "UBERON:0008591",
+        "label": "depressor supercilii"
+    },
+    {
+        "id": "organ-blocks/slide-01/6439",
+        "term": "UBERON:0001690",
+        "label": "ear"
+    },
+    {
+        "id": "organ-blocks/slide-01/6444",
+        "term": "ILX:0746831",
+        "label": "temporoparietalis (TA98)"
+    },
+    {
+        "id": "organ-blocks/slide-01/6445",
+        "term": "UBERON:0018109",
+        "label": "anterior auricular muscle"
+    },
+    {
+        "id": "organ-blocks/slide-01/6450",
+        "term": "UBERON:0018108",
+        "label": "superior auricular muscle"
+    },
+    {
+        "id": "organ-blocks/slide-01/6451",
+        "term": "UBERON:0018110",
+        "label": "posterior auricular muscle"
+    },
+    {
+        "id": "organ-blocks/slide-01/6456",
+        "term": "UBERON:0001599",
+        "label": "stapedius muscle"
+    },
+    {
+        "id": "organ-blocks/slide-01/6457",
+        "term": "UBERON:0001600",
+        "label": "tensor tympani"
+    },
+    {
+        "id": "organ-blocks/slide-01/6469",
+        "term": "UBERON:0000004",
+        "label": "nose"
+    },
+    {
+        "id": "organ-blocks/slide-01/6474",
+        "term": "UBERON:0008588",
+        "label": "procerus"
+    },
+    {
+        "id": "organ-blocks/slide-01/6475",
+        "term": "UBERON:0008589",
+        "label": "depressor septi nasi"
+    },
+    {
+        "id": "organ-blocks/slide-01/6480",
+        "term": "UBERON:0008592",
+        "label": "levator labii superioris alaeque nasi"
+    },
+    {
+        "id": "organ-blocks/slide-01/6498",
+        "term": "ILX:0748890",
+        "label": "transverse part (TA98)"
+    },
+    {
+        "id": "organ-blocks/slide-01/6499",
+        "term": "ILX:0743740",
+        "label": "alar part (TA98)"
+    },
+    {
+        "id": "organ-blocks/slide-01/6617",
+        "term": "ILX:0102088",
+        "label": "Chewing-swallowing"
+    },
+    {
+        "id": "organ-blocks/slide-01/6618",
+        "term": "UBERON:0001597",
+        "label": "masseter muscle"
+    },
+    {
+        "id": "organ-blocks/slide-01/6623",
+        "term": "UBERON:0001598",
+        "label": "temporalis muscle"
+    },
+    {
+        "id": "organ-blocks/slide-01/6624",
+        "term": "UBERON:0006719",
+        "label": "lateral pterygoid muscle"
+    },
+    {
+        "id": "organ-blocks/slide-01/6629",
+        "term": "UBERON:0006718",
+        "label": "medial pterygoid muscle"
+    },
+    {
+        "id": "organ-blocks/slide-01/1164",
+        "term": "UBERON:0001733",
+        "label": "soft palate"
+    },
+    {
+        "id": "organ-blocks/slide-01/1165",
+        "term": "UBERON:0008586",
+        "label": "tensor veli palatini"
+    },
+    {
+        "id": "organ-blocks/slide-01/1169",
+        "term": "UBERON:0008585",
+        "label": "levator veli palatini"
+    },
+    {
+        "id": "organ-blocks/slide-01/1170",
+        "term": "UBERON:0001574",
+        "label": "palatoglossus muscle"
+    },
+    {
+        "id": "organ-blocks/slide-01/1171",
+        "term": "UBERON:0010234",
+        "label": "palatopharyngeus muscle"
+    },
+    {
+        "id": "organ-blocks/slide-01/1172",
+        "term": "UBERON:0001734",
+        "label": "palatine uvula"
+    },
+    {
+        "id": "organ-blocks/slide-01/1181",
+        "term": "UBERON:0008804",
+        "label": "stylopharyngeus muscle"
+    },
+    {
+        "id": "organ-blocks/slide-01/1185",
+        "term": "UBERON:0010937",
+        "label": "salpingopharyngeus muscle"
+    },
+    {
+        "id": "organ-blocks/slide-01/1186",
+        "term": "UBERON:0001570",
+        "label": "inferior pharyngeal constrictor"
+    },
+    {
+        "id": "organ-blocks/slide-01/1187",
+        "term": "UBERON:0010749",
+        "label": "middle pharyngeal constrictor"
+    },
+    {
+        "id": "organ-blocks/slide-01/1188",
+        "term": "UBERON:0006329",
+        "label": "superior pharyngeal constrictor"
+    },
+    {
+        "id": "organ-blocks/slide-01/6833",
+        "term": "UBERON:0000916",
+        "label": "abdomen"
+    },
+    {
+        "id": "organ-blocks/slide-01/6837",
+        "term": "UBERON:0002382",
+        "label": "rectus abdominis muscle"
+    },
+    {
+        "id": "organ-blocks/slide-01/6838",
+        "term": "UBERON:0005442",
+        "label": "abdominal external oblique muscle"
+    },
+    {
+        "id": "organ-blocks/slide-01/6839",
+        "term": "UBERON:0005454",
+        "label": "abdominal internal oblique muscle"
+    },
+    {
+        "id": "organ-blocks/slide-01/6840",
+        "term": "UBERON:0001221",
+        "label": "transversus abdominis muscle"
+    },
+    {
+        "id": "organ-blocks/slide-01/6842",
+        "term": "UBERON:0011016",
+        "label": "pyramidalis"
+    },
+    {
+        "id": "organ-blocks/slide-01/1286",
+        "term": "UBERON:0001220",
+        "label": "quadratus lumborum"
+    },
+    {
+        "id": "organ-blocks/slide-01/1321",
+        "term": "UBERON:0001137",
+        "label": "dorsum"
+    },
+    {
+        "id": "organ-blocks/slide-01/1323",
+        "term": "UBERON:0002251",
+        "label": "iliocostalis muscle"
+    },
+    {
+        "id": "organ-blocks/slide-01/1329",
+        "term": "UBERON:0000392",
+        "label": "longissimus muscle"
+    },
+    {
+        "id": "organ-blocks/slide-01/1330",
+        "term": "UBERON:0011013",
+        "label": "spinalis muscle"
+    },
+    {
+        "id": "organ-blocks/slide-01/1334",
+        "term": "UBERON:0001112",
+        "label": "latissimus dorsi muscle"
+    },
+    {
+        "id": "organ-blocks/slide-01/1335",
+        "term": "UBERON:0001407",
+        "label": "semispinalis thoracis"
+    },
+    {
+        "id": "organ-blocks/slide-01/1337",
+        "term": "UBERON:0001409",
+        "label": "semispinalis capitis"
+    },
+    {
+        "id": "organ-blocks/slide-01/1339",
+        "term": "ILX:0741532",
+        "label": "multifidus (TA98)"
+    },
+    {
+        "id": "organ-blocks/slide-01/1345",
+        "term": "ILX:0745236",
+        "label": "rotatores (TA98)"
+    },
+    {
+        "id": "organ-blocks/slide-01/1346",
+        "term": "ILX:0746192",
+        "label": "interspinales (TA98)"
+    },
+    {
+        "id": "organ-blocks/slide-01/1381",
+        "term": "ILX:0745164",
+        "label": "intertransversarii (TA98)"
+    },
+    {
+        "id": "organ-blocks/slide-01/1383",
+        "term": "UBERON:0008544",
+        "label": "splenius cervicis"
+    },
+    {
+        "id": "organ-blocks/slide-01/1393",
+        "term": "UBERON:0001443",
+        "label": "chest"
+    },
+    {
+        "id": "organ-blocks/slide-01/1395",
+        "term": "UBERON:0005441",
+        "label": "external intercostal muscle"
+    },
+    {
+        "id": "organ-blocks/slide-01/1401",
+        "term": "UBERON:0002403",
+        "label": "internal intercostal muscle"
+    },
+    {
+        "id": "organ-blocks/slide-01/1402",
+        "term": "UBERON:0008617",
+        "label": "innermost intercostal muscle"
+    },
+    {
+        "id": "organ-blocks/slide-01/1407",
+        "term": "UBERON:0008618",
+        "label": "subcostal muscle"
+    },
+    {
+        "id": "organ-blocks/slide-01/1413",
+        "term": "UBERON:0002404",
+        "label": "transversus thoracis"
+    },
+    {
+        "id": "organ-blocks/slide-01/1414",
+        "term": "UBERON:8410070",
+        "label": "levator costarum"
+    },
+    {
+        "id": "organ-blocks/slide-01/1419",
+        "term": "UBERON:0001127",
+        "label": "serratus dorsalis inferior muscle"
+    },
+    {
+        "id": "organ-blocks/slide-01/1420",
+        "term": "UBERON:0001126",
+        "label": "serratus dorsalis superior muscle"
+    },
+    {
+        "id": "organ-blocks/slide-01/1421",
+        "term": "UBERON:0001103",
+        "label": "diaphragm"
+    },
+    {
+        "id": "organ-blocks/slide-01/1503",
+        "term": "UBERON:0002356",
+        "label": "perineum"
+    },
+    {
+        "id": "organ-blocks/slide-01/1507",
+        "term": "UBERON:0001367",
+        "label": "external anal sphincter"
+    },
+    {
+        "id": "organ-blocks/slide-01/1508",
+        "term": "UBERON:0001367",
+        "label": "external anal sphincter"
+    },
+    {
+        "id": "organ-blocks/slide-01/1509",
+        "term": "ILX:0741369",
+        "label": "superficial transverse perineal muscle (TA98)"
+    },
+    {
+        "id": "organ-blocks/slide-01/1510",
+        "term": "UBERON:0011389",
+        "label": "bulbospongiosus muscle"
+    },
+    {
+        "id": "organ-blocks/slide-01/1511",
+        "term": "UBERON:0001339",
+        "label": "ischiocavernosus muscle"
+    },
+    {
+        "id": "organ-blocks/slide-01/1512",
+        "term": "ILX:0741394",
+        "label": "deep transverse perineal muscle (TA98)"
+    },
+    {
+        "id": "organ-blocks/slide-01/1513",
+        "term": "UBERON:0004919",
+        "label": "external urethral sphincter"
+    },
+    {
+        "id": "organ-blocks/slide-01/1591",
+        "term": "UBERON:0001460",
+        "label": "arm"
+    },
+    {
+        "id": "organ-blocks/slide-01/1592",
+        "term": "UBERON:0001505",
+        "label": "coracobrachialis muscle"
+    },
+    {
+        "id": "organ-blocks/slide-01/1593",
+        "term": "UBERON:0001507",
+        "label": "biceps brachii"
+    },
+    {
+        "id": "organ-blocks/slide-01/1594",
+        "term": "UBERON:0001506",
+        "label": "brachialis muscle"
+    },
+    {
+        "id": "organ-blocks/slide-01/1595",
+        "term": "UBERON:0001509",
+        "label": "triceps brachii"
+    },
+    {
+        "id": "organ-blocks/slide-01/1596",
+        "term": "UBERON:0002989",
+        "label": "anconeus muscle"
+    },
+    {
+        "id": "organ-blocks/slide-01/2058",
+        "term": "ILX:0743453",
+        "label": "forearm (TA98)"
+    },
+    {
+        "id": "organ-blocks/slide-01/2059",
+        "term": "UBERON:0001520",
+        "label": "pronator teres"
+    },
+    {
+        "id": "organ-blocks/slide-01/2060",
+        "term": "UBERON:0001521",
+        "label": "flexor carpi radialis muscle"
+    },
+    {
+        "id": "organ-blocks/slide-01/2061",
+        "term": "UBERON:0016493",
+        "label": "palmaris longus muscle"
+    },
+    {
+        "id": "organ-blocks/slide-01/2062",
+        "term": "UBERON:0001522",
+        "label": "flexor carpi ulnaris muscle"
+    },
+    {
+        "id": "organ-blocks/slide-01/2063",
+        "term": "UBERON:0003222",
+        "label": "flexor digitorum superficialis"
+    },
+    {
+        "id": "organ-blocks/slide-01/2064",
+        "term": "ILX:0745050",
+        "label": "pronator quadratus (TA98)"
+    },
+    {
+        "id": "organ-blocks/slide-01/2065",
+        "term": "UBERON:0001523",
+        "label": "flexor digitorum profundus"
+    },
+    {
+        "id": "organ-blocks/slide-01/2066",
+        "term": "UBERON:0008446",
+        "label": "flexor pollicis longus muscle"
+    },
+    {
+        "id": "organ-blocks/slide-01/2067",
+        "term": "UBERON:0007612",
+        "label": "extensor digitorum communis"
+    },
+    {
+        "id": "organ-blocks/slide-01/2068",
+        "term": "UBERON:0007614",
+        "label": "extensor digiti minimi muscle"
+    },
+    {
+        "id": "organ-blocks/slide-01/2070",
+        "term": "UBERON:0001526",
+        "label": "extensor carpi ulnaris muscle"
+    },
+    {
+        "id": "organ-blocks/slide-01/2071",
+        "term": "UBERON:0011011",
+        "label": "brachioradialis"
+    },
+    {
+        "id": "organ-blocks/slide-01/2072",
+        "term": "UBERON:0001524",
+        "label": "extensor carpi radialis longus muscle"
+    },
+    {
+        "id": "organ-blocks/slide-01/2073",
+        "term": "UBERON:0001525",
+        "label": "extensor carpi radialis brevis muscle"
+    },
+    {
+        "id": "organ-blocks/slide-01/2076",
+        "term": "UBERON:0003228",
+        "label": "supinator muscle"
+    },
+    {
+        "id": "organ-blocks/slide-01/2078",
+        "term": "ILX:0745866",
+        "label": "extensor indicis (TA98)"
+    },
+    {
+        "id": "organ-blocks/slide-01/2079",
+        "term": "UBERON:0001527",
+        "label": "abductor pollicis longus"
+    },
+    {
+        "id": "organ-blocks/slide-01/2088",
+        "term": "UBERON:0017618",
+        "label": "extensor pollicis brevis muscle"
+    },
+    {
+        "id": "organ-blocks/slide-01/2090",
+        "term": "UBERON:0003234",
+        "label": "extensor pollicis longus muscle"
+    },
+    {
+        "id": "organ-blocks/slide-01/2102",
+        "term": "UBERON:0001270",
+        "label": "bony pelvis"
+    },
+    {
+        "id": "organ-blocks/slide-01/2103",
+        "term": "UBERON:0001298",
+        "label": "psoas major muscle"
+    },
+    {
+        "id": "organ-blocks/slide-01/2113",
+        "term": "UBERON:0001372",
+        "label": "psoas minor muscle"
+    },
+    {
+        "id": "organ-blocks/slide-01/2115",
+        "term": "UBERON:0001369",
+        "label": "iliacus muscle"
+    },
+    {
+        "id": "organ-blocks/slide-01/2359",
+        "term": "UBERON:0000978",
+        "label": "leg"
+    },
+    {
+        "id": "organ-blocks/slide-01/2368",
+        "term": "UBERON:0001385",
+        "label": "tibialis anterior"
+    },
+    {
+        "id": "organ-blocks/slide-01/2370",
+        "term": "ILX:0746103",
+        "label": "extensor hallucis longus (TA98)"
+    },
+    {
+        "id": "organ-blocks/slide-01/2371",
+        "term": "UBERON:0001386",
+        "label": "extensor digitorum longus"
+    },
+    {
+        "id": "organ-blocks/slide-01/2401",
+        "term": "UBERON:0010524",
+        "label": "fibularis tertius"
+    },
+    {
+        "id": "organ-blocks/slide-01/2403",
+        "term": "UBERON:0001388",
+        "label": "gastrocnemius"
+    },
+    {
+        "id": "organ-blocks/slide-01/2404",
+        "term": "UBERON:0001389",
+        "label": "soleus muscle"
+    },
+    {
+        "id": "organ-blocks/slide-01/2427",
+        "term": "UBERON:0011905",
+        "label": "plantaris"
+    },
+    {
+        "id": "organ-blocks/slide-01/2429",
+        "term": "UBERON:0001391",
+        "label": "popliteus muscle"
+    },
+    {
+        "id": "organ-blocks/slide-01/2430",
+        "term": "UBERON:0001392",
+        "label": "flexor hallucis longus"
+    },
+    {
+        "id": "organ-blocks/slide-01/2514",
+        "term": "UBERON:0001666",
+        "label": "flexor digitorum longus"
+    },
+    {
+        "id": "organ-blocks/slide-01/2516",
+        "term": "UBERON:0001667",
+        "label": "tibialis posterior"
+    },
+    {
+        "id": "organ-blocks/slide-01/2517",
+        "term": "UBERON:0001387",
+        "label": "fibularis longus"
+    },
+    {
+        "id": "organ-blocks/slide-01/2518",
+        "term": "UBERON:0010526",
+        "label": "fibularis brevis"
+    },
+    {
+        "id": "organ-blocks/slide-01/1429",
+        "term": "UBERON:0002355",
+        "label": "pelvic region of trunk"
+    },
+    {
+        "id": "organ-blocks/slide-01/1430",
+        "term": "UBERON:0001327",
+        "label": "coccygeus muscle"
+    },
+    {
+        "id": "organ-blocks/slide-01/1435",
+        "term": "UBERON:0011511",
+        "label": "iliococcygeus muscle"
+    },
+    {
+        "id": "organ-blocks/slide-01/1441",
+        "term": "UBERON:0011528",
+        "label": "pubococcygeus muscle"
+    },
+    {
+        "id": "organ-blocks/slide-01/1442",
+        "term": "UBERON:0011512",
+        "label": "puborectalis muscle"
+    },
+    {
+        "id": "organ-blocks/slide-01/1525",
+        "term": "UBERON:0001130",
+        "label": "vertebral column"
+    },
+    {
+        "id": "organ-blocks/slide-01/1526",
+        "term": "UBERON:0002380",
+        "label": "trapezius muscle"
+    },
+    {
+        "id": "organ-blocks/slide-01/1530",
+        "term": "UBERON:0001112",
+        "label": "latissimus dorsi muscle"
+    },
+    {
+        "id": "organ-blocks/slide-01/1536",
+        "term": "ILX:0745601",
+        "label": "rhomboid major (TA98)"
+    },
+    {
+        "id": "organ-blocks/slide-01/1542",
+        "term": "ILX:0745172",
+        "label": "rhomboid minor (TA98)"
+    },
+    {
+        "id": "organ-blocks/slide-01/1574",
+        "term": "UBERON:0005461",
+        "label": "levator scapulae muscle"
+    },
+    {
+        "id": "organ-blocks/slide-01/1576",
+        "term": "UBERON:0016403",
+        "label": "thoracic wall"
+    },
+    {
+        "id": "organ-blocks/slide-01/1577",
+        "term": "UBERON:0002381",
+        "label": "pectoralis major"
+    },
+    {
+        "id": "organ-blocks/slide-01/1578",
+        "term": "UBERON:0001100",
+        "label": "pectoralis minor"
+    },
+    {
+        "id": "organ-blocks/slide-01/1579",
+        "term": "UBERON:0008779",
+        "label": "subclavius"
+    },
+    {
+        "id": "organ-blocks/slide-01/1580",
+        "term": "UBERON:0001125",
+        "label": "serratus ventralis"
+    },
+    {
+        "id": "organ-blocks/slide-01/1582",
+        "term": "UBERON:0001467",
+        "label": "shoulder"
+    },
+    {
+        "id": "organ-blocks/slide-01/1583",
+        "term": "UBERON:0001476",
+        "label": "deltoid"
+    },
+    {
+        "id": "organ-blocks/slide-01/1584",
+        "term": "UBERON:0001478",
+        "label": "teres major muscle"
+    },
+    {
+        "id": "organ-blocks/slide-01/1585",
+        "term": "UBERON:0002383",
+        "label": "supraspinatus muscle"
+    },
+    {
+        "id": "organ-blocks/slide-01/1586",
+        "term": "UBERON:0001477",
+        "label": "infraspinatus muscle"
+    },
+    {
+        "id": "organ-blocks/slide-01/1587",
+        "term": "UBERON:0010496",
+        "label": "teres minor muscle"
+    },
+    {
+        "id": "organ-blocks/slide-01/1588",
+        "term": "UBERON:0001129",
+        "label": "subscapularis muscle"
+    },
+    {
+        "id": "organ-blocks/slide-01/7226",
+        "term": "UBERON:0002398",
+        "label": "manus"
+    },
+    {
+        "id": "organ-blocks/slide-01/7227",
+        "term": "ILX:0742783",
+        "label": "opponens pollicis (TA98)"
+    },
+    {
+        "id": "organ-blocks/slide-01/7228",
+        "term": "UBERON:0011012",
+        "label": "flexor pollicis brevis muscle"
+    },
+    {
+        "id": "organ-blocks/slide-01/7229",
+        "term": "UBERON:0008465",
+        "label": "abductor pollicis brevis muscle"
+    },
+    {
+        "id": "organ-blocks/slide-01/7230",
+        "term": "UBERON:0002962",
+        "label": "adductor pollicis muscle"
+    },
+    {
+        "id": "organ-blocks/slide-01/7231",
+        "term": "UBERON:0036172",
+        "label": "palmaris brevis"
+    },
+    {
+        "id": "organ-blocks/slide-01/7232",
+        "term": "UBERON:0036173",
+        "label": "abductor digiti minimi of hand"
+    },
+    {
+        "id": "organ-blocks/slide-01/7233",
+        "term": "UBERON:0036174",
+        "label": "flexor digiti minimi brevis of hand"
+    },
+    {
+        "id": "organ-blocks/slide-01/7234",
+        "term": "UBERON:0036176",
+        "label": "opponens digiti minimi of hand"
+    },
+    {
+        "id": "organ-blocks/slide-01/7235",
+        "term": "UBERON:0001501",
+        "label": "lumbrical muscle of manus"
+    },
+    {
+        "id": "organ-blocks/slide-01/7236",
+        "term": "UBERON:0001501",
+        "label": "lumbrical muscle of manus"
+    },
+    {
+        "id": "organ-blocks/slide-01/7222",
+        "term": "UBERON:0001501",
+        "label": "lumbrical muscle of manus"
+    },
+    {
+        "id": "organ-blocks/slide-01/7223",
+        "term": "UBERON:0001501",
+        "label": "lumbrical muscle of manus"
+    },
+    {
+        "id": "organ-blocks/slide-01/7224",
+        "term": "UBERON:0001503",
+        "label": "dorsal interosseous of manus"
+    },
+    {
+        "id": "organ-blocks/slide-01/7225",
+        "term": "UBERON:0001503",
+        "label": "dorsal interosseous of manus"
+    },
+    {
+        "id": "organ-blocks/slide-01/7237",
+        "term": "UBERON:0001503",
+        "label": "dorsal interosseous of manus"
+    },
+    {
+        "id": "organ-blocks/slide-01/7238",
+        "term": "UBERON:0001503",
+        "label": "dorsal interosseous of manus"
+    },
+    {
+        "id": "organ-blocks/slide-01/7240",
+        "term": "UBERON:0006505",
+        "label": "palmar interosseous muscle of manus"
+    },
+    {
+        "id": "organ-blocks/slide-01/7241",
+        "term": "UBERON:0006505",
+        "label": "palmar interosseous muscle of manus"
+    },
+    {
+        "id": "organ-blocks/slide-01/7242",
+        "term": "UBERON:0006505",
+        "label": "palmar interosseous muscle of manus"
+    },
+    {
+        "id": "organ-blocks/slide-01/7243",
+        "term": "UBERON:0006505",
+        "label": "palmar interosseous muscle of manus"
+    },
+    {
+        "id": "organ-blocks/slide-01/1196",
+        "term": "UBERON:0001737",
+        "label": "larynx"
+    },
+    {
+        "id": "organ-blocks/slide-01/1197",
+        "term": "UBERON:0001566",
+        "label": "cricothyroid muscle"
+    },
+    {
+        "id": "organ-blocks/slide-01/1201",
+        "term": "UBERON:0008575",
+        "label": "oblique arytenoid"
+    },
+    {
+        "id": "organ-blocks/slide-01/1202",
+        "term": "UBERON:0008576",
+        "label": "thyro-arytenoid"
+    },
+    {
+        "id": "organ-blocks/slide-01/1203",
+        "term": "UBERON:0008572",
+        "label": "posterior crico-arytenoid"
+    },
+    {
+        "id": "organ-blocks/slide-01/1204",
+        "term": "UBERON:0008573",
+        "label": "lateral crico-arytenoid"
+    },
+    {
+        "id": "organ-blocks/slide-01/6766",
+        "term": "UBERON:0008574",
+        "label": "transverse arytenoid"
+    },
+    {
+        "id": "organ-blocks/slide-01/6075",
+        "term": "UBERON:0013170",
+        "label": "cricoarytenoid ligament"
+    },
+    {
+        "id": "organ-blocks/slide-01/6660",
+        "term": "UBERON:0000974",
+        "label": "neck"
+    },
+    {
+        "id": "organ-blocks/slide-01/6665",
+        "term": "UBERON:0005467",
+        "label": "platysma"
+    },
+    {
+        "id": "organ-blocks/slide-01/6666",
+        "term": "UBERON:0001128",
+        "label": "sternocleidomastoid"
+    },
+    {
+        "id": "organ-blocks/slide-01/6671",
+        "term": "UBERON:0010944",
+        "label": "posterior digastric muscle"
+    },
+    {
+        "id": "organ-blocks/slide-01/6672",
+        "term": "UBERON:0008712",
+        "label": "stylohyoid muscle"
+    },
+    {
+        "id": "organ-blocks/slide-01/6677",
+        "term": "UBERON:0001564",
+        "label": "mylohyoid muscle"
+    },
+    {
+        "id": "organ-blocks/slide-01/6678",
+        "term": "UBERON:0001565",
+        "label": "geniohyoid muscle"
+    },
+    {
+        "id": "organ-blocks/slide-01/6683",
+        "term": "UBERON:0001107",
+        "label": "sternohyoid muscle"
+    },
+    {
+        "id": "organ-blocks/slide-01/6684",
+        "term": "UBERON:0001109",
+        "label": "sternothyroid muscle"
+    },
+    {
+        "id": "organ-blocks/slide-01/6685",
+        "term": "UBERON:0001110",
+        "label": "thyrohyoid muscle"
+    },
+    {
+        "id": "organ-blocks/slide-01/6686",
+        "term": "UBERON:0001108",
+        "label": "omohyoid muscle"
+    },
+    {
+        "id": "organ-blocks/slide-01/1222",
+        "term": "UBERON:0001121",
+        "label": "longus colli muscle"
+    },
+    {
+        "id": "organ-blocks/slide-01/1224",
+        "term": "UBERON:0001563",
+        "label": "longus capitis muscle"
+    },
+    {
+        "id": "organ-blocks/slide-01/1237",
+        "term": "UBERON:0008453",
+        "label": "rectus capitis anterior"
+    },
+    {
+        "id": "organ-blocks/slide-01/1238",
+        "term": "UBERON:0003250",
+        "label": "rectus capitis lateralis muscle"
+    },
+    {
+        "id": "organ-blocks/slide-01/1242",
+        "term": "UBERON:0008622",
+        "label": "scalenus anterior"
+    },
+    {
+        "id": "organ-blocks/slide-01/1243",
+        "term": "UBERON:0001122",
+        "label": "scalenus medius"
+    },
+    {
+        "id": "organ-blocks/slide-01/1245",
+        "term": "UBERON:0001123",
+        "label": "scalenus posterior"
+    },
+    {
+        "id": "organ-blocks/slide-01/6727",
+        "term": "UBERON:0005461",
+        "label": "levator scapulae muscle"
+    },
+    {
+        "id": "organ-blocks/slide-01/6784",
+        "term": "ILX:0746665",
+        "label": "obliquus capitis superior (TA98)"
+    },
+    {
+        "id": "organ-blocks/slide-01/6793",
+        "term": "ILX:0746350",
+        "label": "obliquus capitis inferior (TA98)"
+    },
+    {
+        "id": "organ-blocks/slide-01/6798",
+        "term": "UBERON:0008455",
+        "label": "rectus capitis posterior minor"
+    },
+    {
+        "id": "organ-blocks/slide-01/6800",
+        "term": "UBERON:0008454",
+        "label": "rectus capitis posterior major"
+    },
+    {
+        "id": "organ-blocks/slide-01/6816",
+        "term": "UBERON:0001409",
+        "label": "semispinalis capitis"
+    },
+    {
+        "id": "organ-blocks/slide-01/6817",
+        "term": "UBERON:0001403",
+        "label": "longissimus capitis"
+    },
+    {
+        "id": "organ-blocks/slide-01/6821",
+        "term": "UBERON:0000711",
+        "label": "splenius capitis"
+    },
+    {
+        "id": "organ-blocks/slide-01/6822",
+        "term": "ILX:0746665",
+        "label": "obliquus capitis superior (TA98)"
+    },
+    {
+        "id": "organ-blocks/slide-01/6823",
+        "term": "ILX:0746350",
+        "label": "obliquus capitis inferior (TA98)"
+    },
+    {
+        "id": "organ-blocks/slide-01/6402",
+        "term": "UBERON:0001121",
+        "label": "longus colli muscle"
+    },
+    {
+        "id": "organ-blocks/slide-01/6404",
+        "term": "UBERON:0001121",
+        "label": "longus colli muscle"
+    },
+    {
+        "id": "organ-blocks/slide-01/7028",
+        "term": "UBERON:0010943",
+        "label": "anterior digastric muscle"
+    },
+    {
+        "id": "organ-blocks/slide-01/2176",
+        "term": "ILX:0746086",
+        "label": "gluteal nodes (TA98)"
+    },
+    {
+        "id": "organ-blocks/slide-01/2177",
+        "term": "UBERON:0001376",
+        "label": "tensor fasciae latae muscle"
+    },
+    {
+        "id": "organ-blocks/slide-01/2186",
+        "term": "UBERON:0001370",
+        "label": "gluteus maximus"
+    },
+    {
+        "id": "organ-blocks/slide-01/2188",
+        "term": "UBERON:0001371",
+        "label": "gluteus medius"
+    },
+    {
+        "id": "organ-blocks/slide-01/2189",
+        "term": "UBERON:0008521",
+        "label": "gluteus minimus"
+    },
+    {
+        "id": "organ-blocks/slide-01/2198",
+        "term": "UBERON:0008529",
+        "label": "piriformis muscle"
+    },
+    {
+        "id": "organ-blocks/slide-01/2200",
+        "term": "UBERON:0001368",
+        "label": "obturator externus"
+    },
+    {
+        "id": "organ-blocks/slide-01/2201",
+        "term": "UBERON:0011048",
+        "label": "obturator internus"
+    },
+    {
+        "id": "organ-blocks/slide-01/2211",
+        "term": "UBERON:0019202",
+        "label": "inferior gemellus muscle"
+    },
+    {
+        "id": "organ-blocks/slide-01/7552",
+        "term": "UBERON:0019203",
+        "label": "superior gemellus muscle"
+    },
+    {
+        "id": "organ-blocks/slide-01/2521",
+        "term": "UBERON:0002387",
+        "label": "pes"
+    },
+    {
+        "id": "organ-blocks/slide-01/2522",
+        "term": "UBERON:0000372",
+        "label": "extensor digitorum brevis pes"
+    },
+    {
+        "id": "organ-blocks/slide-01/2523",
+        "term": "ILX:0746147",
+        "label": "extensor hallucis brevis (TA98)"
+    },
+    {
+        "id": "organ-blocks/slide-01/2524",
+        "term": "ILX:0742480",
+        "label": "dorsal interossei (TA98)"
+    },
+    {
+        "id": "organ-blocks/slide-01/2525",
+        "term": "UBERON:0008464",
+        "label": "abductor hallucis muscle"
+    },
+    {
+        "id": "organ-blocks/slide-01/2526",
+        "term": "UBERON:0014380",
+        "label": "flexor digitorum brevis muscle"
+    },
+    {
+        "id": "organ-blocks/slide-01/2527",
+        "term": "ILX:0744258",
+        "label": "abductor digiti minimi (TA98)"
+    },
+    {
+        "id": "organ-blocks/slide-01/2532",
+        "term": "ILX:0744634",
+        "label": "quadratus plantae (TA98)"
+    },
+    {
+        "id": "organ-blocks/slide-01/2534",
+        "term": "UBERON:0001504",
+        "label": "lumbrical muscle of pes"
+    },
+    {
+        "id": "organ-blocks/slide-01/2535",
+        "term": "UBERON:0011022",
+        "label": "flexor hallucis brevis muscle"
+    },
+    {
+        "id": "organ-blocks/slide-01/2574",
+        "term": "UBERON:0014379",
+        "label": "adductor hallucis muscle"
+    },
+    {
+        "id": "organ-blocks/slide-01/2577",
+        "term": "UBERON:0036174",
+        "label": "flexor digiti minimi brevis of hand"
+    },
+    {
+        "id": "organ-blocks/slide-01/2578",
+        "term": "UBERON:0006502",
+        "label": "plantar interosseous muscle of pes"
+    },
+    {
+        "id": "organ-blocks/slide-01/2586",
+        "term": "UBERON:0006502",
+        "label": "plantar interosseous muscle of pes"
+    },
+    {
+        "id": "organ-blocks/slide-01/7795",
+        "term": "UBERON:0006502",
+        "label": "plantar interosseous muscle of pes"
+    },
+    {
+        "id": "organ-blocks/slide-01/7828",
+        "term": "ILX:0742480",
+        "label": "dorsal interossei (TA98)"
+    },
+    {
+        "id": "organ-blocks/slide-01/7829",
+        "term": "ILX:0742480",
+        "label": "dorsal interossei (TA98)"
+    },
+    {
+        "id": "organ-blocks/slide-01/7830",
+        "term": "ILX:0742480",
+        "label": "dorsal interossei (TA98)"
+    },
+    {
+        "id": "organ-blocks/slide-01/7843",
+        "term": "UBERON:0001504",
+        "label": "lumbrical muscle of pes"
+    },
+    {
+        "id": "organ-blocks/slide-01/7844",
+        "term": "UBERON:0001504",
+        "label": "lumbrical muscle of pes"
+    },
+    {
+        "id": "organ-blocks/slide-01/7845",
+        "term": "UBERON:0001504",
+        "label": "lumbrical muscle of pes"
+    },
+    {
+        "id": "organ-blocks/slide-01/6241",
+        "term": "UBERON:0001629",
+        "label": "carotid body"
+    },
+    {
+        "id": "organ-blocks/slide-01/6246",
+        "term": "UBERON:0003708",
+        "label": "carotid sinus"
+    },
+    {
+        "id": "organ-blocks/slide-01/6247",
+        "term": "UBERON:0004019",
+        "label": "baroreceptor"
+    },
+    {
+        "id": "organ-blocks/slide-01/2273",
+        "term": "UBERON:0000376",
+        "label": "hindlimb stylopod"
+    },
+    {
+        "id": "organ-blocks/slide-01/2274",
+        "term": "ILX:0742143",
+        "label": "articularis genus (TA98)"
+    },
+    {
+        "id": "organ-blocks/slide-01/2284",
+        "term": "UBERON:0001373",
+        "label": "sartorius muscle"
+    },
+    {
+        "id": "organ-blocks/slide-01/2286",
+        "term": "UBERON:0001378",
+        "label": "rectus femoris"
+    },
+    {
+        "id": "organ-blocks/slide-01/2287",
+        "term": "UBERON:0001379",
+        "label": "vastus lateralis"
+    },
+    {
+        "id": "organ-blocks/slide-01/2296",
+        "term": "UBERON:0014847",
+        "label": "vastus intermedius"
+    },
+    {
+        "id": "organ-blocks/slide-01/2298",
+        "term": "UBERON:0001380",
+        "label": "vastus medialis"
+    },
+    {
+        "id": "organ-blocks/slide-01/2299",
+        "term": "UBERON:0007168",
+        "label": "long head of biceps brachii"
+    },
+    {
+        "id": "organ-blocks/slide-01/2308",
+        "term": "UBERON:0001375",
+        "label": "semitendinosus"
+    },
+    {
+        "id": "organ-blocks/slide-01/2310",
+        "term": "UBERON:0001381",
+        "label": "semimembranosus muscle"
+    },
+    {
+        "id": "organ-blocks/slide-01/2311",
+        "term": "UBERON:0000950",
+        "label": "gracilis"
+    },
+    {
+        "id": "organ-blocks/slide-01/2322",
+        "term": "UBERON:0001382",
+        "label": "pectineus muscle"
+    },
+    {
+        "id": "organ-blocks/slide-01/2323",
+        "term": "UBERON:0000368",
+        "label": "adductor brevis"
+    },
+    {
+        "id": "organ-blocks/slide-01/2332",
+        "term": "UBERON:0000303",
+        "label": "adductor longus"
+    },
+    {
+        "id": "organ-blocks/slide-01/2334",
+        "term": "UBERON:0000370",
+        "label": "adductor magnus"
+    },
+    {
+        "id": "organ-blocks/slide-01/6310",
+        "term": "UBERON:0007169",
+        "label": "short head of biceps brachii"
+    },
+    {
+        "id": "organ-blocks/slide-01/6495",
+        "term": "UBERON:0003128",
+        "label": "cranium"
+    },
+    {
+        "id": "organ-blocks/slide-01/6496",
+        "term": "ILX:0744953",
+        "label": "frontal bone (TA98)"
+    },
+    {
+        "id": "organ-blocks/slide-01/6497",
+        "term": "UBERON:0001676",
+        "label": "occipital bone"
+    },
+    {
+        "id": "organ-blocks/slide-01/6500",
+        "term": "ILX:0745051",
+        "label": "parietal bone (TA98)"
+    },
+    {
+        "id": "organ-blocks/slide-01/6728",
+        "term": "UBERON:0001677",
+        "label": "sphenoid bone"
+    },
+    {
+        "id": "organ-blocks/slide-01/6755",
+        "term": "UBERON:0001678",
+        "label": "temporal bone"
+    },
+    {
+        "id": "organ-blocks/slide-01/7131",
+        "term": "UBERON:0001697",
+        "label": "orbit of skull"
+    },
+    {
+        "id": "organ-blocks/slide-01/7132",
+        "term": "UBERON:0001680",
+        "label": "lacrimal bone"
+    },
+    {
+        "id": "organ-blocks/slide-01/2644",
+        "term": "UBERON:0001683",
+        "label": "jugal bone"
+    },
+    {
+        "id": "organ-blocks/slide-01/2645",
+        "term": "UBERON:0001683",
+        "label": "jugal bone"
+    },
+    {
+        "id": "organ-blocks/slide-01/7265",
+        "term": "UBERON:0001707",
+        "label": "nasal cavity"
+    },
+    {
+        "id": "organ-blocks/slide-01/7266",
+        "term": "UBERON:0001679",
+        "label": "ethmoid bone"
+    },
+    {
+        "id": "organ-blocks/slide-01/7267",
+        "term": "UBERON:0001681",
+        "label": "nasal bone"
+    },
+    {
+        "id": "organ-blocks/slide-01/7268",
+        "term": "UBERON:0003973",
+        "label": "nasal concha of ethmoid bone"
+    },
+    {
+        "id": "organ-blocks/slide-01/7269",
+        "term": "UBERON:0001682",
+        "label": "palatine bone"
+    },
+    {
+        "id": "organ-blocks/slide-01/7270",
+        "term": "UBERON:0011244",
+        "label": "perpendicular plate of ethmoid"
+    },
+    {
+        "id": "organ-blocks/slide-01/7271",
+        "term": "UBERON:0002396",
+        "label": "vomer"
+    },
+    {
+        "id": "organ-blocks/slide-01/6762",
+        "term": "UBERON:0001708",
+        "label": "jaw skeleton"
+    },
+    {
+        "id": "organ-blocks/slide-01/2259",
+        "term": "UBERON:0001684",
+        "label": "mandible"
+    },
+    {
+        "id": "organ-blocks/slide-01/2261",
+        "term": "UBERON:0002397",
+        "label": "maxilla"
+    },
+    {
+        "id": "organ-blocks/slide-01/2587",
+        "term": "UBERON:0000974",
+        "label": "neck"
+    },
+    {
+        "id": "organ-blocks/slide-01/2611",
+        "term": "UBERON:0001685",
+        "label": "hyoid bone"
+    },
+    {
+        "id": "organ-blocks/slide-01/2749",
+        "term": "UBERON:0016550",
+        "label": "spinal cord column"
+    },
+    {
+        "id": "organ-blocks/slide-01/2750",
+        "term": "UBERON:0006469",
+        "label": "C1 segment of cervical spinal cord"
+    },
+    {
+        "id": "organ-blocks/slide-01/2751",
+        "term": "UBERON:0006489",
+        "label": "C2 segment of cervical spinal cord"
+    },
+    {
+        "id": "organ-blocks/slide-01/2880",
+        "term": "UBERON:0006488",
+        "label": "C3 segment of cervical spinal cord"
+    },
+    {
+        "id": "organ-blocks/slide-01/2882",
+        "term": "UBERON:0006490",
+        "label": "C4 segment of cervical spinal cord"
+    },
+    {
+        "id": "organ-blocks/slide-01/2883",
+        "term": "UBERON:0006491",
+        "label": "C5 segment of cervical spinal cord"
+    },
+    {
+        "id": "organ-blocks/slide-01/7282",
+        "term": "UBERON:0006492",
+        "label": "C6 segment of cervical spinal cord"
+    },
+    {
+        "id": "organ-blocks/slide-01/2900",
+        "term": "UBERON:0006493",
+        "label": "C7 segment of cervical spinal cord"
+    },
+    {
+        "id": "organ-blocks/slide-01/2901",
+        "term": "UBERON:0004617",
+        "label": "lumbar vertebra 1"
+    },
+    {
+        "id": "organ-blocks/slide-01/2916",
+        "term": "UBERON:0004618",
+        "label": "lumbar vertebra 2"
+    },
+    {
+        "id": "organ-blocks/slide-01/2919",
+        "term": "UBERON:0004619",
+        "label": "lumbar vertebra 3"
+    },
+    {
+        "id": "organ-blocks/slide-01/2925",
+        "term": "UBERON:0004620",
+        "label": "lumbar vertebra 4"
+    },
+    {
+        "id": "organ-blocks/slide-01/2955",
+        "term": "UBERON:0004621",
+        "label": "lumbar vertebra 5"
+    },
+    {
+        "id": "organ-blocks/slide-01/7569",
+        "term": "UBERON:0004626",
+        "label": "thoracic vertebra 1"
+    },
+    {
+        "id": "organ-blocks/slide-01/7574",
+        "term": "UBERON:0004627",
+        "label": "thoracic vertebra 2"
+    },
+    {
+        "id": "organ-blocks/slide-01/7590",
+        "term": "UBERON:0004628",
+        "label": "thoracic vertebra 3"
+    },
+    {
+        "id": "organ-blocks/slide-01/7594",
+        "term": "UBERON:0004629",
+        "label": "thoracic vertebra 4"
+    },
+    {
+        "id": "organ-blocks/slide-01/7598",
+        "term": "UBERON:0004630",
+        "label": "thoracic vertebra 5"
+    },
+    {
+        "id": "organ-blocks/slide-01/7602",
+        "term": "UBERON:0004631",
+        "label": "thoracic vertebra 6"
+    },
+    {
+        "id": "organ-blocks/slide-01/7606",
+        "term": "UBERON:0004632",
+        "label": "thoracic vertebra 7"
+    },
+    {
+        "id": "organ-blocks/slide-01/7610",
+        "term": "UBERON:0011050",
+        "label": "thoracic vertebra 8"
+    },
+    {
+        "id": "organ-blocks/slide-01/7614",
+        "term": "UBERON:0004633",
+        "label": "thoracic vertebra 9"
+    },
+    {
+        "id": "organ-blocks/slide-01/3077",
+        "term": "UBERON:0004634",
+        "label": "thoracic vertebra 10"
+    },
+    {
+        "id": "organ-blocks/slide-01/3099",
+        "term": "UBERON:0004635",
+        "label": "thoracic vertebra 11"
+    },
+    {
+        "id": "organ-blocks/slide-01/3103",
+        "term": "UBERON:0004636",
+        "label": "thoracic vertebra 12"
+    },
+    {
+        "id": "organ-blocks/slide-01/7751",
+        "term": "UBERON:0001467",
+        "label": "shoulder"
+    },
+    {
+        "id": "organ-blocks/slide-01/7752",
+        "term": "UBERON:0006849",
+        "label": "scapula"
+    },
+    {
+        "id": "organ-blocks/slide-01/7922",
+        "term": "UBERON:0002398",
+        "label": "manus"
+    },
+    {
+        "id": "organ-blocks/slide-01/7923",
+        "term": "UBERON:0004452",
+        "label": "carpal region"
+    },
+    {
+        "id": "organ-blocks/slide-01/7924",
+        "term": "UBERON:0001432",
+        "label": "distal carpal bone 3"
+    },
+    {
+        "id": "organ-blocks/slide-01/7925",
+        "term": "UBERON:0001433",
+        "label": "distal carpal bone 4"
+    },
+    {
+        "id": "organ-blocks/slide-01/7926",
+        "term": "UBERON:0001428",
+        "label": "intermedium"
+    },
+    {
+        "id": "organ-blocks/slide-01/7927",
+        "term": "UBERON:0001429",
+        "label": "pisiform"
+    },
+    {
+        "id": "organ-blocks/slide-01/7900",
+        "term": "ILX:0746227",
+        "label": "scaphoid (TA98)"
+    },
+    {
+        "id": "organ-blocks/slide-01/7879",
+        "term": "UBERON:0001430",
+        "label": "distal carpal bone 1"
+    },
+    {
+        "id": "organ-blocks/slide-01/7880",
+        "term": "UBERON:0002445",
+        "label": "ulnare"
+    },
+    {
+        "id": "organ-blocks/slide-01/7881",
+        "term": "UBERON:0008878",
+        "label": "palmar part of manus"
+    },
+    {
+        "id": "organ-blocks/slide-01/7882",
+        "term": "UBERON:0001431",
+        "label": "distal carpal bone 2"
+    },
+    {
+        "id": "organ-blocks/slide-01/7883",
+        "term": "UBERON:0002389",
+        "label": "manual digit"
+    },
+    {
+        "id": "organ-blocks/slide-01/7884",
+        "term": "UBERON:0003645",
+        "label": "metacarpal bone of digit 1"
+    },
+    {
+        "id": "organ-blocks/slide-01/7863",
+        "term": "UBERON:0003646",
+        "label": "metacarpal bone of digit 2"
+    },
+    {
+        "id": "organ-blocks/slide-01/7791",
+        "term": "UBERON:0003647",
+        "label": "metacarpal bone of digit 3"
+    },
+    {
+        "id": "organ-blocks/slide-01/7792",
+        "term": "UBERON:0003648",
+        "label": "metacarpal bone of digit 4"
+    },
+    {
+        "id": "organ-blocks/slide-01/7793",
+        "term": "UBERON:0003649",
+        "label": "metacarpal bone of digit 5"
+    },
+    {
+        "id": "organ-blocks/slide-01/7902",
+        "term": "UBERON:0002234",
+        "label": "proximal phalanx of manus"
+    },
+    {
+        "id": "organ-blocks/slide-01/7919",
+        "term": "UBERON:0003221",
+        "label": "phalanx"
+    },
+    {
+        "id": "organ-blocks/slide-01/7920",
+        "term": "UBERON:0004300",
+        "label": "distal phalanx"
+    },
+    {
+        "id": "organ-blocks/slide-01/8029",
+        "term": "UBERON:0001460",
+        "label": "arm"
+    },
+    {
+        "id": "organ-blocks/slide-01/8030",
+        "term": "UBERON:0000976",
+        "label": "humerus"
+    },
+    {
+        "id": "organ-blocks/slide-01/8009",
+        "term": "UBERON:0001423",
+        "label": "radius bone"
+    },
+    {
+        "id": "organ-blocks/slide-01/8031",
+        "term": "UBERON:0001424",
+        "label": "ulna"
+    },
+    {
+        "id": "organ-blocks/slide-01/7989",
+        "term": "UBERON:0002387",
+        "label": "pes"
+    },
+    {
+        "id": "organ-blocks/slide-01/7991",
+        "term": "UBERON:0001455",
+        "label": "cuboid bone"
+    },
+    {
+        "id": "organ-blocks/slide-01/7992",
+        "term": "UBERON:0010721",
+        "label": "distal tarsal bone"
+    },
+    {
+        "id": "organ-blocks/slide-01/7993",
+        "term": "UBERON:0001454",
+        "label": "distal tarsal bone 3"
+    },
+    {
+        "id": "organ-blocks/slide-01/7994",
+        "term": "UBERON:0001452",
+        "label": "distal tarsal bone 1"
+    },
+    {
+        "id": "organ-blocks/slide-01/7971",
+        "term": "UBERON:0001451",
+        "label": "navicular bone of pes"
+    },
+    {
+        "id": "organ-blocks/slide-01/7952",
+        "term": "UBERON:0004454",
+        "label": "tarsal region"
+    },
+    {
+        "id": "organ-blocks/slide-01/7953",
+        "term": "UBERON:0002395",
+        "label": "talus"
+    },
+    {
+        "id": "organ-blocks/slide-01/7954",
+        "term": "ILX:0744381",
+        "label": "toes (TA98)"
+    },
+    {
+        "id": "organ-blocks/slide-01/7955",
+        "term": "UBERON:0003650",
+        "label": "metatarsal bone of digit 1"
+    },
+    {
+        "id": "organ-blocks/slide-01/7934",
+        "term": "UBERON:0003651",
+        "label": "metatarsal bone of digit 2"
+    },
+    {
+        "id": "organ-blocks/slide-01/7930",
+        "term": "UBERON:0003652",
+        "label": "metatarsal bone of digit 3"
+    },
+    {
+        "id": "organ-blocks/slide-01/7931",
+        "term": "UBERON:0003653",
+        "label": "metatarsal bone of digit 4"
+    },
+    {
+        "id": "organ-blocks/slide-01/7932",
+        "term": "UBERON:0003654",
+        "label": "metatarsal bone of digit 5"
+    },
+    {
+        "id": "organ-blocks/slide-01/7995",
+        "term": "UBERON:0001450",
+        "label": "calcaneus"
+    },
+    {
+        "id": "organ-blocks/slide-01/8073",
+        "term": "UBERON:0003868",
+        "label": "proximal phalanx of pes"
+    },
+    {
+        "id": "organ-blocks/slide-01/8074",
+        "term": "UBERON:0004301",
+        "label": "middle phalanx"
+    },
+    {
+        "id": "organ-blocks/slide-01/8075",
+        "term": "UBERON:0004300",
+        "label": "distal phalanx"
+    },
+    {
+        "id": "organ-blocks/slide-01/8026",
+        "term": "UBERON:0000978",
+        "label": "leg"
+    },
+    {
+        "id": "organ-blocks/slide-01/8027",
+        "term": "UBERON:0000981",
+        "label": "femur"
+    },
+    {
+        "id": "organ-blocks/slide-01/8020",
+        "term": "UBERON:0001446",
+        "label": "fibula"
+    },
+    {
+        "id": "organ-blocks/slide-01/8065",
+        "term": "UBERON:0002446",
+        "label": "patella"
+    },
+    {
+        "id": "organ-blocks/slide-01/8069",
+        "term": "UBERON:0000979",
+        "label": "tibia"
+    },
+    {
+        "id": "organ-blocks/slide-01/7773",
+        "term": "UBERON:0001271",
+        "label": "pelvic girdle region"
+    },
+    {
+        "id": "organ-blocks/slide-01/7774",
+        "term": "UBERON:0001350",
+        "label": "coccyx"
+    },
+    {
+        "id": "organ-blocks/slide-01/7767",
+        "term": "UBERON:0001272",
+        "label": "innominate bone"
+    },
+    {
+        "id": "organ-blocks/slide-01/8097",
+        "term": "UBERON:0003690",
+        "label": "fused sacrum"
+    },
+    {
+        "id": "organ-blocks/slide-01/8125",
+        "term": "UBERON:0001690",
+        "label": "ear"
+    },
+    {
+        "id": "organ-blocks/slide-01/8126",
+        "term": "UBERON:0001688",
+        "label": "incus bone"
+    },
+    {
+        "id": "organ-blocks/slide-01/8119",
+        "term": "UBERON:0001689",
+        "label": "malleus bone"
+    },
+    {
+        "id": "organ-blocks/slide-01/8113",
+        "term": "UBERON:0001687",
+        "label": "stapes bone"
+    },
+    {
+        "id": "organ-blocks/slide-01/8155",
+        "term": "UBERON:0000165",
+        "label": "mouth"
+    },
+    {
+        "id": "organ-blocks/slide-01/8156",
+        "term": "UBERON:0018622",
+        "label": "lower canine tooth"
+    },
+    {
+        "id": "organ-blocks/slide-01/8157",
+        "term": "UBERON:0003451",
+        "label": "lower jaw incisor"
+    },
+    {
+        "id": "organ-blocks/slide-01/8158",
+        "term": "UBERON:0003667",
+        "label": "lower jaw molar"
+    },
+    {
+        "id": "organ-blocks/slide-01/8159",
+        "term": "UBERON:0018284",
+        "label": "lower premolar 1"
+    },
+    {
+        "id": "organ-blocks/slide-01/8160",
+        "term": "UBERON:0018621",
+        "label": "upper canine tooth"
+    },
+    {
+        "id": "organ-blocks/slide-01/8133",
+        "term": "UBERON:0003450",
+        "label": "upper jaw incisor"
+    },
+    {
+        "id": "organ-blocks/slide-01/8161",
+        "term": "UBERON:0003666",
+        "label": "upper jaw molar"
+    },
+    {
+        "id": "organ-blocks/slide-01/8162",
+        "term": "UBERON:0018648",
+        "label": "upper premolar 4"
+    },
+    {
+        "id": "organ-blocks/slide-01/7759",
+        "term": "ILX:0742178",
+        "label": "thorax (TA98)"
+    },
+    {
+        "id": "organ-blocks/slide-01/7760",
+        "term": "UBERON:0002207",
+        "label": "xiphoid process"
+    },
+    {
+        "id": "organ-blocks/slide-01/2344",
+        "term": "UBERON:0000975",
+        "label": "sternum"
+    },
+    {
+        "id": "organ-blocks/slide-01/7021",
+        "term": "UBERON:0004601",
+        "label": "rib 1"
+    },
+    {
+        "id": "organ-blocks/slide-01/7022",
+        "term": "UBERON:0004602",
+        "label": "rib 2"
+    },
+    {
+        "id": "organ-blocks/slide-01/7023",
+        "term": "UBERON:0004603",
+        "label": "rib 3"
+    },
+    {
+        "id": "organ-blocks/slide-01/7024",
+        "term": "UBERON:0004604",
+        "label": "rib 4"
+    },
+    {
+        "id": "organ-blocks/slide-01/7025",
+        "term": "UBERON:0004605",
+        "label": "rib 5"
+    },
+    {
+        "id": "organ-blocks/slide-01/7098",
+        "term": "UBERON:0004606",
+        "label": "rib 6"
+    },
+    {
+        "id": "organ-blocks/slide-01/7099",
+        "term": "UBERON:0004607",
+        "label": "rib 7"
+    },
+    {
+        "id": "organ-blocks/slide-01/7100",
+        "term": "UBERON:0010757",
+        "label": "rib 8"
+    },
+    {
+        "id": "organ-blocks/slide-01/2890",
+        "term": "UBERON:0004608",
+        "label": "rib 9"
+    },
+    {
+        "id": "organ-blocks/slide-01/2892",
+        "term": "UBERON:0004609",
+        "label": "rib 10"
+    },
+    {
+        "id": "organ-blocks/slide-01/2893",
+        "term": "UBERON:0004610",
+        "label": "rib 11"
+    },
+    {
+        "id": "organ-blocks/slide-01/2894",
+        "term": "UBERON:0004611",
+        "label": "rib 12"
+    },
+    {
+        "id": "organ-blocks/slide-01/2896",
+        "term": "UBERON:0003252",
+        "label": "thoracic rib cage"
+    },
+    {
+        "id": "organ-blocks/slide-01/8177",
+        "term": "UBERON:2001553",
+        "label": "manubrium"
+    },
+    {
+        "id": "organ-blocks/slide-01/8178",
+        "term": "UBERON:0001105",
+        "label": "clavicle bone"
+    },
+    {
+        "id": "organ-blocks/slide-01/587",
+        "term": "UBERON:0019197",
+        "label": "dorsal nerve of penis"
+    },
+    {
+        "id": "organ-blocks/slide-01/585",
+        "term": "UBERON:0019197",
+        "label": "dorsal nerve of penis"
+    },
+    {
+        "id": "organ-blocks/slide-01/8431",
+        "term": "UBERON:0004016",
+        "label": "dermatome"
+    },
+    {
+        "id": "organ-blocks/slide-01/8422",
+        "term": "UBERON:0004016",
+        "label": "dermatome"
+    },
+    {
+        "id": "organ-blocks/slide-01/8413",
+        "term": "UBERON:0004016",
+        "label": "dermatome"
+    },
+    {
+        "id": "organ-blocks/slide-01/8404",
+        "term": "UBERON:0004016",
+        "label": "dermatome"
+    },
+    {
+        "id": "organ-blocks/slide-01/8395",
+        "term": "UBERON:0004016",
+        "label": "dermatome"
+    },
+    {
+        "id": "organ-blocks/slide-01/8386",
+        "term": "UBERON:0004016",
+        "label": "dermatome"
+    },
+    {
+        "id": "organ-blocks/slide-01/8377",
+        "term": "UBERON:0004016",
+        "label": "dermatome"
+    },
+    {
+        "id": "organ-blocks/slide-01/8368",
+        "term": "UBERON:0004016",
+        "label": "dermatome"
+    },
+    {
+        "id": "organ-blocks/slide-01/8359",
+        "term": "UBERON:0004016",
+        "label": "dermatome"
+    },
+    {
+        "id": "organ-blocks/slide-01/8350",
+        "term": "UBERON:0004016",
+        "label": "dermatome"
+    },
+    {
+        "id": "organ-blocks/slide-01/8341",
+        "term": "UBERON:0004016",
+        "label": "dermatome"
+    },
+    {
+        "id": "organ-blocks/slide-01/8332",
+        "term": "UBERON:0004016",
+        "label": "dermatome"
+    },
+    {
+        "id": "organ-blocks/slide-01/8323",
+        "term": "UBERON:0004016",
+        "label": "dermatome"
+    },
+    {
+        "id": "organ-blocks/slide-01/8314",
+        "term": "UBERON:0004016",
+        "label": "dermatome"
+    },
+    {
+        "id": "organ-blocks/slide-01/8305",
+        "term": "UBERON:0004016",
+        "label": "dermatome"
+    },
+    {
+        "id": "organ-blocks/slide-01/8296",
+        "term": "UBERON:0004016",
+        "label": "dermatome"
+    },
+    {
+        "id": "organ-blocks/slide-01/8287",
+        "term": "UBERON:0004016",
+        "label": "dermatome"
+    },
+    {
+        "id": "organ-blocks/slide-01/8278",
+        "term": "UBERON:0004016",
+        "label": "dermatome"
+    },
+    {
+        "id": "organ-blocks/slide-01/8269",
+        "term": "UBERON:0004016",
+        "label": "dermatome"
+    },
+    {
+        "id": "organ-blocks/slide-01/8260",
+        "term": "UBERON:0004016",
+        "label": "dermatome"
+    },
+    {
+        "id": "organ-blocks/slide-01/8251",
+        "term": "UBERON:0004016",
+        "label": "dermatome"
+    },
+    {
+        "id": "organ-blocks/slide-01/8242",
+        "term": "UBERON:0004016",
+        "label": "dermatome"
+    },
+    {
+        "id": "organ-blocks/slide-01/8233",
+        "term": "UBERON:0004016",
+        "label": "dermatome"
+    },
+    {
+        "id": "organ-blocks/slide-01/8224",
+        "term": "UBERON:0004016",
+        "label": "dermatome"
+    },
+    {
+        "id": "organ-blocks/slide-01/8215",
+        "term": "UBERON:0004016",
+        "label": "dermatome"
+    },
+    {
+        "id": "organ-blocks/slide-01/8206",
+        "term": "UBERON:0004016",
+        "label": "dermatome"
+    },
+    {
+        "id": "organ-blocks/slide-01/8197",
+        "term": "UBERON:0004016",
+        "label": "dermatome"
+    },
+    {
+        "id": "organ-blocks/slide-01/8180",
+        "term": "UBERON:0004016",
+        "label": "dermatome"
+    },
+    {
+        "id": "organ-blocks/slide-01/8100",
+        "term": "UBERON:0004016",
+        "label": "dermatome"
+    },
+    {
+        "id": "organ-blocks/slide-01/128",
+        "term": "UBERON:0004016",
+        "label": "dermatome"
+    },
+    {
+        "id": "organ-blocks/slide-01/8440",
+        "term": "UBERON:0001508",
+        "label": "arch of aorta"
+    },
+    {
+        "id": "organ-blocks/slide-01/8441",
+        "term": "ILX:0738356",
+        "label": "chemoreceptors"
+    },
+    {
+        "id": "organ-blocks/slide-01/8442",
+        "term": "UBERON:0004019",
+        "label": "baroreceptor"
+    },
+    {
+        "id": "organ-blocks/slide-01/8511",
+        "term": "UBERON:0036263",
+        "label": "supraglottic part of larynx"
+    },
+    {
+        "id": "organ-blocks/slide-01/8502",
+        "term": "UBERON:0036068",
+        "label": "subglottis"
+    },
+    {
+        "id": "organ-blocks/slide-01/8461",
+        "term": "ILX:0738326",
+        "label": "Wall of larynx"
+    },
+    {
+        "id": "organ-blocks/slide-01/8468",
+        "term": "UBERON:0001568",
+        "label": "muscle of larynx"
+    },
+    {
+        "id": "organ-blocks/slide-01/8475",
+        "term": "UBERON:0001740",
+        "label": "arytenoid cartilage"
+    },
+    {
+        "id": "organ-blocks/slide-01/8482",
+        "term": "UBERON:0014385",
+        "label": "aryepiglottic fold"
+    },
+    {
+        "id": "organ-blocks/slide-01/8489",
+        "term": "UBERON:0003126",
+        "label": "trachea"
+    },
+    {
+        "id": "organ-blocks/slide-01/8672",
+        "term": "UBERON:0001246",
+        "label": "interlobular bile duct"
+    },
+    {
+        "id": "organ-blocks/slide-01/8663",
+        "term": "UBERON:0005605",
+        "label": "intrahepatic part of hepatic duct"
+    },
+    {
+        "id": "organ-blocks/slide-01/8654",
+        "term": "UBERON:0001246",
+        "label": "interlobular bile duct"
+    },
+    {
+        "id": "organ-blocks/slide-01/8645",
+        "term": "UBERON:0002394",
+        "label": "bile duct"
+    },
+    {
+        "id": "organ-blocks/slide-01/8636",
+        "term": "UBERON:0001282",
+        "label": "intralobular bile duct"
+    },
+    {
+        "id": "organ-blocks/slide-01/8627",
+        "term": "UBERON:0001283",
+        "label": "bile canaliculus"
+    },
+    {
+        "id": "organ-blocks/slide-01/8767",
+        "term": "UBERON:0013644",
+        "label": "duodenal ampulla"
+    },
+    {
+        "id": "organ-blocks/slide-01/8758",
+        "term": "UBERON:0002115",
+        "label": "jejunum"
+    },
+    {
+        "id": "organ-blocks/slide-01/8749",
+        "term": "ILX:0774599",
+        "label": "Proximal part of ileum"
+    },
+    {
+        "id": "organ-blocks/slide-01/8740",
+        "term": "ILX:0743829",
+        "label": "terminal ileum (TA98)"
+    },
+    {
+        "id": "organ-blocks/slide-01/8731",
+        "term": "UBERON:0001153",
+        "label": "caecum"
+    },
+    {
+        "id": "organ-blocks/slide-01/8722",
+        "term": "UBERON:0022276",
+        "label": "splenic flexure of colon"
+    },
+    {
+        "id": "organ-blocks/slide-01/8713",
+        "term": "UBERON:0022276",
+        "label": "splenic flexure of colon"
+    },
+    {
+        "id": "organ-blocks/slide-01/8704",
+        "term": "UBERON:0001052",
+        "label": "rectum"
+    },
+    {
+        "id": "organ-blocks/slide-01/8695",
+        "term": "UBERON:0001245",
+        "label": "anus"
+    },
+    {
+        "id": "organ-blocks/slide-01/8929",
+        "term": "ILX:0744499",
+        "label": "root of tongue (TA98)"
+    },
+    {
+        "id": "organ-blocks/slide-01/8920",
+        "term": "UBERON:0000388",
+        "label": "epiglottis"
+    },
+    {
+        "id": "organ-blocks/slide-01/8911",
+        "term": "UBERON:0001831",
+        "label": "parotid gland"
+    },
+    {
+        "id": "organ-blocks/slide-01/8902",
+        "term": "UBERON:0001736",
+        "label": "submandibular gland"
+    },
+    {
+        "id": "organ-blocks/slide-01/8893",
+        "term": "UBERON:0001832",
+        "label": "sublingual gland"
+    },
+    {
+        "id": "organ-blocks/slide-01/8859",
+        "term": "UBERON:0010033",
+        "label": "posterior part of tongue"
+    },
+    {
+        "id": "organ-blocks/slide-01/8866",
+        "term": "UBERON:0010032",
+        "label": "anterior part of tongue"
+    },
+    {
+        "id": "organ-blocks/slide-01/8870",
+        "term": "UBERON:0010033",
+        "label": "posterior part of tongue"
+    },
+    {
+        "id": "organ-blocks/slide-01/8880",
+        "term": "UBERON:0013165",
+        "label": "epiglottic vallecula"
+    },
+    {
+        "id": "organ-blocks/slide-01/8984",
+        "term": "UBERON:0001160",
+        "label": "fundus of stomach"
+    },
+    {
+        "id": "organ-blocks/slide-01/8975",
+        "term": "UBERON:0001162",
+        "label": "cardia of stomach"
+    },
+    {
+        "id": "organ-blocks/slide-01/8966",
+        "term": "UBERON:0001161",
+        "label": "body of stomach"
+    },
+    {
+        "id": "organ-blocks/slide-01/8957",
+        "term": "UBERON:0001165",
+        "label": "pyloric antrum"
+    },
+    {
+        "id": "organ-blocks/slide-01/8948",
+        "term": "UBERON:0008858",
+        "label": "pyloric canal"
+    },
+    {
+        "id": "organ-blocks/slide-01/8996",
+        "term": "UBERON:0003889",
+        "label": "fallopian tube"
+    },
+    {
+        "id": "organ-blocks/slide-01/8994",
+        "term": "UBERON:0003889",
+        "label": "fallopian tube"
+    },
+    {
+        "id": "organ-blocks/slide-01/9022",
+        "term": "UBERON:0001352",
+        "label": "external acoustic meatus"
+    },
+    {
+        "id": "organ-blocks/slide-01/9016",
+        "term": "UBERON:0001352",
+        "label": "external acoustic meatus"
+    },
+    {
+        "id": "organ-blocks/slide-01/9010",
+        "term": "UBERON:0002364",
+        "label": "tympanic membrane"
+    },
+    {
+        "id": "organ-blocks/slide-01/9045",
+        "term": "UBERON:0001840",
+        "label": "semicircular canal"
+    },
+    {
+        "id": "organ-blocks/slide-01/9039",
+        "term": "UBERON:0001853",
+        "label": "utricle of membranous labyrinth"
+    },
+    {
+        "id": "organ-blocks/slide-01/9033",
+        "term": "UBERON:0001854",
+        "label": "saccule of membranous labyrinth"
+    },
+    {
+        "id": "organ-blocks/slide-01/9068",
+        "term": "UBERON:0010033",
+        "label": "posterior part of tongue"
+    },
+    {
+        "id": "organ-blocks/slide-01/9062",
+        "term": "UBERON:0010033",
+        "label": "posterior part of tongue"
+    },
+    {
+        "id": "organ-blocks/slide-01/9056",
+        "term": "UBERON:0010032",
+        "label": "anterior part of tongue"
+    },
+    {
+        "id": "organ-blocks/slide-01/9084",
+        "term": "UBERON:0002264",
+        "label": "olfactory bulb"
+    },
+    {
+        "id": "organ-blocks/slide-01/9078",
+        "term": "UBERON:0004069",
+        "label": "accessory olfactory bulb"
+    },
+    {
+        "id": "organ-blocks/slide-01/677",
+        "term": "UBERON:0005751",
+        "label": "glomerular visceral epithelium"
+    },
+    {
+        "id": "organ-blocks/slide-01/665",
+        "term": "UBERON:0005750",
+        "label": "glomerular parietal epithelium"
+    },
+    {
+        "id": "organ-blocks/slide-01/651",
+        "term": "UBERON:0001287",
+        "label": "proximal convoluted tubule"
+    },
+    {
+        "id": "organ-blocks/slide-01/642",
+        "term": "UBERON:0001290",
+        "label": "proximal straight tubule"
+    },
+    {
+        "id": "organ-blocks/slide-01/630",
+        "term": "UBERON:0005096",
+        "label": "descending thin limb"
+    },
+    {
+        "id": "organ-blocks/slide-01/614",
+        "term": "ILX:0771761",
+        "label": "Ascending thin limb"
+    },
+    {
+        "id": "organ-blocks/slide-01/565",
+        "term": "UBERON:0005164",
+        "label": "ascending limb of loop of Henle"
+    },
+    {
+        "id": "organ-blocks/slide-01/548",
+        "term": "UBERON:0001291",
+        "label": "thick ascending limb of loop of Henle"
+    },
+    {
+        "id": "organ-blocks/slide-01/532",
+        "term": "UBERON:0001292",
+        "label": "distal convoluted tubule"
+    },
+    {
+        "id": "organ-blocks/slide-01/497",
+        "term": "UBERON:0005097",
+        "label": "renal connecting tubule"
+    },
+    {
+        "id": "organ-blocks/slide-01/9151",
+        "term": "UBERON:0004203",
+        "label": "cortical collecting duct"
+    },
+    {
+        "id": "organ-blocks/slide-01/9142",
+        "term": "UBERON:0004204",
+        "label": "outer medullary collecting duct"
+    },
+    {
+        "id": "organ-blocks/slide-01/9133",
+        "term": "UBERON:0004205",
+        "label": "inner medullary collecting duct"
+    },
+    {
+        "id": "organ-blocks/slide-01/9124",
+        "term": "UBERON:0001227",
+        "label": "minor calyx"
+    },
+    {
+        "id": "organ-blocks/slide-01/9115",
+        "term": "UBERON:0001226",
+        "label": "major calyx"
+    },
+    {
+        "id": "organ-blocks/slide-01/9106",
+        "term": "UBERON:0001224",
+        "label": "renal pelvis"
+    },
+    {
+        "id": "organ-blocks/slide-01/18",
+        "term": "UBERON:0002113",
+        "label": "kidney"
+    },
+    {
+        "id": "organ-blocks/slide-01/741",
+        "term": "UBERON:0001343",
+        "label": "seminiferous tubule of testis"
+    },
+    {
+        "id": "organ-blocks/slide-01/731",
+        "term": "UBERON:0003959",
+        "label": "rete testis"
+    },
+    {
+        "id": "organ-blocks/slide-01/720",
+        "term": "UBERON:0006946",
+        "label": "efferent duct"
+    },
+    {
+        "id": "organ-blocks/slide-01/692",
+        "term": "UBERON:0000473",
+        "label": "testis"
+    },
+    {
+        "id": "organ-blocks/slide-01/1166",
+        "term": "UBERON:0001000",
+        "label": "vas deferens"
+    },
+    {
+        "id": "organ-blocks/slide-01/766",
+        "term": "UBERON:0009645",
+        "label": "ampullary gland"
+    },
+    {
+        "id": "organ-blocks/slide-01/757",
+        "term": "UBERON:0001337",
+        "label": "spongiose part of urethra"
+    },
+    {
+        "id": "organ-blocks/slide-01/753",
+        "term": "UBERON:0000989",
+        "label": "penis"
+    },
+    {
+        "id": "organ-blocks/slide-01/1216",
+        "term": "UBERON:0009853",
+        "label": "body of uterus"
+    },
+    {
+        "id": "organ-blocks/slide-01/1191",
+        "term": "UBERON:0000002",
+        "label": "uterine cervix"
+    },
+    {
+        "id": "organ-blocks/slide-01/1183",
+        "term": "UBERON:0000995",
+        "label": "uterus"
+    },
+    {
+        "id": "organ-blocks/slide-01/1372",
+        "term": "UBERON:0001826",
+        "label": "nasal cavity mucosa"
+    },
+    {
+        "id": "organ-blocks/slide-01/1363",
+        "term": "UBERON:0001826",
+        "label": "nasal cavity mucosa"
+    },
+    {
+        "id": "organ-blocks/slide-01/1354",
+        "term": "UBERON:0001728",
+        "label": "nasopharynx"
+    },
+    {
+        "id": "organ-blocks/slide-01/1343",
+        "term": "UBERON:0001729",
+        "label": "oropharynx"
+    },
+    {
+        "id": "organ-blocks/slide-01/1327",
+        "term": "UBERON:0001051",
+        "label": "hypopharynx"
+    },
+    {
+        "id": "organ-blocks/slide-01/6146",
+        "term": "UBERON:0002182",
+        "label": "main bronchus"
+    },
+    {
+        "id": "organ-blocks/slide-01/1565",
+        "term": "UBERON:0002183",
+        "label": "lobar bronchus"
+    },
+    {
+        "id": "organ-blocks/slide-01/1556",
+        "term": "UBERON:0002184",
+        "label": "segmental bronchus"
+    },
+    {
+        "id": "organ-blocks/slide-01/1547",
+        "term": "UBERON:0012067",
+        "label": "primary bronchiole"
+    },
+    {
+        "id": "organ-blocks/slide-01/1537",
+        "term": "UBERON:0002186",
+        "label": "bronchiole"
+    },
+    {
+        "id": "organ-blocks/slide-01/6116",
+        "term": "UBERON:0002187",
+        "label": "terminal bronchiole"
+    },
+    {
+        "id": "organ-blocks/slide-01/1531",
+        "term": "UBERON:0002188",
+        "label": "respiratory bronchiole"
+    },
+    {
+        "id": "organ-blocks/slide-01/1517",
+        "term": "UBERON:0002173",
+        "label": "pulmonary alveolar duct"
+    },
+    {
+        "id": "organ-blocks/slide-01/6029",
+        "term": "UBERON:0003215",
+        "label": "alveolus"
+    },
+    {
+        "id": "organ-blocks/slide-01/1449",
+        "term": "UBERON:0000170",
+        "label": "pair of lungs"
+    },
+    {
+        "id": "organ-blocks/slide-01/2119",
+        "term": "UBERON:0001064",
+        "label": "ventral pancreatic duct"
+    },
+    {
+        "id": "organ-blocks/slide-01/6589",
+        "term": "ILX:0774717",
+        "label": "Interlobular duct of pancreas"
+    },
+    {
+        "id": "organ-blocks/slide-01/6541",
+        "term": "ILX:0772986",
+        "label": "Intralobular duct of pancreas"
+    },
+    {
+        "id": "organ-blocks/slide-01/6493",
+        "term": "UBERON:0007329",
+        "label": "pancreatic duct"
+    },
+    {
+        "id": "organ-blocks/slide-01/6409",
+        "term": "UBERON:0014726",
+        "label": "intercalated duct of pancreas"
+    },
+    {
+        "id": "organ-blocks/slide-01/6373",
+        "term": "UBERON:0001978",
+        "label": "parenchyma of pancreas"
+    },
+    {
+        "id": "organ-blocks/slide-01/7",
+        "term": "UBERON:0002110",
+        "label": "gall bladder"
+    },
+    {
+        "id": "organ-blocks/slide-01/687",
+        "term": "UBERON:0001926",
+        "label": "lateral geniculate body"
+    },
+    {
+        "id": "organ-blocks/slide-01/688",
+        "term": "UBERON:0001945",
+        "label": "superior colliculus"
+    },
+    {
+        "id": "organ-blocks/slide-01/691",
+        "term": "UBERON:0002022",
+        "label": "insula"
+    },
+    {
+        "id": "organ-blocks/slide-01/41",
+        "term": "UBERON:0009050",
+        "label": "nucleus of solitary tract"
+    },
+    {
+        "id": "organ-blocks/slide-01/43",
+        "term": "UBERON:0001719",
+        "label": "nucleus ambiguus"
+    },
+    {
+        "id": "organ-blocks/slide-01/44",
+        "term": "UBERON:0009050",
+        "label": "nucleus of solitary tract"
+    },
+    {
+        "id": "organ-blocks/slide-01/36",
+        "term": "UBERON:0002870",
+        "label": "dorsal motor nucleus of vagus nerve"
+    },
+    {
+        "id": "organ-blocks/slide-01/693",
+        "term": "UBERON:0002673",
+        "label": "vestibular nuclear complex"
+    },
+    {
+        "id": "organ-blocks/slide-01/694",
+        "term": "UBERON:0002610",
+        "label": "cochlear nuclear complex"
+    },
+    {
+        "id": "organ-blocks/slide-01/60",
+        "term": "UBERON:0001759",
+        "label": "vagus nerve"
+    },
+    {
+        "id": "organ-blocks/slide-01/63",
+        "term": "UBERON:0001649",
+        "label": "glossopharyngeal nerve"
+    },
+    {
+        "id": "organ-blocks/slide-01/64",
+        "term": "UBERON:0005360",
+        "label": "inferior glossopharyngeal IX ganglion"
+    },
+    {
+        "id": "organ-blocks/slide-01/65",
+        "term": "UBERON:0005361",
+        "label": "superior glossopharyngeal IX ganglion"
+    },
+    {
+        "id": "organ-blocks/slide-01/77",
+        "term": "ILX:0738373",
+        "label": "Internal branch of superior laryngeal nerve"
+    },
+    {
+        "id": "organ-blocks/slide-01/78",
+        "term": "ILX:0793560",
+        "label": "External laryngeal nerve"
+    },
+    {
+        "id": "organ-blocks/slide-01/80",
+        "term": "ILX:0786680",
+        "label": "Cardiac branch of vagus nerve"
+    },
+    {
+        "id": "organ-blocks/slide-01/81",
+        "term": "ILX:0789095",
+        "label": "Pulmonary branch of vagus nerve"
+    },
+    {
+        "id": "organ-blocks/slide-01/89",
+        "term": "UBERON:0001675",
+        "label": "trigeminal ganglion"
+    },
+    {
+        "id": "organ-blocks/slide-01/90",
+        "term": "UBERON:0003962",
+        "label": "pterygopalatine ganglion"
+    },
+    {
+        "id": "organ-blocks/slide-01/93",
+        "term": "UBERON:0000377",
+        "label": "maxillary nerve"
+    },
+    {
+        "id": "organ-blocks/slide-01/94",
+        "term": "UBERON:0001645",
+        "label": "trigeminal nerve"
+    },
+    {
+        "id": "organ-blocks/slide-01/95",
+        "term": "UBERON:0011325",
+        "label": "pharyngeal nerve plexus"
+    },
+    {
+        "id": "organ-blocks/slide-01/96",
+        "term": "UBERON:0034725",
+        "label": "pterygopalatine nerve"
+    },
+    {
+        "id": "organ-blocks/slide-01/97",
+        "term": "UBERON:0011326",
+        "label": "superior laryngeal nerve"
+    },
+    {
+        "id": "organ-blocks/slide-01/101",
+        "term": "UBERON:0009009",
+        "label": "carotid sinus nerve"
+    },
+    {
+        "id": "organ-blocks/slide-01/123",
+        "term": "ILX:0738312",
+        "label": "Aortic arch depressor nerve"
+    },
+    {
+        "id": "organ-blocks/slide-01/125",
+        "term": "UBERON:0011766",
+        "label": "left recurrent laryngeal nerve"
+    },
+    {
+        "id": "organ-blocks/slide-01/126",
+        "term": "UBERON:0035020",
+        "label": "left vagus X nerve trunk"
+    },
+    {
+        "id": "organ-blocks/slide-01/127",
+        "term": "UBERON:0035021",
+        "label": "right vagus X nerve trunk"
+    },
+    {
+        "id": "organ-blocks/slide-01/132",
+        "term": "ILX:0793704",
+        "label": "Esophageal nerve plexus"
+    },
+    {
+        "id": "organ-blocks/slide-01/159",
+        "term": "UBERON:0002009",
+        "label": "pulmonary nerve plexus"
+    },
+    {
+        "id": "organ-blocks/slide-01/475",
+        "term": "UBERON:0018680",
+        "label": "greater splanchnic nerve"
+    },
+    {
+        "id": "organ-blocks/slide-01/476",
+        "term": "UBERON:0018681",
+        "label": "lesser splanchnic nerve"
+    },
+    {
+        "id": "organ-blocks/slide-01/478",
+        "term": "UBERON:0001964",
+        "label": "least splanchnic nerve"
+    },
+    {
+        "id": "organ-blocks/slide-01/479",
+        "term": "UBERON:0018675",
+        "label": "pelvic splanchnic nerve"
+    },
+    {
+        "id": "organ-blocks/slide-01/480",
+        "term": "UBERON:0002013",
+        "label": "superior hypogastric nerve plexus"
+    },
+    {
+        "id": "organ-blocks/slide-01/489",
+        "term": "ILX:0793557",
+        "label": "mediastinal ganglion"
+    },
+    {
+        "id": "organ-blocks/slide-01/504",
+        "term": "UBERON:0005479",
+        "label": "superior mesenteric ganglion"
+    },
+    {
+        "id": "organ-blocks/slide-01/505",
+        "term": "UBERON:0002262",
+        "label": "celiac ganglion"
+    },
+    {
+        "id": "organ-blocks/slide-01/506",
+        "term": "UBERON:0005453",
+        "label": "inferior mesenteric ganglion"
+    },
+    {
+        "id": "organ-blocks/slide-01/507",
+        "term": "ILX:0740316",
+        "label": "Celiac branches of anterior vagal trunk (swannt)"
+    },
+    {
+        "id": "organ-blocks/slide-01/508",
+        "term": "ILX:0787035",
+        "label": "Anterior gastric branch of vagus nerve"
+    },
+    {
+        "id": "organ-blocks/slide-01/509",
+        "term": "ILX:0789580",
+        "label": "Coeliac branch of posterior vagal trunk"
+    },
+    {
+        "id": "organ-blocks/slide-01/510",
+        "term": "ILX:0787250",
+        "label": "Posterior gastric branch of vagus nerve"
+    },
+    {
+        "id": "organ-blocks/slide-01/512",
+        "term": "UBERON:0002014",
+        "label": "inferior hypogastric nerve plexus"
+    },
+    {
+        "id": "organ-blocks/slide-01/513",
+        "term": "UBERON:0002014",
+        "label": "inferior hypogastric nerve plexus"
+    },
+    {
+        "id": "organ-blocks/slide-01/514",
+        "term": "ILX:0771304",
+        "label": "Hepatic nerve plexus"
+    },
+    {
+        "id": "organ-blocks/slide-01/516",
+        "term": "ILX:0784595",
+        "label": "Hepatic branch of anterior vagal trunk"
+    },
+    {
+        "id": "organ-blocks/slide-01/563",
+        "term": "UBERON:0003721",
+        "label": "lingual nerve"
+    },
+    {
+        "id": "organ-blocks/slide-01/569",
+        "term": "UBERON:0002059",
+        "label": "submandibular ganglion"
+    },
+    {
+        "id": "organ-blocks/slide-01/570",
+        "term": "UBERON:0000375",
+        "label": "mandibular nerve"
+    },
+    {
+        "id": "organ-blocks/slide-01/571",
+        "term": "ILX:0793723",
+        "label": "Auriculotemporal nerve"
+    },
+    {
+        "id": "organ-blocks/slide-01/572",
+        "term": "UBERON:0003963",
+        "label": "otic ganglion"
+    },
+    {
+        "id": "organ-blocks/slide-01/573",
+        "term": "UBERON:0036216",
+        "label": "tympanic nerve"
+    },
+    {
+        "id": "organ-blocks/slide-01/574",
+        "term": "ILX:0793722",
+        "label": "Lesser petrosal nerve"
+    },
+    {
+        "id": "organ-blocks/slide-01/575",
+        "term": "UBERON:0016508",
+        "label": "pelvic ganglion"
+    },
+    {
+        "id": "organ-blocks/slide-01/576",
+        "term": "UBERON:0018675",
+        "label": "pelvic splanchnic nerve"
+    },
+    {
+        "id": "organ-blocks/slide-01/577",
+        "term": "UBERON:0005303",
+        "label": "hypogastric nerve"
+    },
+    {
+        "id": "organ-blocks/slide-01/578",
+        "term": "UBERON:0018683",
+        "label": "lumbar splanchnic nerve"
+    },
+    {
+        "id": "organ-blocks/slide-01/579",
+        "term": "UBERON:0011390",
+        "label": "pudendal nerve"
+    },
+    {
+        "id": "organ-blocks/slide-01/583",
+        "term": "ILX:0793832",
+        "label": "ovarian nerve plexus"
+    },
+    {
+        "id": "organ-blocks/slide-01/586",
+        "term": "UBERON:0018684",
+        "label": "sacral splanchnic nerve"
+    },
+    {
+        "id": "organ-blocks/slide-01/695",
+        "term": "UBERON:0002035",
+        "label": "medial preoptic nucleus"
+    },
+    {
+        "id": "organ-blocks/slide-01/696",
+        "term": "UBERON:0002625",
+        "label": "median preoptic nucleus"
+    },
+    {
+        "id": "organ-blocks/slide-01/697",
+        "term": "UBERON:0001931",
+        "label": "lateral preoptic nucleus"
+    },
+    {
+        "id": "organ-blocks/slide-01/698",
+        "term": "UBERON:0002430",
+        "label": "lateral hypothalamic area"
+    },
+    {
+        "id": "organ-blocks/slide-01/699",
+        "term": "UBERON:0004725",
+        "label": "piriform cortex"
+    },
+    {
+        "id": "organ-blocks/slide-01/700",
+        "term": "UBERON:0002266",
+        "label": "anterior olfactory nucleus"
+    },
+    {
+        "id": "organ-blocks/slide-01/701",
+        "term": "UBERON:0001876",
+        "label": "amygdala"
+    },
+    {
+        "id": "organ-blocks/slide-01/702",
+        "term": "UBERON:0001883",
+        "label": "olfactory tubercle"
+    },
+    {
+        "id": "organ-blocks/slide-01/703",
+        "term": "UBERON:0002022",
+        "label": "insula"
+    },
+    {
+        "id": "organ-blocks/slide-01/704",
+        "term": "UBERON:0001926",
+        "label": "lateral geniculate body"
+    },
+    {
+        "id": "organ-blocks/slide-01/1504",
+        "term": "UBERON:0007632",
+        "label": "Barrington's nucleus"
+    },
+    {
+        "id": "organ-blocks/slide-01/705",
+        "term": "UBERON:0001945",
+        "label": "superior colliculus"
+    },
+    {
+        "id": "organ-blocks/slide-01/706",
+        "term": "ILX:0740631",
+        "label": "Superior cardiac nerve (swannt)"
+    },
+    {
+        "id": "organ-blocks/slide-01/708",
+        "term": "ILX:0738373",
+        "label": "Internal branch of superior laryngeal nerve"
+    },
+    {
+        "id": "organ-blocks/slide-01/566",
+        "term": "UBERON:0001647",
+        "label": "facial nerve"
+    },
+    {
+        "id": "organ-blocks/slide-01/710",
+        "term": "UBERON:0001647",
+        "label": "facial nerve"
+    },
+    {
+        "id": "organ-blocks/slide-01/567",
+        "term": "UBERON:0009675",
+        "label": "chorda tympani branch of facial nerve"
+    },
+    {
+        "id": "organ-blocks/slide-01/711",
+        "term": "UBERON:0009675",
+        "label": "chorda tympani branch of facial nerve"
+    },
+    {
+        "id": "organ-blocks/slide-01/712",
+        "term": "UBERON:0001700",
+        "label": "geniculate ganglion"
+    },
+    {
+        "id": "organ-blocks/slide-01/713",
+        "term": "ILX:0743421",
+        "label": "optic nerve (TA98)"
+    },
+    {
+        "id": "organ-blocks/slide-01/714",
+        "term": "UBERON:0004727",
+        "label": "cochlear nerve"
+    },
+    {
+        "id": "organ-blocks/slide-01/715",
+        "term": "UBERON:0003723",
+        "label": "vestibular nerve"
+    },
+    {
+        "id": "organ-blocks/slide-01/716",
+        "term": "UBERON:0002824",
+        "label": "vestibular ganglion"
+    },
+    {
+        "id": "organ-blocks/slide-01/717",
+        "term": "UBERON:0000395",
+        "label": "cochlear ganglion"
+    },
+    {
+        "id": "organ-blocks/slide-01/735",
+        "term": "ILX:0793559",
+        "label": "bladder nerve"
+    },
+    {
+        "id": "organ-blocks/slide-01/1212",
+        "term": "ILX:0789580",
+        "label": "Coeliac branch of posterior vagal trunk"
+    },
+    {
+        "id": "organ-blocks/slide-01/1213",
+        "term": "UBERON:0002262",
+        "label": "celiac ganglion"
+    },
+    {
+        "id": "organ-blocks/slide-01/1214",
+        "term": "ILX:0740412",
+        "label": "Aorticorenal ganglion (swannt)"
+    },
+    {
+        "id": "organ-blocks/slide-01/1218",
+        "term": "UBERON:0005453",
+        "label": "inferior mesenteric ganglion"
+    },
+    {
+        "id": "organ-blocks/slide-01/1220",
+        "term": "UBERON:0001964",
+        "label": "least splanchnic nerve"
+    },
+    {
+        "id": "organ-blocks/slide-01/1223",
+        "term": "ILX:0793830",
+        "label": "Communicating branch of vagus nerve with glossopharyngeal nerve"
+    },
+    {
+        "id": "organ-blocks/slide-01/1225",
+        "term": "ILX:0793041",
+        "label": "Cervical cardiac branch of vagus nerve"
+    },
+    {
+        "id": "organ-blocks/slide-01/1226",
+        "term": "ILX:0785405",
+        "label": "Thoracic cardiac branch of vagus nerve"
+    },
+    {
+        "id": "organ-blocks/slide-01/1227",
+        "term": "UBERON:0000929",
+        "label": "pharyngeal branch of vagus nerve"
+    },
+    {
+        "id": "organ-blocks/slide-01/1228",
+        "term": "ILX:0791434",
+        "label": "Lingual branch of vagus nerve"
+    },
+    {
+        "id": "organ-blocks/slide-01/1229",
+        "term": "ILX:0789613",
+        "label": "Upper branch of internal laryngeal nerve"
+    },
+    {
+        "id": "organ-blocks/slide-01/1230",
+        "term": "ILX:0785556",
+        "label": "Lower branch of internal laryngeal nerve"
+    },
+    {
+        "id": "organ-blocks/slide-01/1231",
+        "term": "ILX:0787299",
+        "label": "Communicating branch of internal laryngeal nerve with recurrent laryngeal nerve"
+    },
+    {
+        "id": "organ-blocks/slide-01/1233",
+        "term": "ILX:0788259",
+        "label": "Inferior cervical cardiac branch of vagus nerve"
+    },
+    {
+        "id": "organ-blocks/slide-01/1239",
+        "term": "UBERON:0011326",
+        "label": "superior laryngeal nerve"
+    },
+    {
+        "id": "organ-blocks/slide-01/1240",
+        "term": "UBERON:0003716",
+        "label": "recurrent laryngeal nerve"
+    },
+    {
+        "id": "organ-blocks/slide-01/1246",
+        "term": "UBERON:3010740",
+        "label": "ramus auricularis of the vagus nerve"
+    },
+    {
+        "id": "organ-blocks/slide-01/1247",
+        "term": "ILX:0793828",
+        "label": "Meningeal branch of vagus nerve"
+    },
+    {
+        "id": "organ-blocks/slide-01/1248",
+        "term": "ILX:0791151",
+        "label": "Communicating branch of auricular branch of vagus nerve with facial nerve"
+    },
+    {
+        "id": "organ-blocks/slide-01/1249",
+        "term": "ILX:0786624",
+        "label": "Communicating branch of auricular branch of vagus nerve with posterior auricular nerve"
+    },
+    {
+        "id": "organ-blocks/slide-01/1250",
+        "term": "ILX:0793070",
+        "label": "Tracheal branch of recurrent laryngeal nerve"
+    },
+    {
+        "id": "organ-blocks/slide-01/1251",
+        "term": "ILX:0774697",
+        "label": "Branch of right vagus nerve to pancreas"
+    },
+    {
+        "id": "organ-blocks/slide-01/1253",
+        "term": "ILX:0786059",
+        "label": "Branch of vagus nerve to carotid body"
+    },
+    {
+        "id": "organ-blocks/slide-01/1254",
+        "term": "ILX:0789095",
+        "label": "Pulmonary branch of vagus nerve"
+    },
+    {
+        "id": "organ-blocks/slide-01/1255",
+        "term": "ILX:0791071",
+        "label": "Renal branch of vagus nerve"
+    },
+    {
+        "id": "organ-blocks/slide-01/2972",
+        "term": "UBERON:0002372",
+        "label": "tonsil"
+    },
+    {
+        "id": "organ-blocks/slide-01/413",
+        "term": "ILX:0001473",
+        "label": ""
+    },
+    {
+        "id": "organ-blocks/slide-01/19",
+        "term": "ILX:0787303",
+        "label": "Esophageal branch of recurrent laryngeal nerve"
+    },
+    {
+        "id": "organ-blocks/slide-01/20",
+        "term": "UBERON:0002024",
+        "label": "internal carotid nerve plexus"
+    },
+    {
+        "id": "organ-blocks/slide-01/21",
+        "term": "ILX:0745976",
+        "label": "external carotid plexus (TA98)"
+    },
+    {
+        "id": "organ-blocks/slide-01/397",
+        "term": "UBERON:0004016",
+        "label": "dermatome"
+    },
+    {
+        "id": "organ-blocks/slide-01/487",
+        "term": "ILX:0793555",
+        "label": "Atrial intrinsic cardiac ganglion"
+    },
+    {
+        "id": "organ-blocks/slide-01/488",
+        "term": "ILX:0793556",
+        "label": "ventricular intrinsic cardiac ganglion"
+    },
+    {
+        "id": "organ-blocks/slide-01/6101",
+        "term": "ILX:0773392",
+        "label": "Superficial cardiac nerve plexus"
+    },
+    {
+        "id": "organ-blocks/slide-01/6102",
+        "term": "ILX:0775776",
+        "label": "Deep cardiac nerve plexus"
+    },
+    {
+        "id": "organ-blocks/slide-01/584",
+        "term": "ILX:0740224",
+        "label": "Uterine cervical ganglion (swannt)"
+    },
+    {
+        "id": "organ-blocks/slide-01/580",
+        "term": "UBERON:0002014",
+        "label": "inferior hypogastric nerve plexus"
+    },
+    {
+        "id": "organ-blocks/slide-01/582",
+        "term": "UBERON:0002013",
+        "label": "superior hypogastric nerve plexus"
+    },
+    {
+        "id": "organ-blocks/slide-01/581",
+        "term": "UBERON:0018676",
+        "label": "renal nerve plexus"
+    },
+    {
+        "id": "cardiorespiratory/slide-01/15378",
+        "term": "UBERON:0001391",
+        "label": "popliteus muscle"
+    },
+    {
+        "id": "cardiorespiratory/slide-01/15377",
+        "term": "ILX:0742534",
+        "label": "descending genicular artery (TA98)"
+    },
+    {
+        "id": "cardiorespiratory/slide-01/15374",
+        "term": "UBERON:0001385",
+        "label": "tibialis anterior"
+    },
+    {
+        "id": "cardiorespiratory/slide-01/15373",
+        "term": "UBERON:0001667",
+        "label": "tibialis posterior"
+    },
+    {
+        "id": "cardiorespiratory/slide-01/15360",
+        "term": "UBERON:0001540",
+        "label": "peroneal artery"
+    },
+    {
+        "id": "cardiorespiratory/slide-01/15364",
+        "term": "UBERON:0001539",
+        "label": "dorsalis pedis artery"
+    },
+    {
+        "id": "cardiorespiratory/slide-01/15350",
+        "term": "UBERON:0001667",
+        "label": "tibialis posterior"
+    },
+    {
+        "id": "cardiorespiratory/slide-01/15347",
+        "term": "ILX:0742654",
+        "label": "superficial plantar arch (TA98)"
+    },
+    {
+        "id": "cardiorespiratory/slide-01/15348",
+        "term": "UBERON:0008783",
+        "label": "dorsal venous arch"
+    },
+    {
+        "id": "cardiorespiratory/slide-01/15343",
+        "term": "UBERON:0034927",
+        "label": "arcuate artery of foot"
+    },
+    {
+        "id": "cardiorespiratory/slide-01/15344",
+        "term": "UBERON:0035111",
+        "label": "medial plantar nerve"
+    },
+    {
+        "id": "cardiorespiratory/slide-01/15346",
+        "term": "UBERON:0035195",
+        "label": "plantar metatarsal artery"
+    },
+    {
+        "id": "cardiorespiratory/slide-01/15342",
+        "term": "UBERON:0037549",
+        "label": "inferior gluteal lymph node"
+    },
+    {
+        "id": "cardiorespiratory/slide-01/15340",
+        "term": "ILX:0741412",
+        "label": "lateral circumflex femoral artery (TA98)"
+    },
+    {
+        "id": "cardiorespiratory/slide-01/15337",
+        "term": "UBERON:0001355",
+        "label": "deep femoral artery"
+    },
+    {
+        "id": "cardiorespiratory/slide-01/15332",
+        "term": "ILX:0742502",
+        "label": "lateral sacral arteries (TA98)"
+    },
+    {
+        "id": "cardiorespiratory/slide-01/15333",
+        "term": "UBERON:0001320",
+        "label": "iliolumbar vein"
+    },
+    {
+        "id": "cardiorespiratory/slide-01/15334",
+        "term": "UBERON:0001368",
+        "label": "obturator externus"
+    },
+    {
+        "id": "cardiorespiratory/slide-01/15331",
+        "term": "UBERON:0002374",
+        "label": "metacarpal bone"
+    },
+    {
+        "id": "cardiorespiratory/slide-01/15328",
+        "term": "UBERON:2000271",
+        "label": "radial bone"
+    },
+    {
+        "id": "cardiorespiratory/slide-01/15315",
+        "term": "ILX:0746320",
+        "label": "deep palmar arch (TA98)"
+    },
+    {
+        "id": "cardiorespiratory/slide-01/15302",
+        "term": "UBERON:0001410",
+        "label": "common palmar digital artery"
+    },
+    {
+        "id": "cardiorespiratory/slide-01/15303",
+        "term": "UBERON:0006564",
+        "label": "superficial palmar arch"
+    },
+    {
+        "id": "cardiorespiratory/slide-01/15279",
+        "term": "ILX:0746667",
+        "label": "common interosseous artery (TA98)"
+    },
+    {
+        "id": "cardiorespiratory/slide-01/15273",
+        "term": "ILX:0748062",
+        "label": "anterior branch (TA98)"
+    },
+    {
+        "id": "cardiorespiratory/slide-01/15263",
+        "term": "ILX:0746584",
+        "label": "inferior ulnar collateral artery (TA98)"
+    },
+    {
+        "id": "cardiorespiratory/slide-01/15264",
+        "term": "ILX:0745792",
+        "label": "superior ulnar collateral artery (TA98)"
+    },
+    {
+        "id": "cardiorespiratory/slide-01/15265",
+        "term": "UBERON:0001399",
+        "label": "deep brachial artery"
+    },
+    {
+        "id": "cardiorespiratory/slide-01/15262",
+        "term": "ILX:0790464",
+        "label": "Right first intercostal nerve"
+    },
+    {
+        "id": "cardiorespiratory/slide-01/15257",
+        "term": "UBERON:0002040",
+        "label": "bronchial artery"
+    },
+    {
+        "id": "cardiorespiratory/slide-01/15242",
+        "term": "UBERON:0001074",
+        "label": "pericardial cavity"
+    },
+    {
+        "id": "cardiorespiratory/slide-01/15237",
+        "term": "ILX:0789993",
+        "label": "Right second intercostal nerve"
+    },
+    {
+        "id": "cardiorespiratory/slide-01/15232",
+        "term": "ILX:0786349",
+        "label": "Right third intercostal nerve"
+    },
+    {
+        "id": "cardiorespiratory/slide-01/15227",
+        "term": "ILX:0791393",
+        "label": "Right fourth intercostal nerve"
+    },
+    {
+        "id": "cardiorespiratory/slide-01/15222",
+        "term": "ILX:0787824",
+        "label": "Right fifth intercostal nerve"
+    },
+    {
+        "id": "cardiorespiratory/slide-01/15217",
+        "term": "ILX:0791724",
+        "label": "Right sixth intercostal nerve"
+    },
+    {
+        "id": "cardiorespiratory/slide-01/15212",
+        "term": "ILX:0790586",
+        "label": "Right seventh intercostal nerve"
+    },
+    {
+        "id": "cardiorespiratory/slide-01/15202",
+        "term": "UBERON:0013133",
+        "label": "superior phrenic artery"
+    },
+    {
+        "id": "cardiorespiratory/slide-01/15192",
+        "term": "UBERON:0001074",
+        "label": "pericardial cavity"
+    },
+    {
+        "id": "cardiorespiratory/slide-01/15171",
+        "term": "UBERON:0035322",
+        "label": "right common iliac artery"
+    },
+    {
+        "id": "cardiorespiratory/slide-01/15172",
+        "term": "UBERON:0035529",
+        "label": "left common iliac artery"
+    },
+    {
+        "id": "cardiorespiratory/slide-01/15168",
+        "term": "UBERON:0002060",
+        "label": "femoral artery"
+    },
+    {
+        "id": "cardiorespiratory/slide-01/15163",
+        "term": "UBERON:0001317",
+        "label": "internal iliac vein"
+    },
+    {
+        "id": "cardiorespiratory/slide-01/15154",
+        "term": "UBERON:0000991",
+        "label": "gonad"
+    },
+    {
+        "id": "cardiorespiratory/slide-01/15146",
+        "term": "UBERON:0001183",
+        "label": "inferior mesenteric artery"
+    },
+    {
+        "id": "cardiorespiratory/slide-01/15143",
+        "term": "UBERON:0035548",
+        "label": "colic artery"
+    },
+    {
+        "id": "cardiorespiratory/slide-01/15141",
+        "term": "ILX:0110617",
+        "label": "Sigmoid"
+    },
+    {
+        "id": "cardiorespiratory/slide-01/15130",
+        "term": "UBERON:0001186",
+        "label": "left renal artery"
+    },
+    {
+        "id": "cardiorespiratory/slide-01/15131",
+        "term": "UBERON:0001185",
+        "label": "right renal artery"
+    },
+    {
+        "id": "cardiorespiratory/slide-01/15123",
+        "term": "UBERON:0001103",
+        "label": "diaphragm"
+    },
+    {
+        "id": "cardiorespiratory/slide-01/15110",
+        "term": "UBERON:2005027",
+        "label": "posterior cerebral vein"
+    },
+    {
+        "id": "cardiorespiratory/slide-01/15111",
+        "term": "UBERON:0001636",
+        "label": "posterior cerebral artery"
+    },
+    {
+        "id": "cardiorespiratory/slide-01/15098",
+        "term": "UBERON:0001628",
+        "label": "posterior communicating artery"
+    },
+    {
+        "id": "cardiorespiratory/slide-01/15099",
+        "term": "UBERON:0001628",
+        "label": "posterior communicating artery"
+    },
+    {
+        "id": "cardiorespiratory/slide-01/15094",
+        "term": "UBERON:0001633",
+        "label": "basilar artery"
+    },
+    {
+        "id": "cardiorespiratory/slide-01/15088",
+        "term": "UBERON:0001627",
+        "label": "middle cerebral artery"
+    },
+    {
+        "id": "cardiorespiratory/slide-01/15089",
+        "term": "UBERON:0001627",
+        "label": "middle cerebral artery"
+    },
+    {
+        "id": "cardiorespiratory/slide-01/15085",
+        "term": "UBERON:0006764",
+        "label": "anterior communicating artery"
+    },
+    {
+        "id": "cardiorespiratory/slide-01/15083",
+        "term": "UBERON:0000935",
+        "label": "anterior commissure"
+    },
+    {
+        "id": "cardiorespiratory/slide-01/15081",
+        "term": "UBERON:0000935",
+        "label": "anterior commissure"
+    },
+    {
+        "id": "cardiorespiratory/slide-01/15079",
+        "term": "UBERON:0001619",
+        "label": "ophthalmic artery"
+    },
+    {
+        "id": "cardiorespiratory/slide-01/15077",
+        "term": "UBERON:0001619",
+        "label": "ophthalmic artery"
+    },
+    {
+        "id": "cardiorespiratory/slide-01/15072",
+        "term": "UBERON:0001536",
+        "label": "left common carotid artery plus branches"
+    },
+    {
+        "id": "cardiorespiratory/slide-01/15070",
+        "term": "UBERON:0001531",
+        "label": "right common carotid artery plus branches"
+    },
+    {
+        "id": "cardiorespiratory/slide-01/15060",
+        "term": "UBERON:0001070",
+        "label": "external carotid artery"
+    },
+    {
+        "id": "cardiorespiratory/slide-01/15061",
+        "term": "UBERON:0001532",
+        "label": "internal carotid artery"
+    },
+    {
+        "id": "cardiorespiratory/slide-01/15065",
+        "term": "UBERON:0001532",
+        "label": "internal carotid artery"
+    },
+    {
+        "id": "cardiorespiratory/slide-01/15066",
+        "term": "UBERON:0001070",
+        "label": "external carotid artery"
+    },
+    {
+        "id": "cardiorespiratory/slide-01/15053",
+        "term": "ILX:0744963",
+        "label": "brachiocephalic trunk (TA98)"
+    },
+    {
+        "id": "cardiorespiratory/slide-01/15048",
+        "term": "UBERON:0002456",
+        "label": "internal thoracic artery"
+    },
+    {
+        "id": "cardiorespiratory/slide-01/15049",
+        "term": "ILX:0744822",
+        "label": "thyrocervical trunk (TA98)"
+    },
+    {
+        "id": "cardiorespiratory/slide-01/15046",
+        "term": "ILX:0744822",
+        "label": "thyrocervical trunk (TA98)"
+    },
+    {
+        "id": "cardiorespiratory/slide-01/15043",
+        "term": "UBERON:0001516",
+        "label": "abdominal aorta"
+    },
+    {
+        "id": "cardiorespiratory/slide-01/15044",
+        "term": "UBERON:0001515",
+        "label": "thoracic aorta"
+    },
+    {
+        "id": "cardiorespiratory/slide-01/15042",
+        "term": "UBERON:0001138",
+        "label": "superior mesenteric vein"
+    },
+    {
+        "id": "cardiorespiratory/slide-01/15039",
+        "term": "UBERON:0015480",
+        "label": "proper hepatic artery"
+    },
+    {
+        "id": "cardiorespiratory/slide-01/15040",
+        "term": "ILX:0771088",
+        "label": "Right gastric artery"
+    },
+    {
+        "id": "cardiorespiratory/slide-01/15020",
+        "term": "ilxtr:neuron-type-bromo-3",
+        "label": "Neuron in 'neuron type bromo 3'\n"
+    },
+    {
+        "id": "cardiorespiratory/slide-01/15013",
+        "term": "UBERON:0035150",
+        "label": "superior cerebral vein"
+    },
+    {
+        "id": "cardiorespiratory/slide-01/15011",
+        "term": "UBERON:0035150",
+        "label": "superior cerebral vein"
+    },
+    {
+        "id": "cardiorespiratory/slide-01/15008",
+        "term": "UBERON:0001534",
+        "label": "right subclavian artery"
+    },
+    {
+        "id": "cardiorespiratory/slide-01/15009",
+        "term": "UBERON:0001584",
+        "label": "left subclavian artery"
+    },
+    {
+        "id": "cardiorespiratory/slide-01/14998",
+        "term": "ilxtr:neuron-type-bromo-5",
+        "label": "Neuron in 'neuron type bromo 5'\n"
+    },
+    {
+        "id": "cardiorespiratory/slide-01/14996",
+        "term": "ilxtr:neuron-type-bromo-6",
+        "label": "Neuron in 'neuron type bromo 6'\n"
+    },
+    {
+        "id": "cardiorespiratory/slide-01/634",
+        "term": "UBERON:0035234",
+        "label": "medial circumflex femoral vein"
+    },
+    {
+        "id": "cardiorespiratory/slide-01/14410",
+        "term": "ILX:0741412",
+        "label": "lateral circumflex femoral artery (TA98)"
+    },
+    {
+        "id": "cardiorespiratory/slide-01/14443",
+        "term": "UBERON:0004552",
+        "label": "digital artery"
+    },
+    {
+        "id": "cardiorespiratory/slide-01/14725",
+        "term": "ILX:0744966",
+        "label": "anterior interosseous artery (TA98)"
+    },
+    {
+        "id": "cardiorespiratory/slide-01/14728",
+        "term": "ILX:0746749",
+        "label": "posterior interosseous artery (TA98)"
+    },
+    {
+        "id": "cardiorespiratory/slide-01/14729",
+        "term": "UBERON:0001406",
+        "label": "ulnar artery"
+    },
+    {
+        "id": "cardiorespiratory/slide-01/1176",
+        "term": "UBERON:0002412",
+        "label": "vertebra"
+    },
+    {
+        "id": "cardiorespiratory/slide-01/1177",
+        "term": "UBERON:0002412",
+        "label": "vertebra"
+    },
+    {
+        "id": "cardiorespiratory/slide-01/1235",
+        "term": "UBERON:0006637",
+        "label": "celiac trunk"
+    },
+    {
+        "id": "cardiorespiratory/slide-01/1262",
+        "term": "UBERON:0001194",
+        "label": "splenic artery"
+    },
+    {
+        "id": "cardiorespiratory/slide-01/14912",
+        "term": "ILX:0743680",
+        "label": "medial calcaneal branches (TA98)"
+    },
+    {
+        "id": "cardiorespiratory/slide-01/14928",
+        "term": "UBERON:0001150",
+        "label": "body of pancreas"
+    },
+    {
+        "id": "cardiorespiratory/slide-01/14940",
+        "term": "UBERON:0002106",
+        "label": "spleen"
+    },
+    {
+        "id": "cardiorespiratory/slide-01/14942",
+        "term": "UBERON:0005436",
+        "label": "common hepatic artery"
+    },
+    {
+        "id": "cardiorespiratory/slide-01/14947",
+        "term": "ILX:0102754",
+        "label": "Cystic"
+    },
+    {
+        "id": "cardiorespiratory/slide-01/1374",
+        "term": "ilxtr:neuron-type-bromo-2",
+        "label": "Neuron in 'neuron type bromo 2'\n"
+    },
+    {
+        "id": "cardiorespiratory/slide-01/1514",
+        "term": "ilxtr:neuron-type-aacar-11",
+        "label": "Neuron in 'neuron type aacar 11'\n"
+    },
+    {
+        "id": "cardiorespiratory/slide-01/1524",
+        "term": "ilxtr:neuron-type-bolew-unbranched-25",
+        "label": "Neuron in 'neuron type bolew unbranched 25'\n"
+    },
+    {
+        "id": "cardiorespiratory/slide-01/3145",
+        "term": "ilxtr:neuron-type-bromo-2",
+        "label": "Neuron in 'neuron type bromo 2'\n"
+    },
+    {
+        "id": "cardiorespiratory/slide-01/3146",
+        "term": "ilxtr:neuron-type-bromo-2",
+        "label": "Neuron in 'neuron type bromo 2'\n"
+    },
+    {
+        "id": "cardiorespiratory/slide-01/6529",
+        "term": "ilxtr:neuron-type-bolew-unbranched-8",
+        "label": "Neuron in 'neuron type bolew unbranched 8'\n"
+    },
+    {
+        "id": "cardiorespiratory/slide-01/6554",
+        "term": "ilxtr:neuron-type-aacar-11",
+        "label": "Neuron in 'neuron type aacar 11'\n"
+    },
+    {
+        "id": "cardiorespiratory/slide-01/6578",
+        "term": "ilxtr:neuron-type-aacar-7a",
+        "label": "Neuron in 'neuron type aacar 7a'\n"
+    },
+    {
+        "id": "cardiorespiratory/slide-01/6579",
+        "term": "ilxtr:neuron-type-aacar-7a",
+        "label": "Neuron in 'neuron type aacar 7a'\n"
+    },
+    {
+        "id": "cardiorespiratory/slide-01/6581",
+        "term": "ilxtr:neuron-type-aacar-7v",
+        "label": "Neuron in 'neuron type aacar 7v'\n"
+    },
+    {
+        "id": "cardiorespiratory/slide-01/6582",
+        "term": "ilxtr:neuron-type-aacar-7v",
+        "label": "Neuron in 'neuron type aacar 7v'\n"
+    },
+    {
+        "id": "cardiorespiratory/slide-01/6583",
+        "term": "ilxtr:neuron-type-aacar-4",
+        "label": "Neuron in 'neuron type aacar 4'\n"
+    },
+    {
+        "id": "cardiorespiratory/slide-01/6584",
+        "term": "ilxtr:neuron-type-aacar-4",
+        "label": "Neuron in 'neuron type aacar 4'\n"
+    },
+    {
+        "id": "cardiorespiratory/slide-01/6587",
+        "term": "ilxtr:neuron-type-aacar-5",
+        "label": "Neuron in 'neuron type aacar 5'\n"
+    },
+    {
+        "id": "cardiorespiratory/slide-01/6590",
+        "term": "ilxtr:neuron-type-aacar-5",
+        "label": "Neuron in 'neuron type aacar 5'\n"
+    },
+    {
+        "id": "cardiorespiratory/slide-01/13459",
+        "term": "ilxtr:neuron-type-aacar-6",
+        "label": "Neuron in 'neuron type aacar 6'\n"
+    },
+    {
+        "id": "cardiorespiratory/slide-01/6592",
+        "term": "ilxtr:neuron-type-aacar-8a",
+        "label": "Neuron in 'neuron type aacar 8a'\n"
+    },
+    {
+        "id": "cardiorespiratory/slide-01/6593",
+        "term": "ilxtr:neuron-type-aacar-6",
+        "label": "Neuron in 'neuron type aacar 6'\n"
+    },
+    {
+        "id": "cardiorespiratory/slide-01/6596",
+        "term": "ilxtr:neuron-type-aacar-6",
+        "label": "Neuron in 'neuron type aacar 6'\n"
+    },
+    {
+        "id": "cardiorespiratory/slide-01/6601",
+        "term": "ilxtr:neuron-type-aacar-13",
+        "label": "Neuron in 'neuron type aacar 13'\n"
+    },
+    {
+        "id": "cardiorespiratory/slide-01/6603",
+        "term": "ilxtr:neuron-type-aacar-9a",
+        "label": "Neuron in 'neuron type aacar 9a'\n"
+    },
+    {
+        "id": "cardiorespiratory/slide-01/6613",
+        "term": "ilxtr:neuron-type-aacar-4",
+        "label": "Neuron in 'neuron type aacar 4'\n"
+    },
+    {
+        "id": "cardiorespiratory/slide-01/6622",
+        "term": "ilxtr:neuron-type-aacar-5",
+        "label": "Neuron in 'neuron type aacar 5'\n"
+    },
+    {
+        "id": "cardiorespiratory/slide-01/6628",
+        "term": "ilxtr:neuron-type-aacar-8a",
+        "label": "Neuron in 'neuron type aacar 8a'\n"
+    },
+    {
+        "id": "cardiorespiratory/slide-01/6631",
+        "term": "ilxtr:neuron-type-aacar-6",
+        "label": "Neuron in 'neuron type aacar 6'\n"
+    },
+    {
+        "id": "cardiorespiratory/slide-01/6632",
+        "term": "ilxtr:neuron-type-aacar-6",
+        "label": "Neuron in 'neuron type aacar 6'\n"
+    },
+    {
+        "id": "cardiorespiratory/slide-01/6634",
+        "term": "ilxtr:neuron-type-aacar-8a",
+        "label": "Neuron in 'neuron type aacar 8a'\n"
+    },
+    {
+        "id": "cardiorespiratory/slide-01/6639",
+        "term": "ilxtr:neuron-type-aacar-9a",
+        "label": "Neuron in 'neuron type aacar 9a'\n"
+    },
+    {
+        "id": "cardiorespiratory/slide-01/6640",
+        "term": "ilxtr:neuron-type-aacar-9v",
+        "label": "Neuron in 'neuron type aacar 9v'\n"
+    },
+    {
+        "id": "cardiorespiratory/slide-01/6643",
+        "term": "ilxtr:neuron-type-aacar-9v",
+        "label": "Neuron in 'neuron type aacar 9v'\n"
+    },
+    {
+        "id": "cardiorespiratory/slide-01/6644",
+        "term": "ilxtr:neuron-type-aacar-9a",
+        "label": "Neuron in 'neuron type aacar 9a'\n"
+    },
+    {
+        "id": "cardiorespiratory/slide-01/6645",
+        "term": "ilxtr:neuron-type-aacar-9v",
+        "label": "Neuron in 'neuron type aacar 9v'\n"
+    },
+    {
+        "id": "cardiorespiratory/slide-01/6656",
+        "term": "ilxtr:neuron-type-aacar-5",
+        "label": "Neuron in 'neuron type aacar 5'\n"
+    },
+    {
+        "id": "cardiorespiratory/slide-01/6661",
+        "term": "ilxtr:neuron-type-aacar-5",
+        "label": "Neuron in 'neuron type aacar 5'\n"
+    },
+    {
+        "id": "cardiorespiratory/slide-01/6663",
+        "term": "ilxtr:neuron-type-aacar-6",
+        "label": "Neuron in 'neuron type aacar 6'\n"
+    },
+    {
+        "id": "cardiorespiratory/slide-01/6696",
+        "term": "ilxtr:neuron-type-aacar-5",
+        "label": "Neuron in 'neuron type aacar 5'\n"
+    },
+    {
+        "id": "cardiorespiratory/slide-01/6697",
+        "term": "ilxtr:neuron-type-aacar-5",
+        "label": "Neuron in 'neuron type aacar 5'\n"
+    },
+    {
+        "id": "cardiorespiratory/slide-01/6699",
+        "term": "ilxtr:neuron-type-aacar-5",
+        "label": "Neuron in 'neuron type aacar 5'\n"
+    },
+    {
+        "id": "cardiorespiratory/slide-01/6704",
+        "term": "ilxtr:neuron-type-aacar-5",
+        "label": "Neuron in 'neuron type aacar 5'\n"
+    },
+    {
+        "id": "cardiorespiratory/slide-01/6707",
+        "term": "ilxtr:neuron-type-aacar-4",
+        "label": "Neuron in 'neuron type aacar 4'\n"
+    },
+    {
+        "id": "digestive/slide-01/7783",
+        "term": "ilxtr:neuron-type-sstom-5",
+        "label": "Neuron in 'neuron type sstom 5'\n"
+    },
+    {
+        "id": "digestive/slide-01/7917",
+        "term": "ilxtr:neuron-type-pancr-1",
+        "label": "Neuron in 'neuron type pancr 1'\n"
+    },
+    {
+        "id": "digestive/slide-01/7918",
+        "term": "ilxtr:neuron-type-pancr-1",
+        "label": "Neuron in 'neuron type pancr 1'\n"
+    },
+    {
+        "id": "digestive/slide-01/7919",
+        "term": "ilxtr:neuron-type-pancr-1",
+        "label": "Neuron in 'neuron type pancr 1'\n"
+    },
+    {
+        "id": "digestive/slide-01/7920",
+        "term": "ilxtr:neuron-type-pancr-1",
+        "label": "Neuron in 'neuron type pancr 1'\n"
+    },
+    {
+        "id": "digestive/slide-01/7945",
+        "term": "ilxtr:neuron-type-pancr-1",
+        "label": "Neuron in 'neuron type pancr 1'\n"
+    },
+    {
+        "id": "digestive/slide-01/7946",
+        "term": "ilxtr:neuron-type-pancr-1",
+        "label": "Neuron in 'neuron type pancr 1'\n"
+    },
+    {
+        "id": "digestive/slide-01/7947",
+        "term": "ilxtr:neuron-type-pancr-1",
+        "label": "Neuron in 'neuron type pancr 1'\n"
+    },
+    {
+        "id": "digestive/slide-01/7948",
+        "term": "ilxtr:neuron-type-pancr-1",
+        "label": "Neuron in 'neuron type pancr 1'\n"
+    },
+    {
+        "id": "digestive/slide-01/7949",
+        "term": "ilxtr:neuron-type-pancr-1",
+        "label": "Neuron in 'neuron type pancr 1'\n"
+    },
+    {
+        "id": "digestive/slide-01/7974",
+        "term": "ilxtr:neuron-type-pancr-1",
+        "label": "Neuron in 'neuron type pancr 1'\n"
+    },
+    {
+        "id": "digestive/slide-01/7980",
+        "term": "ilxtr:neuron-type-pancr-1",
+        "label": "Neuron in 'neuron type pancr 1'\n"
+    },
+    {
+        "id": "digestive/slide-01/7981",
+        "term": "ilxtr:neuron-type-pancr-1",
+        "label": "Neuron in 'neuron type pancr 1'\n"
+    },
+    {
+        "id": "digestive/slide-01/7982",
+        "term": "ilxtr:neuron-type-pancr-1",
+        "label": "Neuron in 'neuron type pancr 1'\n"
+    },
+    {
+        "id": "digestive/slide-01/7983",
+        "term": "ilxtr:neuron-type-pancr-1",
+        "label": "Neuron in 'neuron type pancr 1'\n"
+    },
+    {
+        "id": "digestive/slide-01/8018",
+        "term": "ilxtr:neuron-type-pancr-1",
+        "label": "Neuron in 'neuron type pancr 1'\n"
+    },
+    {
+        "id": "digestive/slide-01/8019",
+        "term": "ilxtr:neuron-type-pancr-1",
+        "label": "Neuron in 'neuron type pancr 1'\n"
+    },
+    {
+        "id": "digestive/slide-01/8020",
+        "term": "ilxtr:neuron-type-pancr-1",
+        "label": "Neuron in 'neuron type pancr 1'\n"
+    },
+    {
+        "id": "digestive/slide-01/8021",
+        "term": "ilxtr:neuron-type-pancr-1",
+        "label": "Neuron in 'neuron type pancr 1'\n"
+    },
+    {
+        "id": "digestive/slide-01/8022",
+        "term": "ilxtr:neuron-type-pancr-1",
+        "label": "Neuron in 'neuron type pancr 1'\n"
+    },
+    {
+        "id": "digestive/slide-01/8028",
+        "term": "ilxtr:neuron-type-pancr-1",
+        "label": "Neuron in 'neuron type pancr 1'\n"
+    },
+    {
+        "id": "digestive/slide-01/8029",
+        "term": "ilxtr:neuron-type-pancr-1",
+        "label": "Neuron in 'neuron type pancr 1'\n"
+    },
+    {
+        "id": "digestive/slide-01/8030",
+        "term": "ilxtr:neuron-type-pancr-1",
+        "label": "Neuron in 'neuron type pancr 1'\n"
+    },
+    {
+        "id": "digestive/slide-01/8031",
+        "term": "ilxtr:neuron-type-pancr-1",
+        "label": "Neuron in 'neuron type pancr 1'\n"
+    },
+    {
+        "id": "digestive/slide-01/8032",
+        "term": "ilxtr:neuron-type-pancr-1",
+        "label": "Neuron in 'neuron type pancr 1'\n"
+    },
+    {
+        "id": "digestive/slide-01/8125",
+        "term": "ilxtr:neuron-type-pancr-1",
+        "label": "Neuron in 'neuron type pancr 1'\n"
+    },
+    {
+        "id": "digestive/slide-01/8126",
+        "term": "ilxtr:neuron-type-pancr-1",
+        "label": "Neuron in 'neuron type pancr 1'\n"
+    },
+    {
+        "id": "digestive/slide-01/8127",
+        "term": "ilxtr:neuron-type-pancr-1",
+        "label": "Neuron in 'neuron type pancr 1'\n"
+    },
+    {
+        "id": "digestive/slide-01/8128",
+        "term": "ilxtr:neuron-type-pancr-1",
+        "label": "Neuron in 'neuron type pancr 1'\n"
+    },
+    {
+        "id": "digestive/slide-01/8151",
+        "term": "ilxtr:neuron-type-keast-8",
+        "label": "Neuron in 'sympathetic preganglionic neuron innervating sympathetic chain ganglion neuron (kblad)'\n"
+    },
+    {
+        "id": "digestive/slide-01/8163",
+        "term": "ilxtr:neuron-type-pancr-1",
+        "label": "Neuron in 'neuron type pancr 1'\n"
+    },
+    {
+        "id": "digestive/slide-01/8164",
+        "term": "ilxtr:neuron-type-pancr-1",
+        "label": "Neuron in 'neuron type pancr 1'\n"
+    },
+    {
+        "id": "digestive/slide-01/8165",
+        "term": "ilxtr:neuron-type-pancr-1",
+        "label": "Neuron in 'neuron type pancr 1'\n"
+    },
+    {
+        "id": "digestive/slide-01/8207",
+        "term": "ilxtr:neuron-type-pancr-1",
+        "label": "Neuron in 'neuron type pancr 1'\n"
+    },
+    {
+        "id": "digestive/slide-01/8208",
+        "term": "ilxtr:neuron-type-pancr-1",
+        "label": "Neuron in 'neuron type pancr 1'\n"
+    },
+    {
+        "id": "digestive/slide-01/8209",
+        "term": "ilxtr:neuron-type-pancr-1",
+        "label": "Neuron in 'neuron type pancr 1'\n"
+    },
+    {
+        "id": "digestive/slide-01/8322",
+        "term": "ilxtr:neuron-type-pancr-1",
+        "label": "Neuron in 'neuron type pancr 1'\n"
+    },
+    {
+        "id": "digestive/slide-01/8323",
+        "term": "ilxtr:neuron-type-pancr-1",
+        "label": "Neuron in 'neuron type pancr 1'\n"
+    },
+    {
+        "id": "digestive/slide-01/8324",
+        "term": "ilxtr:neuron-type-pancr-1",
+        "label": "Neuron in 'neuron type pancr 1'\n"
+    },
+    {
+        "id": "digestive/slide-01/8325",
+        "term": "ilxtr:neuron-type-pancr-1",
+        "label": "Neuron in 'neuron type pancr 1'\n"
+    },
+    {
+        "id": "digestive/slide-01/8326",
+        "term": "ilxtr:neuron-type-pancr-1",
+        "label": "Neuron in 'neuron type pancr 1'\n"
+    },
+    {
+        "id": "digestive/slide-01/8348",
+        "term": "ilxtr:neuron-type-keast-7",
+        "label": "Neuron in 'sympathetic preganglionic neuron innervating inferior mesenteric ganglion neuron (kblad)'\n"
+    },
+    {
+        "id": "digestive/slide-01/8351",
+        "term": "ilxtr:neuron-type-keast-7",
+        "label": "Neuron in 'sympathetic preganglionic neuron innervating inferior mesenteric ganglion neuron (kblad)'\n"
+    },
+    {
+        "id": "digestive/slide-01/8354",
+        "term": "ilxtr:neuron-type-pancr-1",
+        "label": "Neuron in 'neuron type pancr 1'\n"
+    },
+    {
+        "id": "naso-oral-pharyngeal/slide-01/1510",
+        "term": "ilxtr:neuron-type-aacar-5",
+        "label": "Neuron in 'neuron type aacar 5'\n"
+    },
+    {
+        "id": "naso-oral-pharyngeal/slide-01/1511",
+        "term": "ilxtr:neuron-type-aacar-5",
+        "label": "Neuron in 'neuron type aacar 5'\n"
+    },
+    {
+        "id": "naso-oral-pharyngeal/slide-01/1512",
+        "term": "ilxtr:neuron-type-aacar-5",
+        "label": "Neuron in 'neuron type aacar 5'\n"
+    },
+    {
+        "id": "naso-oral-pharyngeal/slide-01/1575",
+        "term": "ilxtr:neuron-type-bolew-unbranched-10",
+        "label": "Neuron in 'neuron type bolew unbranched 10'\n"
+    },
+    {
+        "id": "naso-oral-pharyngeal/slide-01/1580",
+        "term": "ilxtr:neuron-type-bolew-unbranched-18",
+        "label": "Neuron in 'neuron type bolew unbranched 18'\n"
+    },
+    {
+        "id": "urinary/slide-01/6999",
+        "term": "ilxtr:neuron-type-keast-6",
+        "label": "Neuron in 'sympathetic preganglionic neuron innervating pelvic ganglion neuron (kblad)'\n"
+    },
+    {
+        "id": "urinary/slide-01/7000",
+        "term": "ilxtr:neuron-type-keast-6",
+        "label": "Neuron in 'sympathetic preganglionic neuron innervating pelvic ganglion neuron (kblad)'\n"
+    },
+    {
+        "id": "urinary/slide-01/7005",
+        "term": "ilxtr:neuron-type-keast-7",
+        "label": "Neuron in 'sympathetic preganglionic neuron innervating inferior mesenteric ganglion neuron (kblad)'\n"
+    },
+    {
+        "id": "urinary/slide-01/7006",
+        "term": "ilxtr:neuron-type-keast-7",
+        "label": "Neuron in 'sympathetic preganglionic neuron innervating inferior mesenteric ganglion neuron (kblad)'\n"
+    },
+    {
+        "id": "urinary/slide-01/7013",
+        "term": "ilxtr:neuron-type-keast-8",
+        "label": "Neuron in 'sympathetic preganglionic neuron innervating sympathetic chain ganglion neuron (kblad)'\n"
+    },
+    {
+        "id": "urinary/slide-01/7014",
+        "term": "ilxtr:neuron-type-keast-8",
+        "label": "Neuron in 'sympathetic preganglionic neuron innervating sympathetic chain ganglion neuron (kblad)'\n"
+    },
+    {
+        "id": "urinary/slide-01/7015",
+        "term": "ilxtr:neuron-type-keast-8",
+        "label": "Neuron in 'sympathetic preganglionic neuron innervating sympathetic chain ganglion neuron (kblad)'\n"
+    },
+    {
+        "id": "urinary/slide-01/7016",
+        "term": "ilxtr:neuron-type-keast-8",
+        "label": "Neuron in 'sympathetic preganglionic neuron innervating sympathetic chain ganglion neuron (kblad)'\n"
+    },
+    {
+        "id": "urinary/slide-01/7017",
+        "term": "ilxtr:neuron-type-keast-8",
+        "label": "Neuron in 'sympathetic preganglionic neuron innervating sympathetic chain ganglion neuron (kblad)'\n"
+    },
+    {
+        "id": "urinary/slide-01/7020",
+        "term": "ilxtr:neuron-type-keast-8",
+        "label": "Neuron in 'sympathetic preganglionic neuron innervating sympathetic chain ganglion neuron (kblad)'\n"
+    },
+    {
+        "id": "urinary/slide-01/7021",
+        "term": "ilxtr:neuron-type-keast-8",
+        "label": "Neuron in 'sympathetic preganglionic neuron innervating sympathetic chain ganglion neuron (kblad)'\n"
+    },
+    {
+        "id": "urinary/slide-01/7022",
+        "term": "ilxtr:neuron-type-keast-8",
+        "label": "Neuron in 'sympathetic preganglionic neuron innervating sympathetic chain ganglion neuron (kblad)'\n"
+    },
+    {
+        "id": "urinary/slide-01/7023",
+        "term": "ilxtr:neuron-type-keast-8",
+        "label": "Neuron in 'sympathetic preganglionic neuron innervating sympathetic chain ganglion neuron (kblad)'\n"
+    },
+    {
+        "id": "urinary/slide-01/7024",
+        "term": "ilxtr:neuron-type-keast-8",
+        "label": "Neuron in 'sympathetic preganglionic neuron innervating sympathetic chain ganglion neuron (kblad)'\n"
+    },
+    {
+        "id": "urinary/slide-01/7056",
+        "term": "ilxtr:neuron-type-keast-7",
+        "label": "Neuron in 'sympathetic preganglionic neuron innervating inferior mesenteric ganglion neuron (kblad)'\n"
+    },
+    {
+        "id": "urinary/slide-01/7057",
+        "term": "ilxtr:neuron-type-keast-7",
+        "label": "Neuron in 'sympathetic preganglionic neuron innervating inferior mesenteric ganglion neuron (kblad)'\n"
+    },
+    {
+        "id": "urinary/slide-01/7396",
+        "term": "ilxtr:neuron-type-keast-1",
+        "label": "Neuron in 'pelvic ganglion parasympathetic neuron (kblad)'\n"
+    },
+    {
+        "id": "urinary/slide-01/7397",
+        "term": "ilxtr:neuron-type-keast-1",
+        "label": "Neuron in 'pelvic ganglion parasympathetic neuron (kblad)'\n"
+    },
+    {
+        "id": "urinary/slide-01/7403",
+        "term": "ilxtr:neuron-type-keast-2",
+        "label": "Neuron in 'pelvic ganglion sympathetic neuron (kblad)'\n"
+    },
+    {
+        "id": "urinary/slide-01/7404",
+        "term": "ilxtr:neuron-type-keast-2",
+        "label": "Neuron in 'pelvic ganglion sympathetic neuron (kblad)'\n"
+    },
+    {
+        "id": "urinary/slide-01/7407",
+        "term": "ilxtr:neuron-type-keast-3",
+        "label": "Neuron in 'inferior mesenteric ganglion neuron (kblad)'\n"
+    },
+    {
+        "id": "urinary/slide-01/7408",
+        "term": "ilxtr:neuron-type-keast-3",
+        "label": "Neuron in 'inferior mesenteric ganglion neuron (kblad)'\n"
+    },
+    {
+        "id": "urinary/slide-01/7430",
+        "term": "ilxtr:neuron-type-keast-4",
+        "label": "Neuron in 'sympathetic chain ganglion neuron (kblad)'\n"
+    },
+    {
+        "id": "urinary/slide-01/7431",
+        "term": "ilxtr:neuron-type-keast-4",
+        "label": "Neuron in 'sympathetic chain ganglion neuron (kblad)'\n"
+    },
+    {
+        "id": "urinary/slide-01/7432",
+        "term": "ilxtr:neuron-type-keast-4",
+        "label": "Neuron in 'sympathetic chain ganglion neuron (kblad)'\n"
+    },
+    {
+        "id": "urinary/slide-01/7433",
+        "term": "ilxtr:neuron-type-keast-4",
+        "label": "Neuron in 'sympathetic chain ganglion neuron (kblad)'\n"
+    },
+    {
+        "id": "urinary/slide-01/7434",
+        "term": "ilxtr:neuron-type-keast-4",
+        "label": "Neuron in 'sympathetic chain ganglion neuron (kblad)'\n"
+    },
+    {
+        "id": "urinary/slide-01/7435",
+        "term": "ilxtr:neuron-type-keast-4",
+        "label": "Neuron in 'sympathetic chain ganglion neuron (kblad)'\n"
+    },
+    {
+        "id": "urinary/slide-01/7438",
+        "term": "ilxtr:neuron-type-keast-4",
+        "label": "Neuron in 'sympathetic chain ganglion neuron (kblad)'\n"
+    },
+    {
+        "id": "urinary/slide-01/7441",
+        "term": "ilxtr:neuron-type-keast-11",
+        "label": "Neuron in 'L1-L2 sensory neuron innervating bladder'\n"
+    },
+    {
+        "id": "urinary/slide-01/7442",
+        "term": "ilxtr:neuron-type-keast-11",
+        "label": "Neuron in 'L1-L2 sensory neuron innervating bladder'\n"
+    },
+    {
+        "id": "urinary/slide-01/7443",
+        "term": "ilxtr:neuron-type-keast-11",
+        "label": "Neuron in 'L1-L2 sensory neuron innervating bladder'\n"
+    },
+    {
+        "id": "urinary/slide-01/7444",
+        "term": "ilxtr:neuron-type-keast-11",
+        "label": "Neuron in 'L1-L2 sensory neuron innervating bladder'\n"
+    },
+    {
+        "id": "urinary/slide-01/7447",
+        "term": "ilxtr:neuron-type-keast-10",
+        "label": "Neuron in 'L6-S1 sensory neuron innervating bladder'\n"
+    },
+    {
+        "id": "urinary/slide-01/7452",
+        "term": "ilxtr:neuron-type-keast-10",
+        "label": "Neuron in 'L6-S1 sensory neuron innervating bladder'\n"
+    },
+    {
+        "id": "urinary/slide-01/7458",
+        "term": "ilxtr:neuron-type-keast-12",
+        "label": "Neuron in 'sensory neuron innervating urethral rhabdosphincter'\n"
+    },
+    {
+        "id": "urinary/slide-01/7582",
+        "term": "ilxtr:neuron-type-keast-5",
+        "label": "Neuron in 'parasympathetic spinal preganglionic neuron (kblad)'\n"
+    },
+    {
+        "id": "urinary/slide-01/7459",
+        "term": "ilxtr:neuron-type-keast-12",
+        "label": "Neuron in 'sensory neuron innervating urethral rhabdosphincter'\n"
+    }
+]
