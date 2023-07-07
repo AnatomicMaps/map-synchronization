@@ -23,7 +23,7 @@ def loadJSON():
     file_data = json.load(file)
 
     return file_data
-##############################
+#________________________________________________________________________________________________________________#
 
 ## Define a function to save a file in the JSON format.
 def saveFile(data):
@@ -37,13 +37,13 @@ def saveFile(data):
     )
     with open(save_path, 'w', encoding='utf-8') as f:
         json.dump(data, f, ensure_ascii=False, indent=4)
-##############################
+#________________________________________________________________________________________________________________#
 
 ## Define a function to sort a dictionary by the label's alphabetical order.
 def sortFn(dict):
 
     return dict['label']
-##############################
+#________________________________________________________________________________________________________________#
 
 ## Define a function to input two lists and extract the differences between the two.
 def getDifference(list1, list2):
@@ -80,7 +80,7 @@ def getDifference(list1, list2):
     differences.sort(key=sortFn)
 
     return differences
-##############################
+#________________________________________________________________________________________________________________#
 
 ## Define a function to input two lists and extract the similarities between the two.
 def getSimilar(list1, list2):
@@ -107,7 +107,7 @@ def getSimilar(list1, list2):
     similarities.sort(key=sortFn)
 
     return similarities
-##############################
+#________________________________________________________________________________________________________________#
 
 ## Define a function that inputs two lists, whether the differences or similarities are to be extracted.
 ## Note that the 'duplicates' argument is whether to remove duplicates within the list or not.
@@ -125,7 +125,7 @@ def comparison(task, list1, list2, duplicates=True):
         return listWithoutDuplicates
     else:
         return listWithDuplicates
-##############################
+#________________________________________________________________________________________________________________#
 
 ## Define a function to write out to an excel spreadsheet.
 ## The required arguments are the worksheet name and data.
@@ -171,7 +171,7 @@ def writeSheet(worksheet, data, header=None, row=0, col=0, A1Title='Label', B1Ti
         i += 1
 
     return
-##############################
+#________________________________________________________________________________________________________________#
 
 ## Define a function to write out to an existing excel spreadsheet.
 ## The required arguments are the worksheet name, data, and starting row and column.
@@ -220,7 +220,7 @@ def addToSheet(worksheet, data, row, col, header=None, A1Title='Label', B1Title=
         i += 1
 
     return
-##############################
+#________________________________________________________________________________________________________________#
 
 ## Define a function to remove duplicates within a list.
 def removeDuplicate(list):
@@ -252,31 +252,23 @@ def removeDuplicate(list):
         count = 0
 
     return list
-##############################
+#________________________________________________________________________________________________________________#
 
 ## Load the map data. In JSON format.
 ## This section will need to be tweaked to increase or decrease the files read.
 human = loadJSON()
-rat = loadJSON()
 fc = loadJSON()
+
+#________________________________________________________________________________________________________________#
 
 ## Extract the required data. Whether it is differences or similarities.
 ## This section will need to be tweaked depending on what is to be written out to the excel file.
 diff1 = comparison('differences', human, fc)
 diff2 = comparison('differences', fc, human)
-#diff3 = comparison('differences', rat, fc)
-#diff4 = comparison('differences', fc, rat)
-#diff5 = comparison('differences', human, rat)
-#diff6 = comparison('differences', rat, human)
 
 sim1 = comparison('similarities', human, fc)
-#sim2 = comparison('similarities', rat, fc)
-#sim3 = comparison('similarities', sim1, sim2)
 
-#needFC = removeDuplicate(diff1+diff3)
-#needHM = removeDuplicate(diff2+diff6)
-#needR = removeDuplicate(diff5+diff4)
-###############################
+#________________________________________________________________________________________________________________#
 
 ## Prompt the user to select the directory and filename for the excel file.
 filename = fd.asksaveasfilename(
@@ -295,16 +287,10 @@ wb = xw.Workbook(filename)
 writeSheet('Present in all maps', sim1)
 
 writeSheet('Present in AC Human Male', diff1, header='Not in FC')
-#addToSheet('Present in AC Human Male', diff5, header='Not in Rat', col=4, row=1)
-
 writeSheet('Present in FC', diff2, header='Not in AC Human Male')
-#addToSheet('Present in FC', diff4, header='Not in AC Rat', col=4, row=1)
-
-#writeSheet('Present in AC Rat', diff3, header='Not in FC')
-#addToSheet('Present in AC Rat', diff6, header='Not in AC Human Male', col=4, row=1)
-
 writeSheet('Need to add', diff1, header='Need to add to FC')
 addToSheet('Need to add', diff2, row=0, col=4, header='Need to add to AC Human Male')
-#addToSheet('Need to add', needR, row=0, col=8, header='Need to add to AC Rat')
 
 wb.close()
+
+#________________________________________________________________________________________________________________#
