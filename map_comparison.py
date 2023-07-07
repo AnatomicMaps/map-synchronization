@@ -2,7 +2,7 @@ import json
 import tkinter as tk
 from tkinter import filedialog as fd
 from tkinter import ttk
-from tkinter.messagebox import showinfo
+from tkinter import messagebox as mb
 import pprint
 import pandas as pd
 import openpyxl as op
@@ -10,7 +10,10 @@ import xlsxwriter as xw
 import xlsxwriter.exceptions
 
 ## Define a function to load JSON files.
-def loadJSON():
+def loadJSON(mapname):
+
+# Prompt a window to show what needs to be done.
+    mb.showinfo(title='Open JSON File', message=('Choose', mapname, 'file'))
 
     file_path = fd.askopenfilename(
         filetypes= (
@@ -27,6 +30,9 @@ def loadJSON():
 
 ## Define a function to save a file in the JSON format.
 def saveFile(data):
+
+# Prompt a window to show what needs to be done.
+    mb.showinfo(title='Save JSON File', message=('Choose directory to save JSON file'))
 
     save_path = fd.asksaveasfilename(
         filetypes = (
@@ -111,7 +117,9 @@ def getSimilar(list1, list2):
 
 ## Define a function that inputs two lists, whether the differences or similarities are to be extracted.
 ## Note that the 'duplicates' argument is whether to remove duplicates within the list or not.
-def comparison(task, list1, list2, duplicates=True):
+def comparison(
+        task, list1, list2, duplicates=True
+):
 
 # Need to ensure the desired task is input.
 # This will be modified to account for wrong inputs.
@@ -131,7 +139,9 @@ def comparison(task, list1, list2, duplicates=True):
 ## The required arguments are the worksheet name and data.
 ## Optional arguments are a header, the row and column start point, and the titles of the 3 data columns.
 ## The 'duplicates' argument is whether the number of occurences of the entry is printed out or not (WIP).
-def writeSheet(worksheet, data, header=None, row=0, col=0, A1Title='Label', B1Title='Term', C1Title='ID', duplicates=False):
+def writeSheet(
+        worksheet, data, header=None, row=0, col=0, A1Title='Label', B1Title='Term', C1Title='ID', duplicates=False
+):
 
     ws = wb.add_worksheet(worksheet)
 
@@ -177,7 +187,9 @@ def writeSheet(worksheet, data, header=None, row=0, col=0, A1Title='Label', B1Ti
 ## The required arguments are the worksheet name, data, and starting row and column.
 ## The optional arguments are the header name and data titles.
 ## The duplicates argument is to whether to include the count of duplicates in the data or not.
-def addToSheet(worksheet, data, row, col, header=None, A1Title='Label', B1Title='Term', C1Title='ID', duplicates=False):
+def addToSheet(
+        worksheet, data, row, col, header=None, A1Title='Label', B1Title='Term', C1Title='ID', duplicates=False
+):
 
     ws = wb.get_worksheet_by_name(worksheet)
 
@@ -256,8 +268,9 @@ def removeDuplicate(list):
 
 ## Load the map data. In JSON format.
 ## This section will need to be tweaked to increase or decrease the files read.
-human = loadJSON()
-fc = loadJSON()
+
+human = loadJSON('AC human male')
+fc = loadJSON('FC')
 
 #________________________________________________________________________________________________________________#
 
@@ -271,6 +284,10 @@ sim1 = comparison('similarities', human, fc)
 #________________________________________________________________________________________________________________#
 
 ## Prompt the user to select the directory and filename for the excel file.
+
+# Prompt a window to show what needs to be done.
+mb.showinfo(title='Save excel File', message=('Choose directory and name to save excel file'))
+
 filename = fd.asksaveasfilename(
         filetypes = (
             ('xlsx files', '*.xlsx'),
