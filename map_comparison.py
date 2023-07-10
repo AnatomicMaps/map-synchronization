@@ -9,7 +9,7 @@ import openpyxl as op
 import xlsxwriter as xw
 import xlsxwriter.exceptions
 
-## Define a function to load JSON files.
+## Define a function to load JSON files ##
 def loadJSON(mapname):
 
 # Prompt a window to show what needs to be done.
@@ -28,7 +28,7 @@ def loadJSON(mapname):
     return file_data
 #________________________________________________________________________________________________________________#
 
-## Define a function to save a file in the JSON format.
+## Define a function to save a file in the JSON format ##
 def saveFile(data):
 
 # Prompt a window to show what needs to be done.
@@ -45,13 +45,13 @@ def saveFile(data):
         json.dump(data, f, ensure_ascii=False, indent=4)
 #________________________________________________________________________________________________________________#
 
-## Define a function to sort a dictionary by the label's alphabetical order.
+## Define a function to sort a dictionary by the label's alphabetical order ##
 def sortFn(dict):
 
     return dict['label']
 #________________________________________________________________________________________________________________#
 
-## Define a function to input two lists and extract the differences between the two.
+## Define a function to input two lists and extract the differences between the two ##
 def getDifference(list1, list2):
     i = 0
     j = 0
@@ -88,7 +88,7 @@ def getDifference(list1, list2):
     return differences
 #________________________________________________________________________________________________________________#
 
-## Define a function to input two lists and extract the similarities between the two.
+## Define a function to input two lists and extract the similarities between the two ##
 def getSimilar(list1, list2):
     i = 0
     j = 0
@@ -115,8 +115,8 @@ def getSimilar(list1, list2):
     return similarities
 #________________________________________________________________________________________________________________#
 
-## Define a function that inputs two lists, whether the differences or similarities are to be extracted.
-## Note that the 'duplicates' argument is whether to remove duplicates within the list or not.
+## Define a function that inputs two lists, whether the differences or similarities are to be extracted ##
+## Note that the 'duplicates' argument is whether to remove duplicates within the list or not ##
 def comparison(
         task, list1, list2, duplicates=True
 ):
@@ -135,29 +135,42 @@ def comparison(
         return listWithDuplicates
 #________________________________________________________________________________________________________________#
 
-## Define a function to write out to an excel spreadsheet.
-## The required arguments are the worksheet name and data.
-## Optional arguments are a header, the row and column start point, and the titles of the 3 data columns.
-## The 'duplicates' argument is whether the number of occurences of the entry is printed out or not (WIP).
+## Define a function to write out to an excel spreadsheet ##
+## The required arguments are the worksheet name and data ##
+## Optional arguments are a header, the row and column start point, and the titles of the 3 data columns ##
+## The 'duplicates' argument is whether the number of occurences of the entry is printed out or not (WIP) ##
 def writeSheet(
         worksheet, data, header=None, row=0, col=0, A1Title='Label', B1Title='Term', C1Title='ID', duplicates=False
 ):
 
     ws = wb.add_worksheet(worksheet)
 
+# Add bold format
+    bold = wb.add_format({'bold': True})
+
+# Add format to change font colour to bold red and size column width.
+    red = wb.add_format({'bold': True, 'font_color': 'red'})
+
 # The header will be printed in the desired start column.
     if header != None:
-        ws.write(0, col, header)
+        ws.write(0, col, header.upper(), red)
+        if len(header) > 17:
+           ws.set_column(0, col, 30)
+        else:
+            ws.set_column(0, col, 22)
         col += 1
 
-# Write out the titles of the data column.
-    ws.write(0, col, A1Title)
-    ws.write(0, col + 1, B1Title)
-    ws.write(0, col + 2, C1Title)
+# Write out the data titles and size column widths.
+    ws.write(0, col, A1Title, bold)
+    ws.set_column(col, col, 35)
+    ws.write(0, col + 1, B1Title, bold)
+    ws.set_column((col + 1), (col + 1), 15)
+    ws.write(0, col + 2, C1Title, bold)
+    ws.set_column((col + 2), (col + 2), 15)
 
 # Write out the title for the count of duplicates, if included.
     if duplicates == True:
-        ws.write(0, col + 3, 'Duplicates')
+        ws.write(0, col + 3, 'Duplicates', bold)
 
     i = 0
     row = 1
@@ -183,25 +196,39 @@ def writeSheet(
     return
 #________________________________________________________________________________________________________________#
 
-## Define a function to write out to an existing excel spreadsheet.
-## The required arguments are the worksheet name, data, and starting row and column.
-## The optional arguments are the header name and data titles.
-## The duplicates argument is to whether to include the count of duplicates in the data or not.
+## Define a function to write out to an existing excel spreadsheet ##
+## The required arguments are the worksheet name, data, and starting row and column ##
+## The optional arguments are the header name and data titles ##
+## The duplicates argument is to whether to include the count of duplicates in the data or not ##
 def addToSheet(
         worksheet, data, row, col, header=None, A1Title='Label', B1Title='Term', C1Title='ID', duplicates=False
 ):
 
     ws = wb.get_worksheet_by_name(worksheet)
 
+# Add bold format for headers and titles
+    bold = wb.add_format({'bold': True})
+
+# Add format to change font colour to red.
+    red = wb.add_format({'bold': True, 'font_color': 'red'})
+
 # Write out the header in the starting column.
     if header != None:
-        ws.write(0, col, header)
+        ws.write(0, col, header.upper(), red)
+        if len(header) > 16:
+           ws.set_column(0, col, 30)
+        else:
+            ws.set_column(0, col, 22)
+
         col += 1
 
-# Write out the data titles.
-    ws.write(0, col, A1Title)
-    ws.write(0, col + 1, B1Title)
-    ws.write(0, col + 2, C1Title)
+# Write out the data titles and size columns.
+    ws.write(0, col, A1Title, bold)
+    ws.set_column(col, col, 35)
+    ws.write(0, col + 1, B1Title, bold)
+    ws.set_column((col + 1), (col + 1), 15)
+    ws.write(0, col + 2, C1Title, bold)
+    ws.set_column((col + 2), (col + 2), 15)
 
 # Ensure the data titles in row 0 are not overwritten.
     if row == 0:
@@ -209,7 +236,8 @@ def addToSheet(
 
 # Write out the title for the count of duplicates, if included.
     if duplicates == True:
-        ws.write(0, col + 3, 'Duplicates')
+        ws.write(0, col + 3, 'Duplicates', bold)
+        ws.set_column((col+3), (col+3), 10)
 
     i = 0
 
@@ -234,7 +262,7 @@ def addToSheet(
     return
 #________________________________________________________________________________________________________________#
 
-## Define a function to remove duplicates within a list.
+## Define a function to remove duplicates within a list ##
 def removeDuplicate(list):
 
     i = 0
@@ -266,16 +294,16 @@ def removeDuplicate(list):
     return list
 #________________________________________________________________________________________________________________#
 
-## Load the map data. In JSON format.
-## This section will need to be tweaked to increase or decrease the files read.
+## Load the map data. In JSON format ##
+## This section will need to be tweaked to increase or decrease the files read ##
 
 human = loadJSON('AC human male')
 fc = loadJSON('FC')
 
 #________________________________________________________________________________________________________________#
 
-## Extract the required data. Whether it is differences or similarities.
-## This section will need to be tweaked depending on what is to be written out to the excel file.
+## Extract the required data. Whether it is differences or similarities ##
+## This section will need to be tweaked depending on what is to be written out to the excel file ##
 diff1 = comparison('differences', human, fc)
 diff2 = comparison('differences', fc, human)
 
@@ -283,7 +311,7 @@ sim1 = comparison('similarities', human, fc)
 
 #________________________________________________________________________________________________________________#
 
-## Prompt the user to select the directory and filename for the excel file.
+## Prompt the user to select the directory and filename for the excel file ##
 
 # Prompt a window to show what needs to be done.
 mb.showinfo(title='Save excel File', message=('Choose directory and name to save excel file'))
@@ -299,8 +327,8 @@ filename = fd.asksaveasfilename(
 
 wb = xw.Workbook(filename)
 
-## Write out the data to excel sheets.
-## This section will need to be tweaked depending on what is to be written out to the excel file.
+## Write out the data to excel sheets ##
+## This section will need to be tweaked depending on what is to be written out to the excel file ##
 writeSheet('Present in all maps', sim1)
 
 writeSheet('Present in AC Human Male', diff1, header='Not in FC')
