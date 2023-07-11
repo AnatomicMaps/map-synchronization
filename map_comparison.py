@@ -1,5 +1,5 @@
 import json
-from tkinter import Tk
+from tkinter import *
 from tkinter import filedialog as fd
 from tkinter import simpledialog as sd
 from tkinter import messagebox as mb
@@ -297,6 +297,24 @@ def ordinal(n: int):
 
         return str(n) + suffix
 #________________________________________________________________________________________________________________#
+def desire(input):
+    global option
+    option = input
+    win.quit()
+    win.destroy()
+    win.update()
+
+    return option
+
+#________________________________________________________________________________________________________________#
+def comparisonOption():
+    win = Toplevel()
+    win.title('Desired comparison')
+    Label(win, text='What comparison would you like?').pack()
+    Button(win, text='Differences').pack()
+
+
+#________________________________________________________________________________________________________________#
 
 ## Load maps.
 
@@ -304,7 +322,7 @@ def ordinal(n: int):
 quantity = int(sd.askstring('Number of maps', 'How many maps are to be loaded?'))
 
 i = 1
-d = {}
+m = {}
 
 # Loop through desired number of maps to input name
 while i <= quantity:
@@ -315,7 +333,7 @@ while i <= quantity:
 
 # Use the loadJSON function to load each map.
     for x in range(i , (i + 1)):
-        d["map{0}".format(x)] = loadJSON(map)
+        m["map{0}".format(x)] = loadJSON(map)
         break
 
     i += 1
@@ -324,10 +342,40 @@ while i <= quantity:
 
 ## Extract the required data. Whether it is differences or similarities.
 
-diff1 = comparison('differences', d['map1'], d['map2'])
-diff2 = comparison('differences', d['map2'], d['map1'])
+# Prompt user input for what is desired - differences, similarities, or both.
+root = Tk()
+win = Toplevel()
+win.geometry('200x150')
+win.title('Desired comparison')
+Label(win, text='What comparison would you like?').pack()
+Button(win, text='Differences', command=lambda *args: desire('differences')).pack()
+Button(win, text='Similarities', command=lambda *args: desire('similarities')).pack()
+Button(win, text='Both', command=lambda *args: desire('both')).pack()
 
-sim1 = comparison('similarities', d['map1'], d['map2'])
+root.withdraw()
+win.mainloop()
+
+# Execute the desired process.
+i = 1
+z = 0
+d = {}
+s = {}
+
+while i <= quantity:
+    for p in range(i, (i+1)):
+        list1 = list(m.keys())[z]
+        list2 = list(m.keys())[z + 1]
+        if option == 'differences':
+            d["diff{0}".format(p)] = comparison('differences', m[list1], m[list2])
+            d["diff{0}".format(p+1)] = comparison('differences', m[list2], m[list1])
+        elif option == 'similarities':
+            s["sim{0}".format(p)] = comparison('similarities', m[list1], m[list2])
+        elif option == 'both':
+            d["diff{0}".format(p)] = comparison('differences', m[list1], m[list2])
+            d["diff{0}".format(p + 1)] = comparison('differences', m[list2], m[list1])
+            s["sim{0}".format(p)] = comparison('similarities', m[list1], m[list2])
+
+    i += 1
 
 #________________________________________________________________________________________________________________#
 
