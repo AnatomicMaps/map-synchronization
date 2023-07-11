@@ -1,13 +1,9 @@
 import json
-import tkinter as tk
+from tkinter import Tk
 from tkinter import filedialog as fd
-from tkinter import ttk
+from tkinter import simpledialog as sd
 from tkinter import messagebox as mb
-import pprint
-import pandas as pd
-import openpyxl as op
 import xlsxwriter as xw
-import xlsxwriter.exceptions
 
 ## Define a function to load JSON files ##
 def loadJSON(mapname):
@@ -293,21 +289,45 @@ def removeDuplicate(list):
 
     return list
 #________________________________________________________________________________________________________________#
+def ordinal(n: int):
+    if 11 <= (n % 100) <= 13:
+        suffix = 'th'
+    else:
+        suffix = ['th', 'st', 'nd', 'rd', 'th'][min(n % 10, 4)]
 
-## Load the map data. In JSON format ##
-## This section will need to be tweaked to increase or decrease the files read ##
+        return str(n) + suffix
+#________________________________________________________________________________________________________________#
 
-human = loadJSON('AC human male')
-fc = loadJSON('FC')
+## Load maps.
+
+# Prompt user to input desired number of maps.
+quantity = int(sd.askstring('Number of maps', 'How many maps are to be loaded?'))
+
+i = 1
+d = {}
+
+# Loop through desired number of maps to input name
+while i <= quantity:
+    n = ordinal(i)
+    question = 'What is the name of the', n, 'map?'
+    map = sd.askstring('Map name', question)
+    map.replace(" ", "_")
+
+# Use the loadJSON function to load each map.
+    for x in range(i , (i + 1)):
+        d["map{0}".format(x)] = loadJSON(map)
+        break
+
+    i += 1
 
 #________________________________________________________________________________________________________________#
 
-## Extract the required data. Whether it is differences or similarities ##
-## This section will need to be tweaked depending on what is to be written out to the excel file ##
-diff1 = comparison('differences', human, fc)
-diff2 = comparison('differences', fc, human)
+## Extract the required data. Whether it is differences or similarities.
 
-sim1 = comparison('similarities', human, fc)
+diff1 = comparison('differences', d['map1'], d['map2'])
+diff2 = comparison('differences', d['map2'], d['map1'])
+
+sim1 = comparison('similarities', d['map1'], d['map2'])
 
 #________________________________________________________________________________________________________________#
 
