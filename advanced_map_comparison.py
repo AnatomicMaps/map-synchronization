@@ -121,22 +121,23 @@ def getSimilar(list1, list2):
 
 ## Define a function that inputs two lists, whether the differences or similarities are to be extracted
 ## Note that the 'duplicates' argument is whether to remove duplicates within the list or not
-def comparison(task, list1, list2, duplicates=True):
+def comparison(task, list1, list2, t=1, duplicates=True):
 
     dict = {}
+    t = int(t)
 
     if duplicates:
         if task == 'differences':
-            dict['diff{}'.format(1)] = removeDuplicate(getDifference(list1, list2))
-            dict['diff{}'.format(2)] = removeDuplicate(getDifference(list2, list1))
+            dict['diff{}'.format(t)] = removeDuplicate(getDifference(list1, list2))
+            dict['diff{}'.format(t + 1)] = removeDuplicate(getDifference(list2, list1))
         elif task == 'similarities':
-            dict['sim{}'.format(1)] = removeDuplicate(getSimilar(list1, list2))
+            dict['sim{}'.format(t)] = removeDuplicate(getSimilar(list1, list2))
         else:
             if task == 'differences':
-                dict['diff{}'.format(1)] = getDifference(list1, list2)
-                dict['diff{}'.format(2)] = getDifference(list2, list1)
+                dict['diff{}'.format(t)] = getDifference(list1, list2)
+                dict['diff{}'.format(t + 1)] = getDifference(list2, list1)
             elif task == 'similarities':
-                dict['sim{}'.format(1)] = getSimilar(list1, list2)
+                dict['sim{}'.format(t)] = getSimilar(list1, list2)
 
     return dict
 
@@ -380,22 +381,94 @@ win.mainloop()
 
 # Execute the desired process.
 i = 1
-z = 0
+j = 1
+c = 0
 d = {}
 s = {}
 
-while z < (len(allMaps) - 1):
-    list1 = list(allMaps.keys())[z]
-    list2 = list(allMaps.keys())[z + 1]
-    if option == 'differences':
-        d.update(comparison('differences', allMaps[list1], allMaps[list2]))
-    elif option == 'similarities':
-        s.update(comparison('similarities', allMaps[list1], allMaps[list2]))
-    elif option == 'both':
-        d.update(comparison('differences', allMaps[list1], allMaps[list2]))
+
+if option == 'differences':
+    while c < (len(allMaps) - 1):
+        z = c
+        while z < (len(allMaps) - 1):
+            list1 = list(allMaps.keys())[c]
+            list2 = list(allMaps.keys())[z + 1]
+
+            d.update(comparison('differences', allMaps[list1], allMaps[list2], t = i))
+
+            i += 2
+            z += 1
+
+        c += 1
+
+elif option == 'similarities':
+    while z < (len(allMaps) - 1):
+        z = 0
+        list1 = list(allMaps.keys())[z]
+        list2 = list(allMaps.keys())[z + 1]
+
         s.update(comparison('similarities', allMaps[list1], allMaps[list2]))
 
-    z += 1
+        z += 1
+
+    c = (len(allMaps) - 1)
+
+    while c > 0:
+        var = 0
+        while var < (len(s) - 1):
+            list1 = list(s.keys())[var]
+            list2 = list(s.keys())[var + 1]
+
+            s.update(comparison('similarities', s[list1], s[list2]))
+
+            var += 1
+
+        c -= 1
+
+    final = len(s)
+
+elif option == 'both':
+# Get differences
+    while c < (len(allMaps) - 1):
+        z = c
+        while z < (len(allMaps) - 1):
+            list1 = list(allMaps.keys())[c]
+            list2 = list(allMaps.keys())[z + 1]
+
+            d.update(comparison('differences', allMaps[list1], allMaps[list2], t = i))
+
+            i += 2
+            z += 1
+
+        c += 1
+
+# Get similarities
+    z = 0
+    while z < (len(allMaps) - 1):
+        list1 = list(allMaps.keys())[z]
+        list2 = list(allMaps.keys())[z + 1]
+
+        s.update(comparison('similarities', allMaps[list1], allMaps[list2], t = (z + 1)))
+
+        z += 1
+
+    c = (len(allMaps) - 1)
+
+    while c > 0:
+        var = 0
+        while var < (len(s) - 1):
+            if 
+            list1 = list(s.keys())[var]
+            list2 = list(s.keys())[var + 1]
+
+            s.update(comparison('similarities', s[list1], s[list2], t = (c + 1)))
+
+            var += 1
+
+        c -= 1
+
+    final = len(s)
+
 
 # for p in range(i, (i + 1)):
 #     list1 = list(m.keys())[z]
@@ -434,9 +507,9 @@ if option == 'differences':
     writeSheet('Need to add', d['diff1'], header=('Need to add to {}'.format(names['name2'])))
     addToSheet('Need to add', d['diff2'], header=('Need to add to {}'.format(names['name1'])), row=0, col=4)
 elif option == 'similarities':
-    writeSheet('Present in all maps', s['sim1'])
+    writeSheet('Present in all maps', s['sim{}'.format(final)])
 elif option == 'both':
-    writeSheet('Present in all maps', s['sim1'])
+    writeSheet('Present in all maps', s['sim{}'.format(final)])
     writeSheet(('Present in {}'.format(names['name1'])), d['diff1'], header=('Not in {}'.format(names['name2'])))
     writeSheet(('Present in {}'.format(names['name2'])), d['diff2'], header=('Not in {}'.format(names['name1'])))
     writeSheet('Need to add', d['diff1'], header=('Need to add to {}'.format(names['name2'])))
