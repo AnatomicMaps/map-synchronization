@@ -121,11 +121,8 @@ def getSimilar(list1, list2):
 
 ## Define a function that inputs two lists, whether the differences or similarities are to be extracted
 ## Note that the 'duplicates' argument is whether to remove duplicates within the list or not
-def comparison(
-        task, list1, list2, duplicates=True
-):
-    # Need to ensure the desired task is input.
-    # This will be modified to account for wrong inputs.
+def comparison(task, list1, list2, duplicates=True):
+
     if task == 'differences':
         listWithDuplicates = getDifference(list1, list2)
     elif task == 'similarities':
@@ -147,6 +144,7 @@ def comparison(
 def writeSheet(
         worksheet, data, header=None, row=0, col=0, A1Title='Label', B1Title='Term', C1Title='ID', duplicates=False
 ):
+
     ws = wb.add_worksheet(worksheet)
 
     # Add bold format
