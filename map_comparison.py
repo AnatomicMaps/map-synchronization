@@ -5,11 +5,11 @@ from tkinter import simpledialog as sd
 from tkinter import messagebox as mb
 import xlsxwriter as xw
 
-## Define a function to load JSON files ##
+## Define a function to load JSON files
 def loadJSON(mapname):
 
 # Prompt a window to show what needs to be done.
-    mb.showinfo(title='Open JSON File', message=('Choose', mapname, 'file'))
+    mb.showinfo(title='Open JSON File', message=('Choose {} file'.format(mapname)))
 
     file_path = fd.askopenfilename(
         filetypes= (
@@ -24,7 +24,7 @@ def loadJSON(mapname):
     return file_data
 #________________________________________________________________________________________________________________#
 
-## Define a function to save a file in the JSON format ##
+## Define a function to save a file in the JSON format
 def saveFile(data):
 
 # Prompt a window to show what needs to be done.
@@ -41,13 +41,13 @@ def saveFile(data):
         json.dump(data, f, ensure_ascii=False, indent=4)
 #________________________________________________________________________________________________________________#
 
-## Define a function to sort a dictionary by the label's alphabetical order ##
+## Define a function to sort a dictionary by the label's alphabetical order
 def sortFn(dict):
 
     return dict['label']
 #________________________________________________________________________________________________________________#
 
-## Define a function to input two lists and extract the differences between the two ##
+## Define a function to input two lists and extract the differences between the two
 def getDifference(list1, list2):
     i = 0
     j = 0
@@ -84,7 +84,7 @@ def getDifference(list1, list2):
     return differences
 #________________________________________________________________________________________________________________#
 
-## Define a function to input two lists and extract the similarities between the two ##
+## Define a function to input two lists and extract the similarities between the two
 def getSimilar(list1, list2):
     i = 0
     j = 0
@@ -111,8 +111,8 @@ def getSimilar(list1, list2):
     return similarities
 #________________________________________________________________________________________________________________#
 
-## Define a function that inputs two lists, whether the differences or similarities are to be extracted ##
-## Note that the 'duplicates' argument is whether to remove duplicates within the list or not ##
+## Define a function that inputs two lists, whether the differences or similarities are to be extracted
+## Note that the 'duplicates' argument is whether to remove duplicates within the list or not
 def comparison(
         task, list1, list2, duplicates=True
 ):
@@ -131,10 +131,10 @@ def comparison(
         return listWithDuplicates
 #________________________________________________________________________________________________________________#
 
-## Define a function to write out to an excel spreadsheet ##
-## The required arguments are the worksheet name and data ##
-## Optional arguments are a header, the row and column start point, and the titles of the 3 data columns ##
-## The 'duplicates' argument is whether the number of occurences of the entry is printed out or not (WIP) ##
+## Define a function to write out to an Excel spreadsheet
+## The required arguments are the worksheet name and data
+## Optional arguments are a header, the row and column start point, and the titles of the 3 data columns
+## The 'duplicates' argument is whether the number of occurrences of the entry is printed out or not (WIP)
 def writeSheet(
         worksheet, data, header=None, row=0, col=0, A1Title='Label', B1Title='Term', C1Title='ID', duplicates=False
 ):
@@ -192,10 +192,10 @@ def writeSheet(
     return
 #________________________________________________________________________________________________________________#
 
-## Define a function to write out to an existing excel spreadsheet ##
-## The required arguments are the worksheet name, data, and starting row and column ##
-## The optional arguments are the header name and data titles ##
-## The duplicates argument is to whether to include the count of duplicates in the data or not ##
+## Define a function to write out to an existing Excel spreadsheet
+## The required arguments are the worksheet name, data, and starting row and column
+## The optional arguments are the header name and data titles
+## The duplicates argument is to whether to include the count of duplicates in the data or not
 def addToSheet(
         worksheet, data, row, col, header=None, A1Title='Label', B1Title='Term', C1Title='ID', duplicates=False
 ):
@@ -258,7 +258,7 @@ def addToSheet(
     return
 #________________________________________________________________________________________________________________#
 
-## Define a function to remove duplicates within a list ##
+## Define a function to remove duplicates within a list
 def removeDuplicate(list):
 
     i = 0
@@ -319,21 +319,27 @@ def comparisonOption():
 ## Load maps.
 
 # Prompt user to input desired number of maps.
-quantity = int(sd.askstring('Number of maps', 'How many maps are to be loaded?'))
+quantity = int(sd.askstring('Number of maps', 'How many maps are to be loaded? (NOTE: WIP - max. 2 maps)'))
+
+# Stick to 2 maps for now.
+while quantity > 2:
+    quantity = int(sd.askstring('Number of maps', 'How many maps are to be loaded? (NOTE: WIP - max. 2 maps)'))
 
 i = 1
 m = {}
+names = {}
 
 # Loop through desired number of maps to input name
 while i <= quantity:
     n = ordinal(i)
-    question = 'What is the name of the', n, 'map?'
+    question = ('What is the name of the {} map?'.format(n))
     map = sd.askstring('Map name', question)
-    map.replace(" ", "_")
 
 # Use the loadJSON function to load each map.
     for x in range(i , (i + 1)):
-        m["map{0}".format(x)] = loadJSON(map)
+        names["name{}".format(x)] = map
+        map.replace(" ", "_")
+        m["map{}".format(x)] = loadJSON(map)
         break
 
     i += 1
@@ -345,7 +351,7 @@ while i <= quantity:
 # Prompt user input for what is desired - differences, similarities, or both.
 root = Tk()
 win = Toplevel()
-win.geometry('200x150')
+win.geometry('300x175')
 win.title('Desired comparison')
 Label(win, text='What comparison would you like?').pack()
 Button(win, text='Differences', command=lambda *args: desire('differences')).pack()
@@ -361,28 +367,26 @@ z = 0
 d = {}
 s = {}
 
-while i <= quantity:
-    for p in range(i, (i+1)):
-        list1 = list(m.keys())[z]
-        list2 = list(m.keys())[z + 1]
-        if option == 'differences':
-            d["diff{0}".format(p)] = comparison('differences', m[list1], m[list2])
-            d["diff{0}".format(p+1)] = comparison('differences', m[list2], m[list1])
-        elif option == 'similarities':
-            s["sim{0}".format(p)] = comparison('similarities', m[list1], m[list2])
-        elif option == 'both':
-            d["diff{0}".format(p)] = comparison('differences', m[list1], m[list2])
-            d["diff{0}".format(p + 1)] = comparison('differences', m[list2], m[list1])
-            s["sim{0}".format(p)] = comparison('similarities', m[list1], m[list2])
 
-    i += 1
+for p in range(i, (i+1)):
+    list1 = list(m.keys())[z]
+    list2 = list(m.keys())[z + 1]
+    if option == 'differences':
+        d["diff{0}".format(p)] = comparison('differences', m[list1], m[list2])
+        d["diff{0}".format(p+1)] = comparison('differences', m[list2], m[list1])
+    elif option == 'similarities':
+        s["sim{0}".format(p)] = comparison('similarities', m[list1], m[list2])
+    elif option == 'both':
+        d["diff{0}".format(p)] = comparison('differences', m[list1], m[list2])
+        d["diff{0}".format(p + 1)] = comparison('differences', m[list2], m[list1])
+        s["sim{0}".format(p)] = comparison('similarities', m[list1], m[list2])
 
 #________________________________________________________________________________________________________________#
 
-## Prompt the user to select the directory and filename for the excel file ##
+## Prompt the user to select the directory and filename for the Excel file
 
 # Prompt a window to show what needs to be done.
-mb.showinfo(title='Save excel File', message=('Choose directory and name to save excel file'))
+mb.showinfo(title='Save excel File', message=('Choose directory and name to save Excel file'))
 
 filename = fd.asksaveasfilename(
         filetypes = (
@@ -395,15 +399,21 @@ filename = fd.asksaveasfilename(
 
 wb = xw.Workbook(filename)
 
-## Write out the data to excel sheets ##
-## This section will need to be tweaked depending on what is to be written out to the excel file ##
-writeSheet('Present in all maps', sim1)
+## Write out the data to Excel sheets.
+if option == 'differences':
+    writeSheet(('Present in {}'.format(names['name1'])), d['diff1'], header=('Not in {}'.format(names['name2'])))
+    writeSheet(('Present in {}'.format(names['name2'])), d['diff2'], header=('Not in {}'.format(names['name1'])))
+    writeSheet('Need to add', d['diff1'], header=('Need to add to {}'.format(names['name2'])))
+    addToSheet('Need to add', d['diff2'], header=('Need to add to {}'.format(names['name1'])), row=0, col=4)
+elif option == 'similarities':
+    writeSheet('Present in all maps', s['sim1'])
+elif option == 'both':
+    writeSheet('Present in all maps', s['sim1'])
+    writeSheet(('Present in {}'.format(names['name1'])), d['diff1'], header=('Not in {}'.format(names['name2'])))
+    writeSheet(('Present in {}'.format(names['name2'])), d['diff2'], header=('Not in {}'.format(names['name1'])))
+    writeSheet('Need to add', d['diff1'], header=('Need to add to {}'.format(names['name2'])))
+    addToSheet('Need to add', d['diff2'], header=('Need to add to {}'.format(names['name1'])), row=0, col=4)
 
-writeSheet('Present in AC Human Male', diff1, header='Not in FC')
-writeSheet('Present in FC', diff2, header='Not in AC Human Male')
-writeSheet('Need to add', diff1, header='Need to add to FC')
-addToSheet('Need to add', diff2, row=0, col=4, header='Need to add to AC Human Male')
 
 wb.close()
-
 #________________________________________________________________________________________________________________#
