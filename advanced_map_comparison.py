@@ -321,6 +321,7 @@ def ordinal(n: int):
 
 ## Define function to store user input from a button in a variable and kill the window/mainloop.
 def desire(input):
+
     global option
     option = input
     win.quit()
@@ -394,7 +395,7 @@ if option == 'differences':
             list1 = list(allMaps.keys())[c]
             list2 = list(allMaps.keys())[z + 1]
 
-            d.update(comparison('differences', allMaps[list1], allMaps[list2], t = i))
+            d.update(comparison('differences', allMaps[list1], allMaps[list2], t=i))
 
             i += 2
             z += 1
@@ -448,7 +449,7 @@ elif option == 'both':
         list1 = list(allMaps.keys())[z]
         list2 = list(allMaps.keys())[z + 1]
 
-        s.update(comparison('similarities', allMaps[list1], allMaps[list2], t = (z + 1)))
+        s.update(comparison('similarities', allMaps[list1], allMaps[list2], t=(z + 1)))
 
         z += 1
 
@@ -457,7 +458,6 @@ elif option == 'both':
     while c > 0:
         var = 0
         while var < (len(s) - 1):
-            if 
             list1 = list(s.keys())[var]
             list2 = list(s.keys())[var + 1]
 
@@ -468,20 +468,6 @@ elif option == 'both':
         c -= 1
 
     final = len(s)
-
-
-# for p in range(i, (i + 1)):
-#     list1 = list(m.keys())[z]
-#     list2 = list(m.keys())[z + 1]
-#     if option == 'differences':
-#         d['diff{0}'.format(p)] = comparison('differences', m[list1], m[list2])
-#         d['diff{0}'.format(p + 1)] = comparison('differences', m[list2], m[list1])
-#     elif option == 'similarities':
-#         s['sim{0}'.format(p)] = comparison('similarities', m[list1], m[list2])
-#     elif option == 'both':
-#         d['diff{0}'.format(p)] = comparison('differences', m[list1], m[list2])
-#         d['diff{0}'.format(p + 1)] = comparison('differences', m[list2], m[list1])
-#         s['sim{0}'.format(p)] = comparison('similarities', m[list1], m[list2])
 # ________________________________________________________________________________________________________________#
 
 ## Prompt the user to select the directory and filename for the Excel file
@@ -500,12 +486,27 @@ filename = fd.asksaveasfilename(
 
 wb = xw.Workbook(filename)
 
+i = 1
+j =1
+
 ## Write out the data to Excel sheets.
 if option == 'differences':
-    writeSheet(('Present in {}'.format(names['name1'])), d['diff1'], header=('Not in {}'.format(names['name2'])))
-    writeSheet(('Present in {}'.format(names['name2'])), d['diff2'], header=('Not in {}'.format(names['name1'])))
-    writeSheet('Need to add', d['diff1'], header=('Need to add to {}'.format(names['name2'])))
-    addToSheet('Need to add', d['diff2'], header=('Need to add to {}'.format(names['name1'])), row=0, col=4)
+    while i <= len(d):
+        j = 1
+        while j <= len(d):
+            if i == j:
+                j += 1
+            else:
+                writeSheet(('Present in {}'.format(names['name{}'.format(i)])), d['diff{}'.format(i)],
+                           header=('Not in {}'.format(names['name{}'.format(j)])))
+                j += 1
+
+    i += 1
+
+        writeSheet(('Present in {}'.format(names['name{}'.format(i)])), d['diff{}'.format(i)], header=('Not in {}'.format(names['name{}'.format(i+1)])))
+        writeSheet(('Present in {}'.format(names['name2'])), d['diff2'], header=('Not in {}'.format(names['name1'])))
+        writeSheet('Need to add', d['diff1'], header=('Need to add to {}'.format(names['name2'])))
+        addToSheet('Need to add', d['diff2'], header=('Need to add to {}'.format(names['name1'])), row=0, col=4)
 elif option == 'similarities':
     writeSheet('Present in all maps', s['sim{}'.format(final)])
 elif option == 'both':
