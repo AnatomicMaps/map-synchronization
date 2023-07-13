@@ -22,8 +22,6 @@ def loadJSON(mapname):
     file_data = json.load(file)
 
     return file_data
-
-
 # ________________________________________________________________________________________________________________#
 
 ## Define a function to save a file in the JSON format
@@ -40,15 +38,11 @@ def saveFile(data):
     )
     with open(save_path, 'w', encoding='utf-8') as f:
         json.dump(data, f, ensure_ascii=False, indent=4)
-
-
 # ________________________________________________________________________________________________________________#
 
 ## Define a function to sort a dictionary by the label's alphabetical order
 def sortFn(dict):
     return dict['label']
-
-
 # ________________________________________________________________________________________________________________#
 
 ## Define a function to input two lists and extract the differences between the two
@@ -86,8 +80,6 @@ def getDifference(list1, list2):
     differences.sort(key=sortFn)
 
     return differences
-
-
 # ________________________________________________________________________________________________________________#
 
 ## Define a function to input two lists and extract the similarities between the two
@@ -115,8 +107,6 @@ def getSimilar(list1, list2):
     similarities.sort(key=sortFn)
 
     return similarities
-
-
 # ________________________________________________________________________________________________________________#
 
 ## Define a function that inputs two lists, whether the differences or similarities are to be extracted
@@ -140,8 +130,6 @@ def comparison(task, list1, list2, t=1, duplicates=True):
                 dict['sim{}'.format(t)] = getSimilar(list1, list2)
 
     return dict
-
-
 # ________________________________________________________________________________________________________________#
 
 ## Define a function to write out to an Excel spreadsheet
@@ -203,8 +191,6 @@ def writeSheet(
         i += 1
 
     return
-
-
 # ________________________________________________________________________________________________________________#
 
 ## Define a function to write out to an existing Excel spreadsheet
@@ -270,8 +256,6 @@ def addToSheet(
         i += 1
 
     return
-
-
 # ________________________________________________________________________________________________________________#
 
 ## Define a function to remove duplicates within a list
@@ -303,8 +287,6 @@ def removeDuplicate(list):
         count = 0
 
     return list
-
-
 # ________________________________________________________________________________________________________________#
 
 ## Define a function to print number in its ordinal form.
@@ -315,8 +297,6 @@ def ordinal(n: int):
         suffix = ['th', 'st', 'nd', 'rd', 'th'][min(n % 10, 4)]
 
         return str(n) + suffix
-
-
 # ________________________________________________________________________________________________________________#
 
 ## Define function to store user input from a button in a variable and kill the window/mainloop.
@@ -329,8 +309,6 @@ def desire(input):
     win.update()
 
     return option
-
-
 # ________________________________________________________________________________________________________________#
 
 ## With the functions defined, the code below takes in JSON files and requires user input to output an Excel
@@ -345,7 +323,7 @@ root.withdraw()
 ## Load maps.
 
 # Prompt user to input desired number of maps.
-quantity = int(sd.askstring('Number of maps', 'How many maps are to be loaded? (NOTE: WIP - max. 2 maps)'))
+quantity = int(sd.askstring('Number of maps', 'How many maps are to be loaded?'))
 
 i = 1
 allMaps = {}
@@ -403,30 +381,22 @@ if option == 'differences':
         c += 1
 
 elif option == 'similarities':
-    while z < (len(allMaps) - 1):
-        z = 0
-        list1 = list(allMaps.keys())[z]
-        list2 = list(allMaps.keys())[z + 1]
+    list1 = list(allMaps.keys())[0]
+    list2 = list(allMaps.keys())[1]
 
-        s.update(comparison('similarities', allMaps[list1], allMaps[list2]))
+    s.update(comparison('similarities', allMaps[list1], allMaps[list2], t=1))
+
+    z = 1
+    y = 0
+
+    while z < len(allMaps):
+        list1 = list(allMaps.keys())[z]
+        list2 = list(s.keys())[y]
+
+        s.update(comparison('similarities', allMaps[list1], allMaps[list2], t=(z + 1)))
 
         z += 1
-
-    c = (len(allMaps) - 1)
-
-    while c > 0:
-        var = 0
-        while var < (len(s) - 1):
-            list1 = list(s.keys())[var]
-            list2 = list(s.keys())[var + 1]
-
-            s.update(comparison('similarities', s[list1], s[list2]))
-
-            var += 1
-
-        c -= 1
-
-    final = len(s)
+        y += 1
 
 elif option == 'both':
 # Get differences
@@ -436,7 +406,7 @@ elif option == 'both':
             list1 = list(allMaps.keys())[c]
             list2 = list(allMaps.keys())[z + 1]
 
-            d.update(comparison('differences', allMaps[list1], allMaps[list2], t = i))
+            d.update(comparison('differences', allMaps[list1], allMaps[list2], t=i))
 
             i += 2
             z += 1
@@ -444,30 +414,23 @@ elif option == 'both':
         c += 1
 
 # Get similarities
-    z = 0
-    while z < (len(allMaps) - 1):
-        list1 = list(allMaps.keys())[z]
-        list2 = list(allMaps.keys())[z + 1]
+    list1 = list(allMaps.keys())[0]
+    list2 = list(allMaps.keys())[1]
 
-        s.update(comparison('similarities', allMaps[list1], allMaps[list2], t=(z + 1)))
+    s.update(comparison('similarities', allMaps[list1], allMaps[list2], t=1))
+
+    z = 2
+    y = 0
+
+    while z < len(allMaps):
+        list1 = list(allMaps.keys())[z]
+        list2 = list(s.keys())[y]
+
+        s.update(comparison('similarities', allMaps[list1], s[list2], t=(y+1)))
 
         z += 1
+        y += 1
 
-    c = (len(allMaps) - 1)
-
-    while c > 0:
-        var = 0
-        while var < (len(s) - 1):
-            list1 = list(s.keys())[var]
-            list2 = list(s.keys())[var + 1]
-
-            s.update(comparison('similarities', s[list1], s[list2], t = (c + 1)))
-
-            var += 1
-
-        c -= 1
-
-    final = len(s)
 # ________________________________________________________________________________________________________________#
 
 ## Prompt the user to select the directory and filename for the Excel file
@@ -520,6 +483,5 @@ wb.close()
 # ________________________________________________________________________________________________________________#
 
 ## Confirm process.
-
-mb.showinfo(title='2 Map Comparison Complete', message='Done!')
+mb.showinfo(title='{} Map Comparison Complete'.format(len(allMaps)), message='Done!')
 # ________________________________________________________________________________________________________________#
