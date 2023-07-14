@@ -12,6 +12,7 @@ def loadJSON(mapname):
     mb.showinfo(title='Open JSON File', message=('Choose {} file'.format(mapname)))
 
     file_path = fd.askopenfilename(
+        title='Open {} JSON File'.format(mapname),
         filetypes=(
             ('JSON files', '*.json'),
             ('All files', '*.*')
@@ -22,6 +23,8 @@ def loadJSON(mapname):
     file_data = json.load(file)
 
     return file_data
+
+
 # ________________________________________________________________________________________________________________#
 
 ## Define a function to save a file in the JSON format
@@ -38,11 +41,15 @@ def saveFile(data):
     )
     with open(save_path, 'w', encoding='utf-8') as f:
         json.dump(data, f, ensure_ascii=False, indent=4)
+
+
 # ________________________________________________________________________________________________________________#
 
 ## Define a function to sort a dictionary by the label's alphabetical order
 def sortFn(dict):
     return dict['label']
+
+
 # ________________________________________________________________________________________________________________#
 
 ## Define a function to input two lists and extract the differences between the two
@@ -80,6 +87,8 @@ def getDifference(list1, list2):
     differences.sort(key=sortFn)
 
     return differences
+
+
 # ________________________________________________________________________________________________________________#
 
 ## Define a function to input two lists and extract the similarities between the two
@@ -107,19 +116,20 @@ def getSimilar(list1, list2):
     similarities.sort(key=sortFn)
 
     return similarities
+
+
 # ________________________________________________________________________________________________________________#
 
 ## Define a function that inputs two lists, whether the differences or similarities are to be extracted
 ## Note that the 'duplicates' argument is whether to remove duplicates within the list or not
-def comparison(task, list1, list2, t=1, duplicates=True):
-
+def comparison(task, list1, list2, h=1, t=1, duplicates=True):
     dict = {}
-    t = int(t)
 
     if duplicates:
         if task == 'differences':
             dict['diff{}'.format(t)] = removeDuplicate(getDifference(list1, list2))
-            dict['diff{}'.format(t + 1)] = removeDuplicate(getDifference(list2, list1))
+            dict['diff{}'.format(t + h)] = removeDuplicate(getDifference(list2, list1))
+            h += 3
         elif task == 'similarities':
             dict['sim{}'.format(t)] = removeDuplicate(getSimilar(list1, list2))
         else:
@@ -130,6 +140,8 @@ def comparison(task, list1, list2, t=1, duplicates=True):
                 dict['sim{}'.format(t)] = getSimilar(list1, list2)
 
     return dict
+
+
 # ________________________________________________________________________________________________________________#
 
 ## Define a function to write out to an Excel spreadsheet
@@ -139,7 +151,6 @@ def comparison(task, list1, list2, t=1, duplicates=True):
 def writeSheet(
         worksheet, data, header=None, row=0, col=0, A1Title='Label', B1Title='Term', C1Title='ID', duplicates=False
 ):
-
     ws = wb.add_worksheet(worksheet)
 
     # Add bold format
@@ -191,6 +202,8 @@ def writeSheet(
         i += 1
 
     return
+
+
 # ________________________________________________________________________________________________________________#
 
 ## Define a function to write out to an existing Excel spreadsheet
@@ -198,7 +211,7 @@ def writeSheet(
 ## The optional arguments are the header name and data titles
 ## The duplicates argument is to whether to include the count of duplicates in the data or not
 def addToSheet(
-        worksheet, data, row, col, header=None, A1Title='Label', B1Title='Term', C1Title='ID', duplicates=False
+        worksheet, data, col, row=0, header=None, A1Title='Label', B1Title='Term', C1Title='ID', duplicates=False
 ):
     ws = wb.get_worksheet_by_name(worksheet)
 
@@ -256,6 +269,8 @@ def addToSheet(
         i += 1
 
     return
+
+
 # ________________________________________________________________________________________________________________#
 
 ## Define a function to remove duplicates within a list
@@ -287,6 +302,8 @@ def removeDuplicate(list):
         count = 0
 
     return list
+
+
 # ________________________________________________________________________________________________________________#
 
 ## Define a function to print number in its ordinal form.
@@ -297,11 +314,12 @@ def ordinal(n: int):
         suffix = ['th', 'st', 'nd', 'rd', 'th'][min(n % 10, 4)]
 
         return str(n) + suffix
+
+
 # ________________________________________________________________________________________________________________#
 
 ## Define function to store user input from a button in a variable and kill the window/mainloop.
 def desire(input):
-
     global option
     option = input
     win.quit()
@@ -309,6 +327,8 @@ def desire(input):
     win.update()
 
     return option
+
+
 # ________________________________________________________________________________________________________________#
 
 ## With the functions defined, the code below takes in JSON files and requires user input to output an Excel
@@ -337,9 +357,13 @@ while i <= quantity:
 
     # Use the loadJSON function to load each map.
     for x in range(i, (i + 1)):
-        names['name{}'.format(x)] = map
-        map.replace(' ', '_')
-        allMaps['map{}'.format(x)] = loadJSON(map)
+        while map in list(names.values()):
+            question = ('Please choose another name for the {} map.'.format(n))
+            map = sd.askstring('Map name', question)
+        else:
+            names['name{}'.format(x)] = map
+            map.replace(' ', '_')
+            allMaps['map{}'.format(x)] = loadJSON(map)
         break
 
     i += 1
@@ -364,19 +388,31 @@ j = 1
 c = 0
 d = {}
 s = {}
+diffNames = []
 
 
 if option == 'differences':
     while c < (len(allMaps) - 1):
         z = c
+        h = (len(allMaps) - 1)
+
         while z < (len(allMaps) - 1):
             list1 = list(allMaps.keys())[c]
             list2 = list(allMaps.keys())[z + 1]
 
-            d.update(comparison('differences', allMaps[list1], allMaps[list2], t=i))
+            t = i
 
-            i += 2
+            while t in diffNames:
+                t += 1
+
+            diffNames.append(t)
+            diffNames.append(t + h)
+
+            d.update(comparison('differences', allMaps[list1], allMaps[list2], h=h, t=t))
+
+            i += 1
             z += 1
+            h += 2
 
         c += 1
 
@@ -399,21 +435,32 @@ elif option == 'similarities':
         y += 1
 
 elif option == 'both':
-# Get differences
+    # Get differences
     while c < (len(allMaps) - 1):
         z = c
+        h = (len(allMaps) - 1)
+
         while z < (len(allMaps) - 1):
             list1 = list(allMaps.keys())[c]
             list2 = list(allMaps.keys())[z + 1]
 
-            d.update(comparison('differences', allMaps[list1], allMaps[list2], t=i))
+            t = i
 
-            i += 2
+            while t in diffNames:
+                t += 1
+
+            diffNames.append(t)
+            diffNames.append(t + h)
+
+            d.update(comparison('differences', allMaps[list1], allMaps[list2], h=h, t=t))
+
+            i += 1
             z += 1
+            h += 2
 
         c += 1
 
-# Get similarities
+    # Get similarities
     list1 = list(allMaps.keys())[0]
     list2 = list(allMaps.keys())[1]
 
@@ -426,7 +473,7 @@ elif option == 'both':
         list1 = list(allMaps.keys())[z]
         list2 = list(s.keys())[y]
 
-        s.update(comparison('similarities', allMaps[list1], s[list2], t=(y+1)))
+        s.update(comparison('similarities', allMaps[list1], s[list2], t=z))
 
         z += 1
         y += 1
@@ -449,35 +496,74 @@ filename = fd.asksaveasfilename(
 
 wb = xw.Workbook(filename)
 
-i = 1
-j =1
+n = 1
+m = 1
+j = 1
+length = len(diffNames)
 
 ## Write out the data to Excel sheets.
-if option == 'differences':
-    while i <= len(d):
-        j = 1
-        while j <= len(d):
-            if i == j:
-                j += 1
+
+# Write similarities sheet
+writeSheet('Present in all maps', s['sim{}'.format(len(s))])
+
+# Write differences sheets.
+while n <= len(names):
+    if n == m:
+        m += 1
+
+    writeSheet('Present in {}'.format(names['name{}'.format(n)]), data=d['diff{}'.format(j)],
+               header='Not in {}'.format(names['name{}'.format(m)]))
+    m = 1
+    n += 1
+
+    while j in diffNames:
+        diffNames.remove(j)
+
+    j += 3
+
+c = 4
+j = 1
+n = 1
+m = 1
+
+while n <= len(names):
+    c = 4
+    m = 1
+    j = 1
+
+    if n == m:
+        m += 1
+
+    while m <= len(names):
+        change = False
+
+        while j not in diffNames:
+            if j > length:
+                break
             else:
-                writeSheet(('Present in {}'.format(names['name{}'.format(i)])), d['diff{}'.format(i)],
-                           header=('Not in {}'.format(names['name{}'.format(j)])))
                 j += 1
+                change = True
 
-    i += 1
+        if change:
+            m += 1
 
-        writeSheet(('Present in {}'.format(names['name{}'.format(i)])), d['diff{}'.format(i)], header=('Not in {}'.format(names['name{}'.format(i+1)])))
-        writeSheet(('Present in {}'.format(names['name2'])), d['diff2'], header=('Not in {}'.format(names['name1'])))
-        writeSheet('Need to add', d['diff1'], header=('Need to add to {}'.format(names['name2'])))
-        addToSheet('Need to add', d['diff2'], header=('Need to add to {}'.format(names['name1'])), row=0, col=4)
-elif option == 'similarities':
-    writeSheet('Present in all maps', s['sim{}'.format(final)])
-elif option == 'both':
-    writeSheet('Present in all maps', s['sim{}'.format(final)])
-    writeSheet(('Present in {}'.format(names['name1'])), d['diff1'], header=('Not in {}'.format(names['name2'])))
-    writeSheet(('Present in {}'.format(names['name2'])), d['diff2'], header=('Not in {}'.format(names['name1'])))
-    writeSheet('Need to add', d['diff1'], header=('Need to add to {}'.format(names['name2'])))
-    addToSheet('Need to add', d['diff2'], header=('Need to add to {}'.format(names['name1'])), row=0, col=4)
+        if n == m:
+            m += 1
+        elif m > len(names):
+            break
+
+        if j > length:
+            break
+        else:
+            addToSheet('Present in {}'.format(names['name{}'.format(n)]), data=d['diff{}'.format(j)],
+                       header='Not in {}'.format(names['name{}'.format(m)]), col=c)
+
+        diffNames.remove(j)
+        j += 1
+        m += 1
+        c += 4
+
+    n += 1
 
 wb.close()
 # ________________________________________________________________________________________________________________#
