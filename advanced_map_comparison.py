@@ -122,20 +122,17 @@ def getSimilar(list1, list2):
 
 ## Define a function that inputs two lists, whether the differences or similarities are to be extracted
 ## Note that the 'duplicates' argument is whether to remove duplicates within the list or not
-def comparison(task, list1, list2, h=1, t=1, duplicates=True):
+def comparison(task, list1, list2, t=1, duplicates=True):
     dict = {}
 
     if duplicates:
         if task == 'differences':
             dict['diff{}'.format(t)] = removeDuplicate(getDifference(list1, list2))
-            dict['diff{}'.format(t + h)] = removeDuplicate(getDifference(list2, list1))
-            h += 3
         elif task == 'similarities':
             dict['sim{}'.format(t)] = removeDuplicate(getSimilar(list1, list2))
         else:
             if task == 'differences':
                 dict['diff{}'.format(t)] = getDifference(list1, list2)
-                dict['diff{}'.format(t + 1)] = getDifference(list2, list1)
             elif task == 'similarities':
                 dict['sim{}'.format(t)] = getSimilar(list1, list2)
 
@@ -144,6 +141,74 @@ def comparison(task, list1, list2, h=1, t=1, duplicates=True):
 
 # ________________________________________________________________________________________________________________#
 
+## Define a function to find differences and write out to an Excel sheet.
+## Note that the workbook must be opened before running this function, and closed after.
+def writeOutDiff():
+
+    hold = 0
+    sheets = []
+    d = {}
+
+    while hold < len(allMaps):
+        z = 0
+        t = 1
+
+        while z < len(allMaps):
+
+            if z == hold:
+                z += 1
+                if z == len(allMaps):
+                    break
+
+            list1 = list(allMaps.keys())[hold]
+            list2 = list(allMaps.keys())[z]
+
+            d.update(comparison('differences', allMaps[list1], allMaps[list2], t=t))
+
+            if hold not in sheets:
+                writeSheet('Present in {}'.format(names['name{}'.format(hold+1)]), data=d['diff{}'.format(t)],
+                           header='Not in {}'.format(names['name{}'.format(z+1)]))
+                sheets.append(hold)
+                col = 4
+            elif hold in sheets:
+                addToSheet('Present in {}'.format(names['name{}'.format(hold+1)]), data=d['diff{}'.format(t)],
+                           header='Not in {}'.format(names['name{}'.format(z+1)]), col=col)
+                col += 4
+
+            z += 1
+            t += 1
+
+        hold += 1
+
+# ________________________________________________________________________________________________________________#
+
+## Define function to find similarities and write out to an Excel sheet.
+## Note that the workbook must be opened before running this function, and closed after.
+def writeOutSim():
+
+    # Establish variables
+    z = 1
+    y = 0
+    s = {}
+
+    # Compare and write similarities sheet.
+    list1 = list(allMaps.keys())[0]
+    list2 = list(allMaps.keys())[1]
+
+    s.update(comparison('similarities', allMaps[list1], allMaps[list2], t=1))
+
+    while z < len(allMaps):
+        list1 = list(allMaps.keys())[z]
+        list2 = list(s.keys())[y]
+
+        s.update(comparison('similarities', allMaps[list1], s[list2], t=(z + 1)))
+
+        z += 1
+        y += 1
+
+    writeSheet('Present in all maps', s['sim{}'.format(len(s))])
+
+# ________________________________________________________________________________________________________________#
 ## Define a function to write out to an Excel spreadsheet
 ## The required arguments are the worksheet name and data
 ## Optional arguments are a header, the row and column start point, and the titles of the 3 data columns
@@ -381,108 +446,11 @@ Button(win, text='Similarities', command=lambda *args: desire('similarities')).p
 Button(win, text='Both', command=lambda *args: desire('both')).pack()
 
 win.mainloop()
-
-# Execute the desired process.
-i = 1
-j = 1
-c = 0
-d = {}
-s = {}
-diffNames = []
-
-
-if option == 'differences':
-    while c < (len(allMaps) - 1):
-        z = c
-        h = (len(allMaps) - 1)
-
-        while z < (len(allMaps) - 1):
-            list1 = list(allMaps.keys())[c]
-            list2 = list(allMaps.keys())[z + 1]
-
-            t = i
-
-            while t in diffNames:
-                t += 1
-
-            diffNames.append(t)
-            diffNames.append(t + h)
-
-            d.update(comparison('differences', allMaps[list1], allMaps[list2], h=h, t=t))
-
-            i += 1
-            z += 1
-            h += 2
-
-        c += 1
-
-elif option == 'similarities':
-    list1 = list(allMaps.keys())[0]
-    list2 = list(allMaps.keys())[1]
-
-    s.update(comparison('similarities', allMaps[list1], allMaps[list2], t=1))
-
-    z = 1
-    y = 0
-
-    while z < len(allMaps):
-        list1 = list(allMaps.keys())[z]
-        list2 = list(s.keys())[y]
-
-        s.update(comparison('similarities', allMaps[list1], allMaps[list2], t=(z + 1)))
-
-        z += 1
-        y += 1
-
-elif option == 'both':
-    # Get differences
-    while c < (len(allMaps) - 1):
-        z = c
-        h = (len(allMaps) - 1)
-
-        while z < (len(allMaps) - 1):
-            list1 = list(allMaps.keys())[c]
-            list2 = list(allMaps.keys())[z + 1]
-
-            t = i
-
-            while t in diffNames:
-                t += 1
-
-            diffNames.append(t)
-            diffNames.append(t + h)
-
-            d.update(comparison('differences', allMaps[list1], allMaps[list2], h=h, t=t))
-
-            i += 1
-            z += 1
-            h += 2
-
-        c += 1
-
-    # Get similarities
-    list1 = list(allMaps.keys())[0]
-    list2 = list(allMaps.keys())[1]
-
-    s.update(comparison('similarities', allMaps[list1], allMaps[list2], t=1))
-
-    z = 2
-    y = 0
-
-    while z < len(allMaps):
-        list1 = list(allMaps.keys())[z]
-        list2 = list(s.keys())[y]
-
-        s.update(comparison('similarities', allMaps[list1], s[list2], t=z))
-
-        z += 1
-        y += 1
-
 # ________________________________________________________________________________________________________________#
 
-## Prompt the user to select the directory and filename for the Excel file
+## Execute the desired process
 
-# Prompt a window to show what needs to be done.
+# Prompt a window to choose directory to save Excel sheet.
 mb.showinfo(title='Save excel File', message='Choose directory and name to save Excel file')
 
 filename = fd.asksaveasfilename(
@@ -496,74 +464,14 @@ filename = fd.asksaveasfilename(
 
 wb = xw.Workbook(filename)
 
-n = 1
-m = 1
-j = 1
-length = len(diffNames)
-
-## Write out the data to Excel sheets.
-
-# Write similarities sheet
-writeSheet('Present in all maps', s['sim{}'.format(len(s))])
-
-# Write differences sheets.
-while n <= len(names):
-    if n == m:
-        m += 1
-
-    writeSheet('Present in {}'.format(names['name{}'.format(n)]), data=d['diff{}'.format(j)],
-               header='Not in {}'.format(names['name{}'.format(m)]))
-    m = 1
-    n += 1
-
-    while j in diffNames:
-        diffNames.remove(j)
-
-    j += 3
-
-c = 4
-j = 1
-n = 1
-m = 1
-
-while n <= len(names):
-    c = 4
-    m = 1
-    j = 1
-
-    if n == m:
-        m += 1
-
-    while m <= len(names):
-        change = False
-
-        while j not in diffNames:
-            if j > length:
-                break
-            else:
-                j += 1
-                change = True
-
-        if change:
-            m += 1
-
-        if n == m:
-            m += 1
-        elif m > len(names):
-            break
-
-        if j > length:
-            break
-        else:
-            addToSheet('Present in {}'.format(names['name{}'.format(n)]), data=d['diff{}'.format(j)],
-                       header='Not in {}'.format(names['name{}'.format(m)]), col=c)
-
-        diffNames.remove(j)
-        j += 1
-        m += 1
-        c += 4
-
-    n += 1
+## Based on input desire, run functions to compare and write out to Excel sheets.
+if option == 'differences':
+    writeOutDiff()
+elif option == 'similarities':
+    writeOutSim()
+elif option == 'both':
+    writeOutSim()
+    writeOutDiff()
 
 wb.close()
 # ________________________________________________________________________________________________________________#
