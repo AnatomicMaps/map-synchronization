@@ -166,13 +166,15 @@ def writeOutDiff():
             d.update(comparison('differences', allMaps[list1], allMaps[list2], t=t))
 
             if hold not in sheets:
-                writeSheet('Present in {}'.format(names['name{}'.format(hold+1)]), data=d['diff{}'.format(t)],
-                           header='Not in {}'.format(names['name{}'.format(z+1)]))
+                writeSheet('Present in {} map'.format(names['name{}'.format(hold+1)]), data=d['diff{}'.format(t)],
+                           header='Not in {}'.format(names['name{}'.format(z+1)]),
+                           C1Title= 'ID (from {} map)'.format(names['name{}'.format(hold+1)]))
                 sheets.append(hold)
                 col = 4
             elif hold in sheets:
-                addToSheet('Present in {}'.format(names['name{}'.format(hold+1)]), data=d['diff{}'.format(t)],
-                           header='Not in {}'.format(names['name{}'.format(z+1)]), col=col)
+                addToSheet('Present in {} map'.format(names['name{}'.format(hold+1)]), data=d['diff{}'.format(t)],
+                           header='Not in {}'.format(names['name{}'.format(z+1)]), col=col,
+                           C1Title= 'ID (from {} map)'.format(names['name{}'.format(hold+1)]))
                 col += 4
 
             z += 1
@@ -187,7 +189,7 @@ def writeOutDiff():
 def writeOutSim():
 
     # Establish variables
-    z = 1
+    z = 2
     y = 0
     s = {}
 
@@ -198,15 +200,16 @@ def writeOutSim():
     s.update(comparison('similarities', allMaps[list1], allMaps[list2], t=1))
 
     while z < len(allMaps):
-        list1 = list(allMaps.keys())[z]
-        list2 = list(s.keys())[y]
+        list1 = list(s.keys())[y]
+        list2 = list(allMaps.keys())[z]
 
-        s.update(comparison('similarities', allMaps[list1], s[list2], t=(z + 1)))
+        s.update(comparison('similarities', s[list1], allMaps[list2], t=z))
 
         z += 1
         y += 1
 
-    writeSheet('Present in all maps', s['sim{}'.format(len(s))])
+    writeSheet('Present in all maps', s['sim{}'.format(len(s))],
+               C1Title='ID (from {} map)'.format(names['name{}'.format(1)]), cw=25)
 
 # ________________________________________________________________________________________________________________#
 ## Define a function to write out to an Excel spreadsheet
@@ -214,7 +217,7 @@ def writeOutSim():
 ## Optional arguments are a header, the row and column start point, and the titles of the 3 data columns
 ## The 'duplicates' argument is whether the number of occurrences of the entry is printed out or not (WIP)
 def writeSheet(
-        worksheet, data, header=None, row=0, col=0, A1Title='Label', B1Title='Term', C1Title='ID', duplicates=False
+        worksheet, data, header=None, row=0, col=0, A1Title='Label', B1Title='Term', C1Title='ID', duplicates=False, cw=15
 ):
     ws = wb.add_worksheet(worksheet)
 
@@ -239,7 +242,7 @@ def writeSheet(
     ws.write(0, col + 1, B1Title, bold)
     ws.set_column((col + 1), (col + 1), 15)
     ws.write(0, col + 2, C1Title, bold)
-    ws.set_column((col + 2), (col + 2), 15)
+    ws.set_column((col + 2), (col + 2), cw)
 
     # Write out the title for the count of duplicates, if included.
     if duplicates:
@@ -454,9 +457,9 @@ win.mainloop()
 mb.showinfo(title='Save excel File', message='Choose directory and name to save Excel file')
 
 filename = fd.asksaveasfilename(
+    title='Save result Excel sheet',
     filetypes=(
         ('xlsx files', '*.xlsx'),
-        ('csv files', '*.csv'),
         ('All files', '*.*')
     ),
     defaultextension='.xlsx'
