@@ -1,0 +1,442 @@
+[
+    {
+        "id": "1", 
+        "term": "UBERON:0000916", 
+        "label": "abdomen" 
+    },
+    {
+        "id": "2", 
+        "term": "UBERON:0000468", 
+        "label": "body" 
+    },
+    {
+        "id": "3", 
+        "term": "None", 
+        "label": "core" 
+    },
+    {
+        "id": "4", 
+        "term": "None", 
+        "label": "core boundary" 
+    },
+    {
+        "id": "5", 
+        "term": "UBERON:0001103", 
+        "label": "diaphragm" 
+    },
+    {
+        "id": "6", 
+        "term": "UBERON:0000033", 
+        "label": "head" 
+    },
+    {
+        "id": "7", 
+        "term": "UBERON:0000974", 
+        "label": "neck" 
+    },
+    {
+        "id": "8", 
+        "term": "None", 
+        "label": "non core" 
+    },
+    {
+        "id": "9", 
+        "term": "UBERON:0001003", 
+        "label": "skin epidermis" 
+    },
+    {
+        "id": "10", 
+        "term": "UBERON:0002240", 
+        "label": "spinal cord" 
+    },
+    {
+        "id": "11", 
+        "term": "ILX:0742178", 
+        "label": "thorax" 
+    },
+    {
+        "id": "12", 
+        "term": "None", 
+        "label": "urethra junction with bladder dorsal" 
+    },
+    {
+        "id": "13", 
+        "term": "None", 
+        "label": "urethra junction with bladder ventral" 
+    },
+    {
+        "id": "14", 
+        "term": "None", 
+        "label": "left ureter junction with bladder" 
+    },
+    {
+        "id": "15", 
+        "term": "None", 
+        "label": "right ureter junction with bladder" 
+    },
+    {
+        "id": "16", 
+        "term": "ILX:0774405", 
+        "label": "apex of urinary bladder" 
+    },
+    {
+        "id": "17", 
+        "term": "ILX:0778144", 
+        "label": "brainstem dorsal midline caudal point" 
+    },
+    {
+        "id": "18", 
+        "term": "ILX:0778146 ", 
+        "label": "brainstem dorsal midline cranial point" 
+    },
+    {
+        "id": "19", 
+        "term": "ILX:0778145", 
+        "label": "brainstem ventral midline caudal point" 
+    },
+    {
+        "id": "20", 
+        "term": "ILX:0778147", 
+        "label": "brainstem ventral midline cranial point" 
+    },
+    {
+        "id": "21", 
+        "term": "UBERON:0002098", 
+        "label": "apex of heart" 
+    },
+    {
+        "id": "22", 
+        "term": "ILX:0778116", 
+        "label": "left atrium epicardium venous midpoint" 
+    },
+    {
+        "id": "23", 
+        "term": "ILX:0778117", 
+        "label": "right atrium epicardium venous midpoint" 
+    },
+    {
+        "id": "24", 
+        "term": "ILX:0778112", 
+        "label": "apex of left lung" 
+    },
+    {
+        "id": "25", 
+        "term": "ILX:0778113", 
+        "label": "apex of right lung" 
+    },
+    {
+        "id": "26", 
+        "term": "ILX:0778124", 
+        "label": "laterodorsal tip of middle lobe of right lung" 
+    },
+    {
+        "id": "27", 
+        "term": "ILX:0778118", 
+        "label": "ventral base of left lung" 
+    },
+    {
+        "id": "28", 
+        "term": "ILX:0778120", 
+        "label": "medial base of left lung" 
+    },
+    {
+        "id": "29", 
+        "term": "ILX:0778122", 
+        "label": "ventral base of right lung" 
+    },
+    {
+        "id": "30", 
+        "term": "ILX:0778121", 
+        "label": "medial base of right lung" 
+    },
+    {
+        "id": "31", 
+        "term": "ILX:0778126", 
+        "label": "dorsal base of left lung" 
+    },
+    {
+        "id": "32", 
+        "term": "ILX:0778127", 
+        "label": "dorsal base of right lung" 
+    },
+    {
+        "id": "33", 
+        "term": "None", 
+        "label": "gastro-esophagal junction on lesser curvature" 
+    },
+    {
+        "id": "34", 
+        "term": "None", 
+        "label": "pylorus on greater curvature" 
+    },
+    {
+        "id": "35", 
+        "term": "None", 
+        "label": "duodenum on greater curvature" 
+    },
+    {
+        "id": "36", 
+        "term": "None", 
+        "label": "junction between fundus and body on greater curvature" 
+    },
+    {
+        "id": "37", 
+        "term": "FMA:5876", 
+        "label": "Gray communicating ramus" 
+    },
+    {
+        "id": "38", 
+        "term": "ILX:0738317", 
+        "label": "Laryngeal mechanoreceptors" 
+    },
+    {
+        "id": "39", 
+        "term": "ILX:0738326", 
+        "label": "Wall of larynx" 
+    },
+    {
+        "id": "40", 
+        "term": "FMA:5875", 
+        "label": "White communicating ramus" 
+    },
+    {
+        "id": "41", 
+        "term": "UBERON:0014385", 
+        "label": "aryepiglottic fold" 
+    },
+    {
+        "id": "42", 
+        "term": "UBERON:0010033", 
+        "label": "back part of the tongue*" 
+    },
+    {
+        "id": "43", 
+        "term": "UBERON:0004242", 
+        "label": "bronchus smooth muscle" 
+    },
+    {
+        "id": "44", 
+        "term": "UBERON:0002008", 
+        "label": "cardiac nerve plexus" 
+    },
+    {
+        "id": "45", 
+        "term": "UBERON:0001629", 
+        "label": "carotid body" 
+    },
+    {
+        "id": "46", 
+        "term": "FMA:77283", 
+        "label": "ceratocricoid ligament" 
+    },
+    {
+        "id": "47", 
+        "term": "UBERON:0001566", 
+        "label": "cricothyroid muscle" 
+    },
+    {
+        "id": "48", 
+        "term": "UBERON:0002870", 
+        "label": "dorsal motor nucleus of vagus nerve" 
+    },
+    {
+        "id": "49", 
+        "term": "UBERON:0000044", 
+        "label": "dorsal root ganglion" 
+    },
+    {
+        "id": "50", 
+        "term": "UBERON:0002261", 
+        "label": "dorsal root of spinal cord" 
+    },
+    {
+        "id": "51", 
+        "term": "UBERON:0013165", 
+        "label": "epiglottic vallecula" 
+    },
+    {
+        "id": "52", 
+        "term": "UBERON:0000388", 
+        "label": "epiglottis" 
+    },
+    {
+        "id": "53", 
+        "term": "FMA:6225", 
+        "label": "esophageal nerve plexus" 
+    },
+    {
+        "id": "54", 
+        "term": "FMA:67532", 
+        "label": "external carotid nerve plexus" 
+    },
+    {
+        "id": "55", 
+        "term": "UBERON:0001701", 
+        "label": "glossopharyngeal ganglion" 
+    },
+    {
+        "id": "56", 
+        "term": "UBERON:0005303", 
+        "label": "hypogastric nerve" 
+    },
+    {
+        "id": "57", 
+        "term": "UBERON:0005453", 
+        "label": "inferior mesenteric ganglion" 
+    },
+    {
+        "id": "58", 
+        "term": "UBERON:0001570", 
+        "label": "inferior pharyngeal constrictor" 
+    },
+    {
+        "id": "59", 
+        "term": "UBERON:0005363", 
+        "label": "inferior vagus X ganglion" 
+    },
+    {
+        "id": "60", 
+        "term": "UBERON:0002024", 
+        "label": "internal carotid nerve plexus" 
+    },
+    {
+        "id": "61", 
+        "term": "UBERON:0002113", 
+        "label": "kidney" 
+    },
+    {
+        "id": "62", 
+        "term": "UBERON:0008573", 
+        "label": "lateral crico-arytenoid" 
+    },
+    {
+        "id": "63", 
+        "term": "FMA:6633", 
+        "label": "left gastric nerve plexus" 
+    },
+    {
+        "id": "64", 
+        "term": "UBERON:0018683", 
+        "label": "lumbar splanchnic nerve" 
+    },
+    {
+        "id": "65", 
+        "term": "UBERON:0001824", 
+        "label": "mucosa of larynx" 
+    },
+    {
+        "id": "66", 
+        "term": "FMA:55031", 
+        "label": "mucosa of pharynx" 
+    },
+    {
+        "id": "67", 
+        "term": "UBERON:0001719", 
+        "label": "nucleus ambiguus" 
+    },
+    {
+        "id": "68", 
+        "term": "UBERON:0009050", 
+        "label": "nucleus of solitary tract" 
+    },
+    {
+        "id": "69", 
+        "term": "UBERON:0008575", 
+        "label": "oblique arytenoid" 
+    },
+    {
+        "id": "70", 
+        "term": "UBERON:0001264", 
+        "label": "pancreas" 
+    },
+    {
+        "id": "71", 
+        "term": "UBERON:0001807", 
+        "label": "paravertebral ganglion" 
+    },
+    {
+        "id": "72", 
+        "term": "UBERON:0016508", 
+        "label": "pelvic ganglion" 
+    },
+    {
+        "id": "73", 
+        "term": "UBERON:0018675", 
+        "label": "pelvic splanchnic nerve" 
+    },
+    {
+        "id": "74", 
+        "term": "UBERON:0011325", 
+        "label": "pharyngeal nerve plexus" 
+    },
+    {
+        "id": "75", 
+        "term": "UBERON:0006562", 
+        "label": "pharynx" 
+    },
+    {
+        "id": "76", 
+        "term": "UBERON:0008572", 
+        "label": "posterior crico-arytenoid" 
+    },
+    {
+        "id": "77", 
+        "term": "UBERON:0011390", 
+        "label": "pudendal nerve" 
+    },
+    {
+        "id": "78", 
+        "term": "UBERON:0002009", 
+        "label": "pulmonary nerve plexus" 
+    },
+    {
+        "id": "79", 
+        "term": "UBERON:0001780", 
+        "label": "spinal nerve" 
+    },
+    {
+        "id": "80", 
+        "term": "UBERON:0001989", 
+        "label": "superior cervical ganglion" 
+    },
+    {
+        "id": "81", 
+        "term": "UBERON:0005364", 
+        "label": "superior vagus X ganglion" 
+    },
+    {
+        "id": "82", 
+        "term": "UBERON:0000407", 
+        "label": "sympathetic trunk" 
+    },
+    {
+        "id": "83", 
+        "term": "FMA:46588", 
+        "label": "thyro-arytenoid" 
+    },
+    {
+        "id": "84", 
+        "term": "UBERON:0008574", 
+        "label": "transverse arytenoid" 
+    },
+    {
+        "id": "85", 
+        "term": "UBERON:0002925", 
+        "label": "trigeminal nucleus" 
+    },
+    {
+        "id": "86", 
+        "term": "UBERON:0002364", 
+        "label": "tympanic membrane" 
+    },
+    {
+        "id": "87", 
+        "term": "UBERON:0002260", 
+        "label": "ventral root of spinal cord" 
+    },
+    {
+        "id": "88", 
+        "term": "UBERON:0008577", 
+        "label": "vocalis muscle" 
+    }
+]
