@@ -163,18 +163,18 @@ def writeOutDiff():
             list1 = list(allMaps.keys())[hold]
             list2 = list(allMaps.keys())[z]
 
-            d.update(comparison('differences', allMaps[list1], allMaps[list2], t=t))
+            d.update(comparison('differences', allMaps[list2], allMaps[list1], t=t))
 
-            if hold not in sheets:
-                writeSheet('Present in {} map'.format(names['name{}'.format(hold+1)]), data=d['diff{}'.format(t)],
-                           header='Not in {}'.format(names['name{}'.format(z+1)]),
-                           C1Title= 'ID (from {} map)'.format(names['name{}'.format(hold+1)]))
-                sheets.append(hold)
+            if names['name{}'.format(hold+1)] not in sheets:
+                writeSheet('Not in {} map'.format(names['name{}'.format(hold+1)]), data=d['diff{}'.format(t)],
+                           header='Present in {} map'.format(names['name{}'.format(z+1)]),
+                           C1Title='ID (from {} map)'.format(names['name{}'.format(z+1)]))
+                sheets.append(names['name{}'.format(hold+1)])
                 col = 4
-            elif hold in sheets:
-                addToSheet('Present in {} map'.format(names['name{}'.format(hold+1)]), data=d['diff{}'.format(t)],
-                           header='Not in {}'.format(names['name{}'.format(z+1)]), col=col,
-                           C1Title= 'ID (from {} map)'.format(names['name{}'.format(hold+1)]))
+            elif names['name{}'.format(hold+1)] in sheets:
+                addToSheet('Not in {} map'.format(names['name{}'.format(hold+1)]), data=d['diff{}'.format(t)],
+                           header='Present in {} map'.format(names['name{}'.format(z+1)]),
+                           C1Title='ID (from {} map)'.format(names['name{}'.format(z+1)]), col=col)
                 col += 4
 
             z += 1
